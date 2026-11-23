@@ -6,6 +6,8 @@
     ],
     "country": "NOR",
     "fis_code": "219702",
+    "wc_points": 89,
+    "wc_position": 5,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -22,7 +24,7 @@
             "distance": 125.0,
             "total_points": 55.7
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 1,
             "qualified": true,
@@ -42,13 +44,46 @@
             "date": "2026-11-21",
             "rank": 9,
             "bib": 1,
+            "rounds": {
+              "round_1": {
+                "rank": 10,
+                "distance": 127.0,
+                "total_points": 120.4
+              },
+              "round_2": {
+                "rank": 11,
+                "distance": 130.5,
+                "total_points": 114.7
+              }
+            },
             "total_points": 235.1,
             "diff": -42.9
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 2,
+            "qualified": true,
+            "bib": 9,
+            "distance": 137.0,
+            "total_points": 135.0,
+            "diff": -1.8
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 3,
             "bib": 9,
+            "rounds": {
+              "round_1": {
+                "rank": 6,
+                "distance": 133.0,
+                "total_points": 151.0
+              },
+              "round_2": {
+                "rank": 3,
+                "distance": 133.5,
+                "total_points": 148.2
+              }
+            },
             "total_points": 299.2,
             "diff": -4.8
           }
@@ -63,6 +98,8 @@
     ],
     "country": "NOR",
     "fis_code": "8021",
+    "wc_points": 145,
+    "wc_position": 1,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -79,7 +116,7 @@
             "distance": 136.0,
             "total_points": 71.0
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 2,
             "qualified": true,
@@ -99,13 +136,46 @@
             "date": "2026-11-21",
             "rank": 5,
             "bib": 2,
+            "rounds": {
+              "round_1": {
+                "rank": 7,
+                "distance": 128.5,
+                "total_points": 125.0
+              },
+              "round_2": {
+                "rank": 6,
+                "distance": 134.5,
+                "total_points": 123.3
+              }
+            },
             "total_points": 248.3,
             "diff": -29.7
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 5,
+            "qualified": true,
+            "bib": 5,
+            "distance": 132.0,
+            "total_points": 126.0,
+            "diff": -10.8
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 1,
             "bib": 5,
+            "rounds": {
+              "round_1": {
+                "rank": 2,
+                "distance": 136.0,
+                "total_points": 153.9
+              },
+              "round_2": {
+                "rank": 2,
+                "distance": 138.0,
+                "total_points": 150.1
+              }
+            },
             "total_points": 304.0,
             "diff": null
           }
@@ -120,6 +190,8 @@
     ],
     "country": "NOR",
     "fis_code": "6734",
+    "wc_points": 49,
+    "wc_position": 11,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -136,7 +208,7 @@
             "distance": 128.0,
             "total_points": 55.2
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 3,
             "qualified": true,
@@ -156,13 +228,46 @@
             "date": "2026-11-21",
             "rank": 13,
             "bib": 3,
+            "rounds": {
+              "round_1": {
+                "rank": 15,
+                "distance": 126.0,
+                "total_points": 112.3
+              },
+              "round_2": {
+                "rank": 9,
+                "distance": 130.0,
+                "total_points": 117.0
+              }
+            },
             "total_points": 229.3,
             "diff": -48.7
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 24,
+            "qualified": true,
+            "bib": 13,
+            "distance": 123.0,
+            "total_points": 109.1,
+            "diff": -27.7
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 9,
             "bib": 13,
+            "rounds": {
+              "round_1": {
+                "rank": 10,
+                "distance": 133.0,
+                "total_points": 142.8
+              },
+              "round_2": {
+                "rank": 6,
+                "distance": 130.5,
+                "total_points": 140.2
+              }
+            },
             "total_points": 283.0,
             "diff": -21.0
           }
@@ -177,6 +282,8 @@
     ],
     "country": "POL",
     "fis_code": "8585",
+    "wc_points": 4,
+    "wc_position": 33,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -193,7 +300,7 @@
             "distance": 125.0,
             "total_points": 51.5
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 4,
             "qualified": true,
@@ -213,13 +320,42 @@
             "date": "2026-11-21",
             "rank": 46,
             "bib": 4,
+            "rounds": {
+              "round_1": {
+                "rank": 46,
+                "distance": 105.0,
+                "total_points": 66.8
+              },
+              "round_2": null
+            },
             "total_points": 66.8,
             "diff": -211.2
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 18,
+            "qualified": true,
+            "bib": 45,
+            "distance": 130.5,
+            "total_points": 113.4,
+            "diff": -23.4
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 27,
             "bib": 45,
+            "rounds": {
+              "round_1": {
+                "rank": 25,
+                "distance": 133.0,
+                "total_points": 127.4
+              },
+              "round_2": {
+                "rank": 26,
+                "distance": 129.5,
+                "total_points": 119.1
+              }
+            },
             "total_points": 246.5,
             "diff": -57.5
           }
@@ -234,6 +370,8 @@
     ],
     "country": "JPN",
     "fis_code": "7305",
+    "wc_points": 12,
+    "wc_position": 25,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -250,7 +388,7 @@
             "distance": 123.0,
             "total_points": 46.9
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 5,
             "qualified": true,
@@ -270,13 +408,42 @@
             "date": "2026-11-21",
             "rank": 37,
             "bib": 5,
+            "rounds": {
+              "round_1": {
+                "rank": 37,
+                "distance": 111.5,
+                "total_points": 85.4
+              },
+              "round_2": null
+            },
             "total_points": 85.4,
             "diff": -192.6
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 4,
+            "qualified": true,
+            "bib": 36,
+            "distance": 138.5,
+            "total_points": 128.1,
+            "diff": -8.7
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 19,
             "bib": 36,
+            "rounds": {
+              "round_1": {
+                "rank": 7,
+                "distance": 133.0,
+                "total_points": 144.7
+              },
+              "round_2": {
+                "rank": 27,
+                "distance": 124.0,
+                "total_points": 116.7
+              }
+            },
             "total_points": 261.4,
             "diff": -42.6
           }
@@ -291,6 +458,8 @@
     ],
     "country": "SLO",
     "fis_code": "7091",
+    "wc_points": 32,
+    "wc_position": 15,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -307,7 +476,7 @@
             "distance": 120.5,
             "total_points": 45.8
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 6,
             "qualified": true,
@@ -327,13 +496,42 @@
             "date": "2026-11-21",
             "rank": 50,
             "bib": 6,
+            "rounds": {
+              "round_1": {
+                "rank": 50,
+                "distance": 95.0,
+                "total_points": 49.7
+              },
+              "round_2": null
+            },
             "total_points": 49.7,
             "diff": -228.3
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 3,
+            "qualified": true,
+            "bib": 49,
+            "distance": 141.5,
+            "total_points": 133.2,
+            "diff": -3.6
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 8,
             "bib": 49,
+            "rounds": {
+              "round_1": {
+                "rank": 11,
+                "distance": 138.0,
+                "total_points": 142.3
+              },
+              "round_2": {
+                "rank": 5,
+                "distance": 133.5,
+                "total_points": 143.1
+              }
+            },
             "total_points": 285.4,
             "diff": -18.6
           }
@@ -348,6 +546,8 @@
     ],
     "country": "JPN",
     "fis_code": "6288",
+    "wc_points": 52,
+    "wc_position": 8,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -364,7 +564,7 @@
             "distance": 124.5,
             "total_points": 46.3
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 7,
             "qualified": true,
@@ -384,13 +584,46 @@
             "date": "2026-11-21",
             "rank": 8,
             "bib": 7,
+            "rounds": {
+              "round_1": {
+                "rank": 4,
+                "distance": 135.0,
+                "total_points": 129.6
+              },
+              "round_2": {
+                "rank": 12,
+                "distance": 126.5,
+                "total_points": 114.6
+              }
+            },
             "total_points": 244.2,
             "diff": -33.8
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 26,
+            "qualified": true,
+            "bib": 8,
+            "distance": 120.5,
+            "total_points": 107.1,
+            "diff": -29.7
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 13,
             "bib": 8,
+            "rounds": {
+              "round_1": {
+                "rank": 13,
+                "distance": 124.0,
+                "total_points": 139.5
+              },
+              "round_2": {
+                "rank": 18,
+                "distance": 124.5,
+                "total_points": 128.5
+              }
+            },
             "total_points": 268.0,
             "diff": -36.0
           }
@@ -404,6 +637,8 @@
     ],
     "country": "JPN",
     "fis_code": "6151",
+    "wc_points": 8,
+    "wc_position": 29,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -420,7 +655,7 @@
             "distance": 124.0,
             "total_points": 46.6
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 8,
             "qualified": true,
@@ -440,13 +675,42 @@
             "date": "2026-11-21",
             "rank": 23,
             "bib": 8,
+            "rounds": {
+              "round_1": {
+                "rank": 29,
+                "distance": 121.0,
+                "total_points": 98.3
+              },
+              "round_2": {
+                "rank": 20,
+                "distance": 129.5,
+                "total_points": 106.9
+              }
+            },
             "total_points": 205.2,
             "diff": -72.8
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 40,
+            "qualified": true,
+            "bib": 23,
+            "distance": 121.5,
+            "total_points": 94.8,
+            "diff": -42.0
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 32,
             "bib": 23,
+            "rounds": {
+              "round_1": {
+                "rank": 32,
+                "distance": 128.5,
+                "total_points": 118.8
+              },
+              "round_2": null
+            },
             "total_points": 118.8,
             "diff": -185.2
           }
@@ -461,6 +725,8 @@
     ],
     "country": "SUI",
     "fis_code": "5435",
+    "wc_points": 28,
+    "wc_position": 17,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -477,7 +743,7 @@
             "distance": 132.5,
             "total_points": 64.0
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 9,
             "qualified": true,
@@ -497,13 +763,46 @@
             "date": "2026-11-21",
             "rank": 16,
             "bib": 10,
+            "rounds": {
+              "round_1": {
+                "rank": 17,
+                "distance": 124.5,
+                "total_points": 110.1
+              },
+              "round_2": {
+                "rank": 17,
+                "distance": 127.5,
+                "total_points": 109.1
+              }
+            },
             "total_points": 219.2,
             "diff": -58.8
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 13,
+            "qualified": true,
+            "bib": 16,
+            "distance": 126.5,
+            "total_points": 119.2,
+            "diff": -17.6
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 18,
             "bib": 16,
+            "rounds": {
+              "round_1": {
+                "rank": 22,
+                "distance": 131.0,
+                "total_points": 130.6
+              },
+              "round_2": {
+                "rank": 13,
+                "distance": 135.5,
+                "total_points": 131.4
+              }
+            },
             "total_points": 262.0,
             "diff": -42.0
           }
@@ -518,6 +817,8 @@
     ],
     "country": "AUT",
     "fis_code": "7450",
+    "wc_points": 80,
+    "wc_position": 6,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -535,7 +836,7 @@
             "distance": null,
             "total_points": null
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 9,
             "qualified": true,
@@ -555,13 +856,46 @@
             "date": "2026-11-21",
             "rank": 6,
             "bib": 9,
+            "rounds": {
+              "round_1": {
+                "rank": 10,
+                "distance": 129.5,
+                "total_points": 120.4
+              },
+              "round_2": {
+                "rank": 4,
+                "distance": 136.5,
+                "total_points": 125.8
+              }
+            },
             "total_points": 246.2,
             "diff": -31.8
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 11,
+            "qualified": true,
+            "bib": 6,
+            "distance": 131.0,
+            "total_points": 121.8,
+            "diff": -15.0
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 6,
             "bib": 6,
+            "rounds": {
+              "round_1": {
+                "rank": 3,
+                "distance": 133.5,
+                "total_points": 153.3
+              },
+              "round_2": {
+                "rank": 10,
+                "distance": 129.0,
+                "total_points": 135.7
+              }
+            },
             "total_points": 289.0,
             "diff": -15.0
           }
@@ -576,6 +910,8 @@
     ],
     "country": "NOR",
     "fis_code": "6880",
+    "wc_points": 130,
+    "wc_position": 4,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -592,7 +928,7 @@
             "distance": 119.0,
             "total_points": 41.6
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 11,
             "qualified": true,
@@ -612,13 +948,46 @@
             "date": "2026-11-21",
             "rank": 2,
             "bib": 11,
+            "rounds": {
+              "round_1": {
+                "rank": 5,
+                "distance": 127.0,
+                "total_points": 126.2
+              },
+              "round_2": {
+                "rank": 1,
+                "distance": 139.0,
+                "total_points": 139.7
+              }
+            },
             "total_points": 265.9,
             "diff": -12.1
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 20,
+            "qualified": true,
+            "bib": 2,
+            "distance": 124.5,
+            "total_points": 112.9,
+            "diff": -23.9
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 4,
             "bib": 2,
+            "rounds": {
+              "round_1": {
+                "rank": 1,
+                "distance": 131.0,
+                "total_points": 157.1
+              },
+              "round_2": {
+                "rank": 11,
+                "distance": 127.0,
+                "total_points": 133.6
+              }
+            },
             "total_points": 290.7,
             "diff": -13.3
           }
@@ -633,6 +1002,8 @@
     ],
     "country": "AUT",
     "fis_code": "7617",
+    "wc_points": 140,
+    "wc_position": 3,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -650,7 +1021,7 @@
             "distance": null,
             "total_points": null
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 12,
             "qualified": true,
@@ -670,13 +1041,46 @@
             "date": "2026-11-21",
             "rank": 3,
             "bib": 12,
+            "rounds": {
+              "round_1": {
+                "rank": 2,
+                "distance": 138.0,
+                "total_points": 137.3
+              },
+              "round_2": {
+                "rank": 7,
+                "distance": 130.5,
+                "total_points": 122.3
+              }
+            },
             "total_points": 259.6,
             "diff": -18.4
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 16,
+            "qualified": true,
+            "bib": 3,
+            "distance": 125.0,
+            "total_points": 115.6,
+            "diff": -21.2
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 2,
             "bib": 3,
+            "rounds": {
+              "round_1": {
+                "rank": 5,
+                "distance": 131.0,
+                "total_points": 151.9
+              },
+              "round_2": {
+                "rank": 1,
+                "distance": 137.0,
+                "total_points": 151.9
+              }
+            },
             "total_points": 303.8,
             "diff": -0.2
           }
@@ -691,6 +1095,8 @@
     ],
     "country": "AUT",
     "fis_code": "8281",
+    "wc_points": 145,
+    "wc_position": 1,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -708,7 +1114,7 @@
             "distance": null,
             "total_points": null
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 13,
             "qualified": true,
@@ -728,13 +1134,46 @@
             "date": "2026-11-21",
             "rank": 1,
             "bib": 13,
+            "rounds": {
+              "round_1": {
+                "rank": 1,
+                "distance": 141.0,
+                "total_points": 142.7
+              },
+              "round_2": {
+                "rank": 2,
+                "distance": 140.5,
+                "total_points": 135.3
+              }
+            },
             "total_points": 278.0,
+            "diff": null
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 1,
+            "qualified": true,
+            "bib": 1,
+            "distance": 134.5,
+            "total_points": 136.8,
             "diff": null
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 5,
             "bib": 1,
+            "rounds": {
+              "round_1": {
+                "rank": 4,
+                "distance": 131.5,
+                "total_points": 153.2
+              },
+              "round_2": {
+                "rank": 8,
+                "distance": 126.5,
+                "total_points": 136.2
+              }
+            },
             "total_points": 289.4,
             "diff": -14.6
           }
@@ -748,6 +1187,8 @@
     ],
     "country": "GER",
     "fis_code": "2171",
+    "wc_points": 13,
+    "wc_position": 24,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -764,7 +1205,7 @@
             "distance": 127.5,
             "total_points": 54.3
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 14,
             "qualified": true,
@@ -784,13 +1225,42 @@
             "date": "2026-11-21",
             "rank": 18,
             "bib": 14,
+            "rounds": {
+              "round_1": {
+                "rank": 14,
+                "distance": 127.5,
+                "total_points": 113.6
+              },
+              "round_2": {
+                "rank": 23,
+                "distance": 118.0,
+                "total_points": 100.4
+              }
+            },
             "total_points": 214.0,
             "diff": -64.0
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 17,
+            "qualified": true,
+            "bib": 18,
+            "distance": 126.5,
+            "total_points": 115.1,
+            "diff": -21.7
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 35,
             "bib": 18,
+            "rounds": {
+              "round_1": {
+                "rank": 35,
+                "distance": 126.5,
+                "total_points": 117.2
+              },
+              "round_2": null
+            },
             "total_points": 117.2,
             "diff": -186.8
           }
@@ -805,6 +1275,8 @@
     ],
     "country": "AUT",
     "fis_code": "7395",
+    "wc_points": 74,
+    "wc_position": 7,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -821,7 +1293,7 @@
             "distance": 132.0,
             "total_points": 55.3
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 15,
             "qualified": true,
@@ -841,13 +1313,46 @@
             "date": "2026-11-21",
             "rank": 4,
             "bib": 15,
+            "rounds": {
+              "round_1": {
+                "rank": 8,
+                "distance": 132.5,
+                "total_points": 122.5
+              },
+              "round_2": {
+                "rank": 3,
+                "distance": 137.5,
+                "total_points": 127.7
+              }
+            },
             "total_points": 250.2,
             "diff": -27.8
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 7,
+            "qualified": true,
+            "bib": 4,
+            "distance": 132.0,
+            "total_points": 125.4,
+            "diff": -11.4
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 11,
             "bib": 4,
+            "rounds": {
+              "round_1": {
+                "rank": 8,
+                "distance": 126.0,
+                "total_points": 144.3
+              },
+              "round_2": {
+                "rank": 15,
+                "distance": 127.0,
+                "total_points": 129.6
+              }
+            },
             "total_points": 273.9,
             "diff": -30.1
           }
@@ -862,6 +1367,8 @@
     ],
     "country": "AUT",
     "fis_code": "5497",
+    "wc_points": 1,
+    "wc_position": 36,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -878,7 +1385,7 @@
             "distance": 114.5,
             "total_points": 40.5
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 16,
             "qualified": true,
@@ -898,13 +1405,42 @@
             "date": "2026-11-21",
             "rank": 30,
             "bib": 16,
+            "rounds": {
+              "round_1": {
+                "rank": 12,
+                "distance": 129.5,
+                "total_points": 120.2
+              },
+              "round_2": {
+                "rank": 30,
+                "distance": 80.0,
+                "total_points": 20.1
+              }
+            },
             "total_points": 140.3,
             "diff": -137.7
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 21,
+            "qualified": true,
+            "bib": 29,
+            "distance": 130.5,
+            "total_points": 112.5,
+            "diff": -24.3
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 38,
             "bib": 29,
+            "rounds": {
+              "round_1": {
+                "rank": 38,
+                "distance": 118.5,
+                "total_points": 112.7
+              },
+              "round_2": null
+            },
             "total_points": 112.7,
             "diff": -191.3
           }
@@ -918,6 +1454,8 @@
     ],
     "country": "KAZ",
     "fis_code": "7888",
+    "wc_points": 14,
+    "wc_position": 23,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -934,7 +1472,7 @@
             "distance": 122.5,
             "total_points": 46.7
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 17,
             "qualified": true,
@@ -954,13 +1492,46 @@
             "date": "2026-11-21",
             "rank": 19,
             "bib": 18,
+            "rounds": {
+              "round_1": {
+                "rank": 21,
+                "distance": 119.0,
+                "total_points": 104.4
+              },
+              "round_2": {
+                "rank": 18,
+                "distance": 127.5,
+                "total_points": 108.6
+              }
+            },
             "total_points": 213.0,
             "diff": -65.0
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 8,
+            "qualified": true,
+            "bib": 19,
+            "distance": 135.0,
+            "total_points": 125.0,
+            "diff": -11.8
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 29,
             "bib": 19,
+            "rounds": {
+              "round_1": {
+                "rank": 26,
+                "distance": 126.5,
+                "total_points": 125.3
+              },
+              "round_2": {
+                "rank": 29,
+                "distance": 125.5,
+                "total_points": 111.7
+              }
+            },
             "total_points": 237.0,
             "diff": -67.0
           }
@@ -974,6 +1545,8 @@
     ],
     "country": "SUI",
     "fis_code": "6999",
+    "wc_points": 44,
+    "wc_position": 12,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -990,7 +1563,7 @@
             "distance": 127.5,
             "total_points": 58.3
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 17,
             "qualified": true,
@@ -1010,13 +1583,46 @@
             "date": "2026-11-21",
             "rank": 14,
             "bib": 17,
+            "rounds": {
+              "round_1": {
+                "rank": 25,
+                "distance": 121.0,
+                "total_points": 100.4
+              },
+              "round_2": {
+                "rank": 5,
+                "distance": 138.5,
+                "total_points": 125.7
+              }
+            },
             "total_points": 226.1,
             "diff": -51.9
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 19,
+            "qualified": true,
+            "bib": 14,
+            "distance": 125.0,
+            "total_points": 113.2,
+            "diff": -23.6
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 10,
             "bib": 14,
+            "rounds": {
+              "round_1": {
+                "rank": 12,
+                "distance": 136.5,
+                "total_points": 139.6
+              },
+              "round_2": {
+                "rank": 7,
+                "distance": 131.5,
+                "total_points": 139.2
+              }
+            },
             "total_points": 278.8,
             "diff": -25.2
           }
@@ -1030,6 +1636,8 @@
     ],
     "country": "EST",
     "fis_code": "8546",
+    "wc_points": 6,
+    "wc_position": 31,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1046,7 +1654,7 @@
             "distance": 115.0,
             "total_points": 36.3
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 19,
             "qualified": true,
@@ -1066,13 +1674,42 @@
             "date": "2026-11-21",
             "rank": 25,
             "bib": 19,
+            "rounds": {
+              "round_1": {
+                "rank": 26,
+                "distance": 121.5,
+                "total_points": 100.3
+              },
+              "round_2": {
+                "rank": 25,
+                "distance": 120.0,
+                "total_points": 88.3
+              }
+            },
             "total_points": 188.6,
             "diff": -89.4
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 14,
+            "qualified": true,
+            "bib": 24,
+            "distance": 134.0,
+            "total_points": 118.7,
+            "diff": -18.1
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 47,
             "bib": 24,
+            "rounds": {
+              "round_1": {
+                "rank": 47,
+                "distance": 119.0,
+                "total_points": 103.3
+              },
+              "round_2": null
+            },
             "total_points": 103.3,
             "diff": -200.7
           }
@@ -1086,6 +1723,8 @@
     ],
     "country": "USA",
     "fis_code": "220183",
+    "wc_points": 9,
+    "wc_position": 27,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1102,7 +1741,7 @@
             "distance": 129.5,
             "total_points": 57.1
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 20,
             "qualified": true,
@@ -1122,13 +1761,42 @@
             "date": "2026-11-21",
             "rank": 35,
             "bib": 20,
+            "rounds": {
+              "round_1": {
+                "rank": 35,
+                "distance": 118.5,
+                "total_points": 89.7
+              },
+              "round_2": null
+            },
             "total_points": 89.7,
             "diff": -188.3
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 23,
+            "qualified": true,
+            "bib": 34,
+            "distance": 127.5,
+            "total_points": 110.5,
+            "diff": -26.3
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 22,
             "bib": 34,
+            "rounds": {
+              "round_1": {
+                "rank": 20,
+                "distance": 132.0,
+                "total_points": 132.0
+              },
+              "round_2": {
+                "rank": 24,
+                "distance": 130.5,
+                "total_points": 126.3
+              }
+            },
             "total_points": 258.3,
             "diff": -45.7
           }
@@ -1143,6 +1811,8 @@
     ],
     "country": "SLO",
     "fis_code": "7147",
+    "wc_points": 20,
+    "wc_position": 21,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1159,7 +1829,7 @@
             "distance": 132.5,
             "total_points": 65.1
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 21,
             "qualified": true,
@@ -1179,13 +1849,46 @@
             "date": "2026-11-21",
             "rank": 29,
             "bib": 21,
+            "rounds": {
+              "round_1": {
+                "rank": 24,
+                "distance": 118.0,
+                "total_points": 101.5
+              },
+              "round_2": {
+                "rank": 29,
+                "distance": 100.0,
+                "total_points": 55.7
+              }
+            },
             "total_points": 157.2,
             "diff": -120.8
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 30,
+            "qualified": true,
+            "bib": 28,
+            "distance": 121.0,
+            "total_points": 104.2,
+            "diff": -32.6
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 14,
             "bib": 28,
+            "rounds": {
+              "round_1": {
+                "rank": 15,
+                "distance": 131.0,
+                "total_points": 136.4
+              },
+              "round_2": {
+                "rank": 14,
+                "distance": 130.0,
+                "total_points": 131.3
+              }
+            },
             "total_points": 267.7,
             "diff": -36.3
           }
@@ -1199,6 +1902,8 @@
     ],
     "country": "AUT",
     "fis_code": "7763",
+    "wc_points": 51,
+    "wc_position": 9,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1215,7 +1920,7 @@
             "distance": 129.0,
             "total_points": 58.5
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 22,
             "qualified": true,
@@ -1235,13 +1940,46 @@
             "date": "2026-11-21",
             "rank": 7,
             "bib": 22,
+            "rounds": {
+              "round_1": {
+                "rank": 3,
+                "distance": 135.5,
+                "total_points": 134.0
+              },
+              "round_2": {
+                "rank": 15,
+                "distance": 126.0,
+                "total_points": 111.3
+              }
+            },
             "total_points": 245.3,
             "diff": -32.7
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 9,
+            "qualified": true,
+            "bib": 7,
+            "distance": 129.0,
+            "total_points": 124.8,
+            "diff": -12.0
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 16,
             "bib": 7,
+            "rounds": {
+              "round_1": {
+                "rank": 16,
+                "distance": 121.0,
+                "total_points": 136.0
+              },
+              "round_2": {
+                "rank": 21,
+                "distance": 127.0,
+                "total_points": 127.2
+              }
+            },
             "total_points": 263.2,
             "diff": -40.8
           }
@@ -1255,6 +1993,8 @@
     ],
     "country": "FRA",
     "fis_code": "7856",
+    "wc_points": 29,
+    "wc_position": 16,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1271,7 +2011,7 @@
             "distance": 101.5,
             "total_points": 9.2
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 23,
             "qualified": true,
@@ -1291,13 +2031,46 @@
             "date": "2026-11-21",
             "rank": 12,
             "bib": 23,
+            "rounds": {
+              "round_1": {
+                "rank": 6,
+                "distance": 138.0,
+                "total_points": 125.8
+              },
+              "round_2": {
+                "rank": 21,
+                "distance": 123.0,
+                "total_points": 103.7
+              }
+            },
             "total_points": 229.5,
             "diff": -48.5
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 22,
+            "qualified": true,
+            "bib": 12,
+            "distance": 123.0,
+            "total_points": 110.9,
+            "diff": -25.9
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 24,
             "bib": 12,
+            "rounds": {
+              "round_1": {
+                "rank": 24,
+                "distance": 124.0,
+                "total_points": 127.7
+              },
+              "round_2": {
+                "rank": 17,
+                "distance": 132.5,
+                "total_points": 129.1
+              }
+            },
             "total_points": 256.8,
             "diff": -47.2
           }
@@ -1311,6 +2084,8 @@
     ],
     "country": "USA",
     "fis_code": "220341",
+    "wc_points": 9,
+    "wc_position": 27,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1327,7 +2102,7 @@
             "distance": 114.0,
             "total_points": 31.1
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 24,
             "qualified": true,
@@ -1347,13 +2122,46 @@
             "date": "2026-11-21",
             "rank": 27,
             "bib": 24,
+            "rounds": {
+              "round_1": {
+                "rank": 19,
+                "distance": 126.5,
+                "total_points": 107.6
+              },
+              "round_2": {
+                "rank": 27,
+                "distance": 112.0,
+                "total_points": 79.7
+              }
+            },
             "total_points": 187.3,
             "diff": -90.7
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 46,
+            "qualified": true,
+            "bib": 26,
+            "distance": 120.0,
+            "total_points": 87.3,
+            "diff": -49.5
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 26,
             "bib": 26,
+            "rounds": {
+              "round_1": {
+                "rank": 30,
+                "distance": 132.0,
+                "total_points": 122.1
+              },
+              "round_2": {
+                "rank": 22,
+                "distance": 133.0,
+                "total_points": 127.1
+              }
+            },
             "total_points": 249.2,
             "diff": -54.8
           }
@@ -1367,6 +2175,8 @@
     ],
     "country": "FIN",
     "fis_code": "7873",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1383,7 +2193,7 @@
             "distance": 121.0,
             "total_points": 44.7
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 25,
             "qualified": true,
@@ -1403,13 +2213,38 @@
             "date": "2026-11-21",
             "rank": 44,
             "bib": 25,
+            "rounds": {
+              "round_1": {
+                "rank": 44,
+                "distance": 105.0,
+                "total_points": 71.8
+              },
+              "round_2": null
+            },
             "total_points": 71.8,
             "diff": -206.2
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 41,
+            "qualified": true,
+            "bib": 43,
+            "distance": 119.0,
+            "total_points": 94.0,
+            "diff": -42.8
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 44,
             "bib": 43,
+            "rounds": {
+              "round_1": {
+                "rank": 44,
+                "distance": 122.0,
+                "total_points": 105.9
+              },
+              "round_2": null
+            },
             "total_points": 105.9,
             "diff": -198.1
           }
@@ -1423,6 +2258,8 @@
     ],
     "country": "SUI",
     "fis_code": "7657",
+    "wc_points": 36,
+    "wc_position": 14,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1439,7 +2276,7 @@
             "distance": 114.0,
             "total_points": 32.0
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 26,
             "qualified": true,
@@ -1459,13 +2296,46 @@
             "date": "2026-11-21",
             "rank": 10,
             "bib": 26,
+            "rounds": {
+              "round_1": {
+                "rank": 9,
+                "distance": 133.0,
+                "total_points": 122.3
+              },
+              "round_2": {
+                "rank": 13,
+                "distance": 130.0,
+                "total_points": 112.5
+              }
+            },
             "total_points": 234.8,
             "diff": -43.2
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 15,
+            "qualified": true,
+            "bib": 10,
+            "distance": 128.0,
+            "total_points": 118.0,
+            "diff": -18.8
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 21,
             "bib": 10,
+            "rounds": {
+              "round_1": {
+                "rank": 19,
+                "distance": 127.5,
+                "total_points": 133.0
+              },
+              "round_2": {
+                "rank": 19,
+                "distance": 131.0,
+                "total_points": 127.7
+              }
+            },
             "total_points": 260.7,
             "diff": -43.3
           }
@@ -1479,6 +2349,8 @@
     ],
     "country": "FIN",
     "fis_code": "6996",
+    "wc_points": 23,
+    "wc_position": 20,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1495,7 +2367,7 @@
             "distance": 114.0,
             "total_points": 32.4
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 27,
             "qualified": true,
@@ -1515,13 +2387,46 @@
             "date": "2026-11-21",
             "rank": 22,
             "bib": 27,
+            "rounds": {
+              "round_1": {
+                "rank": 26,
+                "distance": 125.0,
+                "total_points": 100.3
+              },
+              "round_2": {
+                "rank": 19,
+                "distance": 127.5,
+                "total_points": 108.4
+              }
+            },
             "total_points": 208.7,
             "diff": -69.3
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 31,
+            "qualified": true,
+            "bib": 22,
+            "distance": 123.5,
+            "total_points": 103.2,
+            "diff": -33.6
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 17,
             "bib": 22,
+            "rounds": {
+              "round_1": {
+                "rank": 16,
+                "distance": 136.0,
+                "total_points": 136.0
+              },
+              "round_2": {
+                "rank": 23,
+                "distance": 129.0,
+                "total_points": 126.8
+              }
+            },
             "total_points": 262.8,
             "diff": -41.2
           }
@@ -1535,6 +2440,8 @@
     ],
     "country": "SLO",
     "fis_code": "7537",
+    "wc_points": 10,
+    "wc_position": 26,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1551,7 +2458,7 @@
             "distance": 114.5,
             "total_points": 38.4
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 28,
             "qualified": true,
@@ -1571,13 +2478,46 @@
             "date": "2026-11-21",
             "rank": 21,
             "bib": 28,
+            "rounds": {
+              "round_1": {
+                "rank": 18,
+                "distance": 127.0,
+                "total_points": 109.9
+              },
+              "round_2": {
+                "rank": 22,
+                "distance": 127.0,
+                "total_points": 101.0
+              }
+            },
             "total_points": 210.9,
             "diff": -67.1
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 28,
+            "qualified": true,
+            "bib": 21,
+            "distance": 124.5,
+            "total_points": 106.7,
+            "diff": -30.1
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 31,
             "bib": 21,
+            "rounds": {
+              "round_1": {
+                "rank": 30,
+                "distance": 127.0,
+                "total_points": 122.1
+              },
+              "round_2": {
+                "rank": 28,
+                "distance": 126.0,
+                "total_points": 113.2
+              }
+            },
             "total_points": 235.3,
             "diff": -68.7
           }
@@ -1591,6 +2531,8 @@
     ],
     "country": "SUI",
     "fis_code": "6235",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1607,7 +2549,7 @@
             "distance": 104.5,
             "total_points": 14.6
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 29,
             "qualified": true,
@@ -1627,13 +2569,38 @@
             "date": "2026-11-21",
             "rank": 42,
             "bib": 29,
+            "rounds": {
+              "round_1": {
+                "rank": 42,
+                "distance": 111.0,
+                "total_points": 75.1
+              },
+              "round_2": null
+            },
             "total_points": 75.1,
             "diff": -202.9
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 43,
+            "qualified": true,
+            "bib": 41,
+            "distance": 120.0,
+            "total_points": 91.6,
+            "diff": -45.2
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 33,
             "bib": 41,
+            "rounds": {
+              "round_1": {
+                "rank": 33,
+                "distance": 125.0,
+                "total_points": 118.5
+              },
+              "round_2": null
+            },
             "total_points": 118.5,
             "diff": -185.5
           }
@@ -1647,6 +2614,8 @@
     ],
     "country": "NOR",
     "fis_code": "8233",
+    "wc_points": 7,
+    "wc_position": 30,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1663,7 +2632,7 @@
             "distance": 120.5,
             "total_points": 42.7
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 30,
             "qualified": true,
@@ -1683,6 +2652,18 @@
             "date": "2026-11-21",
             "rank": 24,
             "bib": 30,
+            "rounds": {
+              "round_1": {
+                "rank": 20,
+                "distance": 125.5,
+                "total_points": 106.6
+              },
+              "round_2": {
+                "rank": 26,
+                "distance": 119.0,
+                "total_points": 88.0
+              }
+            },
             "total_points": 194.6,
             "diff": -83.4
           }
@@ -1696,6 +2677,8 @@
     ],
     "country": "KAZ",
     "fis_code": "8612",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1712,7 +2695,7 @@
             "distance": 121.0,
             "total_points": 44.5
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 31,
             "qualified": true,
@@ -1732,13 +2715,38 @@
             "date": "2026-11-21",
             "rank": 49,
             "bib": 31,
+            "rounds": {
+              "round_1": {
+                "rank": 49,
+                "distance": 102.0,
+                "total_points": 57.6
+              },
+              "round_2": null
+            },
             "total_points": 57.6,
             "diff": -220.4
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 37,
+            "qualified": true,
+            "bib": 48,
+            "distance": 122.0,
+            "total_points": 97.7,
+            "diff": -39.1
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 39,
             "bib": 48,
+            "rounds": {
+              "round_1": {
+                "rank": 39,
+                "distance": 124.0,
+                "total_points": 112.2
+              },
+              "round_2": null
+            },
             "total_points": 112.2,
             "diff": -191.8
           }
@@ -1752,6 +2760,8 @@
     ],
     "country": "SUI",
     "fis_code": "8309",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1768,7 +2778,7 @@
             "distance": 118.0,
             "total_points": 36.7
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 32,
             "qualified": true,
@@ -1788,13 +2798,38 @@
             "date": "2026-11-21",
             "rank": 39,
             "bib": 32,
+            "rounds": {
+              "round_1": {
+                "rank": 39,
+                "distance": 114.0,
+                "total_points": 83.8
+              },
+              "round_2": null
+            },
             "total_points": 83.8,
             "diff": -194.2
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 35,
+            "qualified": true,
+            "bib": 38,
+            "distance": 123.5,
+            "total_points": 99.3,
+            "diff": -37.5
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 34,
             "bib": 38,
+            "rounds": {
+              "round_1": {
+                "rank": 34,
+                "distance": 122.0,
+                "total_points": 118.1
+              },
+              "round_2": null
+            },
             "total_points": 118.1,
             "diff": -185.9
           }
@@ -1808,6 +2843,8 @@
     ],
     "country": "GER",
     "fis_code": "7349",
+    "wc_points": 27,
+    "wc_position": 18,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1824,7 +2861,7 @@
             "distance": 124.5,
             "total_points": 48.8
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 33,
             "qualified": true,
@@ -1844,13 +2881,46 @@
             "date": "2026-11-21",
             "rank": 15,
             "bib": 33,
+            "rounds": {
+              "round_1": {
+                "rank": 16,
+                "distance": 129.0,
+                "total_points": 111.9
+              },
+              "round_2": {
+                "rank": 14,
+                "distance": 130.0,
+                "total_points": 111.6
+              }
+            },
             "total_points": 223.5,
             "diff": -54.5
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 27,
+            "qualified": true,
+            "bib": 15,
+            "distance": 121.0,
+            "total_points": 107.0,
+            "diff": -29.8
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 20,
             "bib": 15,
+            "rounds": {
+              "round_1": {
+                "rank": 21,
+                "distance": 129.5,
+                "total_points": 131.7
+              },
+              "round_2": {
+                "rank": 15,
+                "distance": 136.5,
+                "total_points": 129.6
+              }
+            },
             "total_points": 261.3,
             "diff": -42.7
           }
@@ -1864,6 +2934,8 @@
     ],
     "country": "JPN",
     "fis_code": "6392",
+    "wc_points": 40,
+    "wc_position": 13,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1881,7 +2953,7 @@
             "distance": null,
             "total_points": null
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 34,
             "qualified": true,
@@ -1901,13 +2973,46 @@
             "date": "2026-11-21",
             "rank": 11,
             "bib": 34,
+            "rounds": {
+              "round_1": {
+                "rank": 13,
+                "distance": 128.5,
+                "total_points": 115.7
+              },
+              "round_2": {
+                "rank": 8,
+                "distance": 133.5,
+                "total_points": 119.0
+              }
+            },
             "total_points": 234.7,
             "diff": -43.3
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 38,
+            "qualified": true,
+            "bib": 11,
+            "distance": 116.0,
+            "total_points": 97.2,
+            "diff": -39.6
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 15,
             "bib": 11,
+            "rounds": {
+              "round_1": {
+                "rank": 14,
+                "distance": 130.5,
+                "total_points": 136.6
+              },
+              "round_2": {
+                "rank": 19,
+                "distance": 127.5,
+                "total_points": 127.7
+              }
+            },
             "total_points": 264.3,
             "diff": -39.7
           }
@@ -1921,6 +3026,8 @@
     ],
     "country": "BUL",
     "fis_code": "5168",
+    "wc_points": 4,
+    "wc_position": 33,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1937,7 +3044,7 @@
             "distance": 121.5,
             "total_points": 45.3
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 35,
             "qualified": true,
@@ -1957,13 +3064,46 @@
             "date": "2026-11-21",
             "rank": 28,
             "bib": 35,
+            "rounds": {
+              "round_1": {
+                "rank": 29,
+                "distance": 122.5,
+                "total_points": 98.3
+              },
+              "round_2": {
+                "rank": 28,
+                "distance": 112.0,
+                "total_points": 64.8
+              }
+            },
             "total_points": 163.1,
             "diff": -114.9
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 33,
+            "qualified": true,
+            "bib": 27,
+            "distance": 124.5,
+            "total_points": 100.6,
+            "diff": -36.2
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 30,
             "bib": 27,
+            "rounds": {
+              "round_1": {
+                "rank": 28,
+                "distance": 130.5,
+                "total_points": 124.5
+              },
+              "round_2": {
+                "rank": 31,
+                "distance": 122.0,
+                "total_points": 110.9
+              }
+            },
             "total_points": 235.4,
             "diff": -68.6
           }
@@ -1977,6 +3117,8 @@
     ],
     "country": "FIN",
     "fis_code": "5796",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -1993,7 +3135,7 @@
             "distance": 105.5,
             "total_points": 19.5
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 36,
             "qualified": true,
@@ -2013,13 +3155,38 @@
             "date": "2026-11-21",
             "rank": 38,
             "bib": 36,
+            "rounds": {
+              "round_1": {
+                "rank": 38,
+                "distance": 114.5,
+                "total_points": 84.0
+              },
+              "round_2": null
+            },
             "total_points": 84.0,
             "diff": -194.0
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 44,
+            "qualified": true,
+            "bib": 37,
+            "distance": 123.0,
+            "total_points": 91.3,
+            "diff": -45.5
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 44,
             "bib": 37,
+            "rounds": {
+              "round_1": {
+                "rank": 44,
+                "distance": 117.0,
+                "total_points": 105.9
+              },
+              "round_2": null
+            },
             "total_points": 105.9,
             "diff": -198.1
           }
@@ -2033,6 +3200,8 @@
     ],
     "country": "FRA",
     "fis_code": "8014",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2049,7 +3218,7 @@
             "distance": 111.5,
             "total_points": 21.8
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 37,
             "qualified": true,
@@ -2069,8 +3238,25 @@
             "date": "2026-11-21",
             "rank": 41,
             "bib": 37,
+            "rounds": {
+              "round_1": {
+                "rank": 41,
+                "distance": 109.0,
+                "total_points": 77.4
+              },
+              "round_2": null
+            },
             "total_points": 77.4,
             "diff": -200.6
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 57,
+            "qualified": false,
+            "bib": 40,
+            "distance": 103.5,
+            "total_points": 64.7,
+            "diff": -72.1
           }
         }
       }
@@ -2082,6 +3268,8 @@
     ],
     "country": "POL",
     "fis_code": "6165",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2098,7 +3286,7 @@
             "distance": 126.0,
             "total_points": 48.1
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 38,
             "qualified": true,
@@ -2118,8 +3306,25 @@
             "date": "2026-11-21",
             "rank": 47,
             "bib": 38,
+            "rounds": {
+              "round_1": {
+                "rank": 47,
+                "distance": 105.0,
+                "total_points": 66.2
+              },
+              "round_2": null
+            },
             "total_points": 66.2,
             "diff": -211.8
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 65,
+            "qualified": false,
+            "bib": 46,
+            "distance": 76.5,
+            "total_points": 10.7,
+            "diff": -126.1
           }
         }
       }
@@ -2131,6 +3336,8 @@
     ],
     "country": "POL",
     "fis_code": "5298",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2147,7 +3354,7 @@
             "distance": 124.5,
             "total_points": 48.6
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 39,
             "qualified": true,
@@ -2167,13 +3374,38 @@
             "date": "2026-11-21",
             "rank": 32,
             "bib": 39,
+            "rounds": {
+              "round_1": {
+                "rank": 32,
+                "distance": 117.5,
+                "total_points": 94.4
+              },
+              "round_2": null
+            },
             "total_points": 94.4,
             "diff": -183.6
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 45,
+            "qualified": true,
+            "bib": 31,
+            "distance": 119.5,
+            "total_points": 88.9,
+            "diff": -47.9
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 42,
             "bib": 31,
+            "rounds": {
+              "round_1": {
+                "rank": 42,
+                "distance": 115.0,
+                "total_points": 110.1
+              },
+              "round_2": null
+            },
             "total_points": 110.1,
             "diff": -193.9
           }
@@ -2187,6 +3419,8 @@
     ],
     "country": "GER",
     "fis_code": "6552",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2203,7 +3437,7 @@
             "distance": 115.5,
             "total_points": 33.5
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 40,
             "qualified": true,
@@ -2223,13 +3457,38 @@
             "date": "2026-11-21",
             "rank": 31,
             "bib": 40,
+            "rounds": {
+              "round_1": {
+                "rank": 31,
+                "distance": 119.5,
+                "total_points": 96.5
+              },
+              "round_2": null
+            },
             "total_points": 96.5,
             "diff": -181.5
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 32,
+            "qualified": true,
+            "bib": 30,
+            "distance": 123.5,
+            "total_points": 101.6,
+            "diff": -35.2
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 37,
             "bib": 30,
+            "rounds": {
+              "round_1": {
+                "rank": 37,
+                "distance": 117.0,
+                "total_points": 114.9
+              },
+              "round_2": null
+            },
             "total_points": 114.9,
             "diff": -189.1
           }
@@ -2243,6 +3502,8 @@
     ],
     "country": "FIN",
     "fis_code": "6912",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2259,7 +3520,7 @@
             "distance": 115.0,
             "total_points": 38.2
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 41,
             "qualified": true,
@@ -2279,13 +3540,38 @@
             "date": "2026-11-21",
             "rank": 36,
             "bib": 41,
+            "rounds": {
+              "round_1": {
+                "rank": 36,
+                "distance": 112.5,
+                "total_points": 87.6
+              },
+              "round_2": null
+            },
             "total_points": 87.6,
             "diff": -190.4
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 36,
+            "qualified": true,
+            "bib": 35,
+            "distance": 124.0,
+            "total_points": 98.7,
+            "diff": -38.1
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 43,
             "bib": 35,
+            "rounds": {
+              "round_1": {
+                "rank": 43,
+                "distance": 121.5,
+                "total_points": 108.1
+              },
+              "round_2": null
+            },
             "total_points": 108.1,
             "diff": -195.9
           }
@@ -2299,6 +3585,8 @@
     ],
     "country": "EST",
     "fis_code": "6918",
+    "wc_points": 19,
+    "wc_position": 22,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2315,7 +3603,7 @@
             "distance": 127.5,
             "total_points": 57.8
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 42,
             "qualified": true,
@@ -2335,13 +3623,46 @@
             "date": "2026-11-21",
             "rank": 20,
             "bib": 42,
+            "rounds": {
+              "round_1": {
+                "rank": 22,
+                "distance": 121.5,
+                "total_points": 102.4
+              },
+              "round_2": {
+                "rank": 16,
+                "distance": 128.0,
+                "total_points": 110.2
+              }
+            },
             "total_points": 212.6,
             "diff": -65.4
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 10,
+            "qualified": true,
+            "bib": 20,
+            "distance": 135.0,
+            "total_points": 124.3,
+            "diff": -12.5
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 23,
             "bib": 20,
+            "rounds": {
+              "round_1": {
+                "rank": 29,
+                "distance": 124.0,
+                "total_points": 124.0
+              },
+              "round_2": {
+                "rank": 12,
+                "distance": 133.5,
+                "total_points": 133.3
+              }
+            },
             "total_points": 257.3,
             "diff": -46.7
           }
@@ -2355,6 +3676,8 @@
     ],
     "country": "POL",
     "fis_code": "5142",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2371,7 +3694,7 @@
             "distance": 114.5,
             "total_points": 31.9
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 43,
             "qualified": true,
@@ -2391,8 +3714,25 @@
             "date": "2026-11-21",
             "rank": 33,
             "bib": 43,
+            "rounds": {
+              "round_1": {
+                "rank": 33,
+                "distance": 111.0,
+                "total_points": 92.6
+              },
+              "round_2": null
+            },
             "total_points": 92.6,
             "diff": -185.4
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 58,
+            "qualified": false,
+            "bib": 32,
+            "distance": 104.0,
+            "total_points": 64.2,
+            "diff": -72.6
           }
         }
       }
@@ -2404,6 +3744,8 @@
     ],
     "country": "ITA",
     "fis_code": "7333",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2420,7 +3762,7 @@
             "distance": 118.0,
             "total_points": 33.0
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 44,
             "qualified": true,
@@ -2440,8 +3782,25 @@
             "date": "2026-11-21",
             "rank": 34,
             "bib": 44,
+            "rounds": {
+              "round_1": {
+                "rank": 34,
+                "distance": 114.5,
+                "total_points": 89.8
+              },
+              "round_2": null
+            },
             "total_points": 89.8,
             "diff": -188.2
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 56,
+            "qualified": false,
+            "bib": 33,
+            "distance": 106.0,
+            "total_points": 73.6,
+            "diff": -63.2
           }
         }
       }
@@ -2453,6 +3812,8 @@
     ],
     "country": "SLO",
     "fis_code": "6437",
+    "wc_points": 50,
+    "wc_position": 10,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2469,7 +3830,7 @@
             "distance": 114.5,
             "total_points": 29.9
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 45,
             "qualified": true,
@@ -2489,13 +3850,46 @@
             "date": "2026-11-21",
             "rank": 17,
             "bib": 45,
+            "rounds": {
+              "round_1": {
+                "rank": 23,
+                "distance": 118.0,
+                "total_points": 102.1
+              },
+              "round_2": {
+                "rank": 9,
+                "distance": 130.5,
+                "total_points": 117.0
+              }
+            },
             "total_points": 219.1,
             "diff": -58.9
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 6,
+            "qualified": true,
+            "bib": 17,
+            "distance": 129.5,
+            "total_points": 125.8,
+            "diff": -11.0
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 7,
             "bib": 17,
+            "rounds": {
+              "round_1": {
+                "rank": 9,
+                "distance": 138.0,
+                "total_points": 143.4
+              },
+              "round_2": {
+                "rank": 4,
+                "distance": 136.5,
+                "total_points": 144.0
+              }
+            },
             "total_points": 287.4,
             "diff": -16.6
           }
@@ -2509,6 +3903,8 @@
     ],
     "country": "GER",
     "fis_code": "8291",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2525,7 +3921,7 @@
             "distance": 114.5,
             "total_points": 30.4
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 46,
             "qualified": true,
@@ -2545,8 +3941,25 @@
             "date": "2026-11-21",
             "rank": 48,
             "bib": 46,
+            "rounds": {
+              "round_1": {
+                "rank": 48,
+                "distance": 99.5,
+                "total_points": 65.6
+              },
+              "round_2": null
+            },
             "total_points": 65.6,
             "diff": -212.4
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 51,
+            "qualified": false,
+            "bib": 47,
+            "distance": 112.0,
+            "total_points": 81.0,
+            "diff": -55.8
           }
         }
       }
@@ -2558,6 +3971,8 @@
     ],
     "country": "ITA",
     "fis_code": "7524",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2574,7 +3989,7 @@
             "distance": 96.5,
             "total_points": 2.3
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 47,
             "qualified": true,
@@ -2594,13 +4009,38 @@
             "date": "2026-11-21",
             "rank": 43,
             "bib": 47,
+            "rounds": {
+              "round_1": {
+                "rank": 43,
+                "distance": 98.5,
+                "total_points": 74.1
+              },
+              "round_2": null
+            },
             "total_points": 74.1,
             "diff": -203.9
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 48,
+            "qualified": true,
+            "bib": 42,
+            "distance": 121.0,
+            "total_points": 85.3,
+            "diff": -51.5
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 47,
             "bib": 42,
+            "rounds": {
+              "round_1": {
+                "rank": 47,
+                "distance": 121.0,
+                "total_points": 103.3
+              },
+              "round_2": null
+            },
             "total_points": 103.3,
             "diff": -200.7
           }
@@ -2614,6 +4054,8 @@
     ],
     "country": "USA",
     "fis_code": "219795",
+    "wc_points": 6,
+    "wc_position": 31,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2630,7 +4072,7 @@
             "distance": 126.0,
             "total_points": 50.7
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 48,
             "qualified": true,
@@ -2650,13 +4092,42 @@
             "date": "2026-11-21",
             "rank": 40,
             "bib": 48,
+            "rounds": {
+              "round_1": {
+                "rank": 40,
+                "distance": 110.0,
+                "total_points": 79.3
+              },
+              "round_2": null
+            },
             "total_points": 79.3,
             "diff": -198.7
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 25,
+            "qualified": true,
+            "bib": 39,
+            "distance": 125.5,
+            "total_points": 107.7,
+            "diff": -29.1
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 25,
             "bib": 39,
+            "rounds": {
+              "round_1": {
+                "rank": 26,
+                "distance": 128.5,
+                "total_points": 125.3
+              },
+              "round_2": {
+                "rank": 25,
+                "distance": 132.0,
+                "total_points": 124.9
+              }
+            },
             "total_points": 250.2,
             "diff": -53.8
           }
@@ -2670,6 +4141,8 @@
     ],
     "country": "NOR",
     "fis_code": "6100",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2686,7 +4159,7 @@
             "distance": 116.5,
             "total_points": 40.4
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 49,
             "qualified": true,
@@ -2706,8 +4179,26 @@
             "date": "2026-11-21",
             "rank": 45,
             "bib": 49,
+            "rounds": {
+              "round_1": {
+                "rank": 45,
+                "distance": 101.0,
+                "total_points": 67.5
+              },
+              "round_2": null
+            },
             "total_points": 67.5,
             "diff": -210.5
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "status": "DSQ",
+            "rank": null,
+            "qualified": false,
+            "bib": 44,
+            "distance": null,
+            "total_points": null,
+            "diff": null
           }
         }
       }
@@ -2719,6 +4210,8 @@
     ],
     "country": "AUT",
     "fis_code": "5518",
+    "wc_points": 27,
+    "wc_position": 18,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2735,7 +4228,7 @@
             "distance": 129.5,
             "total_points": 58.4
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 50,
             "qualified": true,
@@ -2755,13 +4248,46 @@
             "date": "2026-11-21",
             "rank": 26,
             "bib": 50,
+            "rounds": {
+              "round_1": {
+                "rank": 28,
+                "distance": 117.0,
+                "total_points": 98.6
+              },
+              "round_2": {
+                "rank": 24,
+                "distance": 116.0,
+                "total_points": 89.5
+              }
+            },
             "total_points": 188.1,
             "diff": -89.9
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 12,
+            "qualified": true,
+            "bib": 25,
+            "distance": 133.5,
+            "total_points": 119.6,
+            "diff": -17.2
           },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 12,
             "bib": 25,
+            "rounds": {
+              "round_1": {
+                "rank": 18,
+                "distance": 130.0,
+                "total_points": 133.9
+              },
+              "round_2": {
+                "rank": 9,
+                "distance": 135.0,
+                "total_points": 136.0
+              }
+            },
             "total_points": 269.9,
             "diff": -34.1
           }
@@ -2775,6 +4301,8 @@
     ],
     "country": "NOR",
     "fis_code": "8443",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2791,7 +4319,7 @@
             "distance": 131.0,
             "total_points": 59.0
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 51,
             "qualified": false,
@@ -2817,6 +4345,8 @@
     ],
     "country": "CHN",
     "fis_code": "8520",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2833,7 +4363,7 @@
             "distance": 115.0,
             "total_points": 31.0
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 52,
             "qualified": false,
@@ -2849,10 +4379,27 @@
             "total_points": 67.9,
             "diff": -51.9
           },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 42,
+            "qualified": true,
+            "bib": 50,
+            "distance": 119.0,
+            "total_points": 93.1,
+            "diff": -43.7
+          },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 46,
             "bib": 50,
+            "rounds": {
+              "round_1": {
+                "rank": 46,
+                "distance": 118.0,
+                "total_points": 104.2
+              },
+              "round_2": null
+            },
             "total_points": 104.2,
             "diff": -199.8
           }
@@ -2866,6 +4413,8 @@
     ],
     "country": "UKR",
     "fis_code": "7230",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2882,7 +4431,7 @@
             "distance": 96.0,
             "total_points": 0.0
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 53,
             "qualified": false,
@@ -2898,10 +4447,27 @@
             "total_points": 66.7,
             "diff": -53.1
           },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 39,
+            "qualified": true,
+            "bib": 51,
+            "distance": 124.0,
+            "total_points": 95.9,
+            "diff": -40.9
+          },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 49,
             "bib": 51,
+            "rounds": {
+              "round_1": {
+                "rank": 49,
+                "distance": 115.5,
+                "total_points": 97.0
+              },
+              "round_2": null
+            },
             "total_points": 97.0,
             "diff": -207.0
           }
@@ -2915,6 +4481,8 @@
     ],
     "country": "GER",
     "fis_code": "8123",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2931,7 +4499,7 @@
             "distance": 115.5,
             "total_points": 35.1
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 54,
             "qualified": false,
@@ -2947,10 +4515,27 @@
             "total_points": 65.3,
             "diff": -54.5
           },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 34,
+            "qualified": true,
+            "bib": 52,
+            "distance": 121.5,
+            "total_points": 100.1,
+            "diff": -36.7
+          },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 36,
             "bib": 52,
+            "rounds": {
+              "round_1": {
+                "rank": 36,
+                "distance": 116.5,
+                "total_points": 117.0
+              },
+              "round_2": null
+            },
             "total_points": 117.0,
             "diff": -187.0
           }
@@ -2964,6 +4549,8 @@
     ],
     "country": "GER",
     "fis_code": "6696",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -2980,7 +4567,7 @@
             "distance": 104.0,
             "total_points": 18.4
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 55,
             "qualified": false,
@@ -2996,10 +4583,27 @@
             "total_points": 65.0,
             "diff": -54.8
           },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 47,
+            "qualified": true,
+            "bib": 53,
+            "distance": 119.5,
+            "total_points": 86.8,
+            "diff": -50.0
+          },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 41,
             "bib": 53,
+            "rounds": {
+              "round_1": {
+                "rank": 41,
+                "distance": 115.5,
+                "total_points": 110.4
+              },
+              "round_2": null
+            },
             "total_points": 110.4,
             "diff": -193.6
           }
@@ -3013,6 +4617,8 @@
     ],
     "country": "POL",
     "fis_code": "6987",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3029,7 +4635,7 @@
             "distance": 110.5,
             "total_points": 26.9
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 56,
             "qualified": false,
@@ -3044,6 +4650,15 @@
             "distance": 108.0,
             "total_points": 61.5,
             "diff": -58.3
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 53,
+            "qualified": false,
+            "bib": 54,
+            "distance": 113.0,
+            "total_points": 79.2,
+            "diff": -57.6
           }
         }
       }
@@ -3055,6 +4670,8 @@
     ],
     "country": "POL",
     "fis_code": "8289",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3071,7 +4688,7 @@
             "distance": 119.0,
             "total_points": 39.1
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 57,
             "qualified": false,
@@ -3087,10 +4704,27 @@
             "total_points": 59.1,
             "diff": -60.7
           },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 29,
+            "qualified": true,
+            "bib": 55,
+            "distance": 127.5,
+            "total_points": 104.3,
+            "diff": -32.5
+          },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 40,
             "bib": 55,
+            "rounds": {
+              "round_1": {
+                "rank": 40,
+                "distance": 120.0,
+                "total_points": 111.2
+              },
+              "round_2": null
+            },
             "total_points": 111.2,
             "diff": -192.8
           }
@@ -3104,6 +4738,8 @@
     ],
     "country": "CAN",
     "fis_code": "220199",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3120,7 +4756,7 @@
             "distance": 109.5,
             "total_points": 21.1
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 58,
             "qualified": false,
@@ -3135,6 +4771,15 @@
             "distance": 103.5,
             "total_points": 51.5,
             "diff": -68.3
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 60,
+            "qualified": false,
+            "bib": 56,
+            "distance": 99.0,
+            "total_points": 55.5,
+            "diff": -81.3
           }
         }
       }
@@ -3146,6 +4791,8 @@
     ],
     "country": "NOR",
     "fis_code": "7067",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3162,7 +4809,7 @@
             "distance": 121.5,
             "total_points": 40.8
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 59,
             "qualified": false,
@@ -3188,6 +4835,8 @@
     ],
     "country": "NOR",
     "fis_code": "7871",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3204,7 +4853,7 @@
             "distance": 110.0,
             "total_points": 31.1
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 60,
             "qualified": false,
@@ -3230,6 +4879,8 @@
     ],
     "country": "FRA",
     "fis_code": "8252",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3246,7 +4897,7 @@
             "distance": 97.5,
             "total_points": 0.0
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 61,
             "qualified": false,
@@ -3261,6 +4912,15 @@
             "distance": 101.0,
             "total_points": 49.0,
             "diff": -70.8
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 52,
+            "qualified": false,
+            "bib": 57,
+            "distance": 109.0,
+            "total_points": 80.3,
+            "diff": -56.5
           }
         }
       }
@@ -3272,6 +4932,8 @@
     ],
     "country": "JPN",
     "fis_code": "8533",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3288,7 +4950,7 @@
             "distance": 113.0,
             "total_points": 33.2
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 62,
             "qualified": false,
@@ -3303,6 +4965,15 @@
             "distance": 100.5,
             "total_points": 47.6,
             "diff": -72.2
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 62,
+            "qualified": false,
+            "bib": 58,
+            "distance": 84.0,
+            "total_points": 37.2,
+            "diff": -99.6
           }
         }
       }
@@ -3314,6 +4985,8 @@
     ],
     "country": "SVK",
     "fis_code": "8558",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3330,7 +5003,7 @@
             "distance": 113.0,
             "total_points": 31.2
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 63,
             "qualified": false,
@@ -3346,10 +5019,27 @@
             "total_points": 46.0,
             "diff": -73.8
           },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 50,
+            "qualified": true,
+            "bib": 59,
+            "distance": 115.0,
+            "total_points": 82.1,
+            "diff": -54.7
+          },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 50,
             "bib": 59,
+            "rounds": {
+              "round_1": {
+                "rank": 50,
+                "distance": 107.0,
+                "total_points": 96.4
+              },
+              "round_2": null
+            },
             "total_points": 96.4,
             "diff": -207.6
           }
@@ -3363,6 +5053,8 @@
     ],
     "country": "CZE",
     "fis_code": "4801",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3379,7 +5071,7 @@
             "distance": 119.5,
             "total_points": 36.4
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 64,
             "qualified": false,
@@ -3394,6 +5086,15 @@
             "distance": 100.0,
             "total_points": 44.3,
             "diff": -75.5
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 54,
+            "qualified": false,
+            "bib": 60,
+            "distance": 109.5,
+            "total_points": 77.3,
+            "diff": -59.5
           }
         }
       }
@@ -3405,6 +5106,8 @@
     ],
     "country": "USA",
     "fis_code": "6671",
+    "wc_points": 3,
+    "wc_position": 35,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3421,7 +5124,7 @@
             "distance": 110.5,
             "total_points": 22.8
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 65,
             "qualified": false,
@@ -3437,10 +5140,31 @@
             "total_points": 42.8,
             "diff": -77.0
           },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 49,
+            "qualified": true,
+            "bib": 61,
+            "distance": 112.0,
+            "total_points": 85.0,
+            "diff": -51.8
+          },
           "competition_2": {
             "date": "2026-11-22",
             "rank": 28,
             "bib": 61,
+            "rounds": {
+              "round_1": {
+                "rank": 23,
+                "distance": 129.5,
+                "total_points": 129.3
+              },
+              "round_2": {
+                "rank": 30,
+                "distance": 124.0,
+                "total_points": 111.1
+              }
+            },
             "total_points": 240.4,
             "diff": -63.6
           }
@@ -3454,6 +5178,8 @@
     ],
     "country": "KAZ",
     "fis_code": "219683",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3470,7 +5196,7 @@
             "distance": 91.5,
             "total_points": 0.0
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 66,
             "qualified": false,
@@ -3485,6 +5211,15 @@
             "distance": 92.0,
             "total_points": 34.1,
             "diff": -85.7
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 64,
+            "qualified": false,
+            "bib": 62,
+            "distance": 87.0,
+            "total_points": 24.9,
+            "diff": -111.9
           }
         }
       }
@@ -3496,6 +5231,8 @@
     ],
     "country": "CZE",
     "fis_code": "8047",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3512,7 +5249,7 @@
             "distance": 107.0,
             "total_points": 18.8
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 67,
             "qualified": false,
@@ -3527,6 +5264,15 @@
             "distance": 93.5,
             "total_points": 31.2,
             "diff": -88.6
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 59,
+            "qualified": false,
+            "bib": 63,
+            "distance": 105.5,
+            "total_points": 58.5,
+            "diff": -78.3
           }
         }
       }
@@ -3538,6 +5284,8 @@
     ],
     "country": "KAZ",
     "fis_code": "7586",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3554,7 +5302,7 @@
             "distance": 86.0,
             "total_points": 0.0
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 68,
             "qualified": false,
@@ -3569,6 +5317,15 @@
             "distance": 87.0,
             "total_points": 22.2,
             "diff": -97.6
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 63,
+            "qualified": false,
+            "bib": 64,
+            "distance": 86.5,
+            "total_points": 31.7,
+            "diff": -105.1
           }
         }
       }
@@ -3580,6 +5337,8 @@
     ],
     "country": "UKR",
     "fis_code": "5664",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3596,7 +5355,7 @@
             "distance": 108.0,
             "total_points": 15.5
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 69,
             "qualified": false,
@@ -3611,6 +5370,15 @@
             "distance": 80.5,
             "total_points": 18.2,
             "diff": -101.6
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 55,
+            "qualified": false,
+            "bib": 65,
+            "distance": 110.0,
+            "total_points": 74.4,
+            "diff": -62.4
           }
         }
       }
@@ -3622,6 +5390,8 @@
     ],
     "country": "CHN",
     "fis_code": "8514",
+    "wc_points": 0,
+    "wc_position": null,
     "events": {
       "lillehammer": {
         "type": "hs140",
@@ -3638,7 +5408,7 @@
             "distance": 92.0,
             "total_points": 0.0
           },
-          "qualifying": {
+          "qualifying_1": {
             "date": "2026-11-20",
             "rank": 70,
             "qualified": false,
@@ -3653,6 +5423,15 @@
             "distance": 76.5,
             "total_points": 0.0,
             "diff": -119.8
+          },
+          "qualifying_2": {
+            "date": "2026-11-22",
+            "rank": 61,
+            "qualified": false,
+            "bib": 66,
+            "distance": 99.5,
+            "total_points": 45.2,
+            "diff": -91.6
           }
         }
       }
