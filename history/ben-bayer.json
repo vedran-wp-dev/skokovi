@@ -1,0 +1,90 @@
+{
+  "name": "Ben Bayer",
+  "country": "GER",
+  "fis_code": "8123",
+  "competitor_id": "221813",
+  "seasons": {
+    "2025/2026": {
+      "starts": 6,
+      "avg_rank": 38.5
+    }
+  },
+  "hills": {
+    "engelberg": {
+      "hs140": {
+        "avg_rank": 38.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              38
+            ],
+            "avg_rank": 38.0,
+            "season_avg": 38.5,
+            "diff": 0.5
+          }
+        }
+      }
+    },
+    "garmisch_partenkirchen": {
+      "hs142": {
+        "avg_rank": 43.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              43
+            ],
+            "avg_rank": 43.0,
+            "season_avg": 38.5,
+            "diff": -4.5
+          }
+        }
+      }
+    },
+    "oslo": {
+      "hs134": {
+        "avg_rank": 32.5,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              40,
+              25
+            ],
+            "avg_rank": 32.5,
+            "season_avg": 38.5,
+            "diff": 6.0
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 47.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              47
+            ],
+            "avg_rank": 47.0,
+            "season_avg": 38.5,
+            "diff": -8.5
+          }
+        }
+      }
+    },
+    "vikersund": {
+      "hs240": {
+        "avg_rank": 38.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              38
+            ],
+            "avg_rank": 38.0,
+            "season_avg": 38.5,
+            "diff": 0.5
+          }
+        }
+      }
+    }
+  }
+}

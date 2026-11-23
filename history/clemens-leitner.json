@@ -1,0 +1,44 @@
+{
+  "name": "Clemens Leitner",
+  "country": "AUT",
+  "fis_code": "6711",
+  "competitor_id": "174348",
+  "seasons": {
+    "2025/2026": {
+      "starts": 2,
+      "avg_rank": 38.0
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 36.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              36
+            ],
+            "avg_rank": 36.0,
+            "season_avg": 38.0,
+            "diff": 2.0
+          }
+        }
+      }
+    },
+    "innsbruck": {
+      "hs128": {
+        "avg_rank": 40.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              40
+            ],
+            "avg_rank": 40.0,
+            "season_avg": 38.0,
+            "diff": -2.0
+          }
+        }
+      }
+    }
+  }
+}

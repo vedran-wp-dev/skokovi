@@ -1,0 +1,61 @@
+{
+  "name": "Maksim Bartolj",
+  "country": "SLO",
+  "fis_code": "8412",
+  "competitor_id": "235721",
+  "seasons": {
+    "2023/2024": {
+      "starts": 5,
+      "avg_rank": 34.8
+    }
+  },
+  "hills": {
+    "lahti": {
+      "hs130": {
+        "avg_rank": 44.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              48,
+              41
+            ],
+            "avg_rank": 44.5,
+            "season_avg": 34.8,
+            "diff": -9.7
+          }
+        }
+      }
+    },
+    "lake_placid": {
+      "hs128": {
+        "avg_rank": 32.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              31,
+              33
+            ],
+            "avg_rank": 32.0,
+            "season_avg": 34.8,
+            "diff": 2.8
+          }
+        }
+      }
+    },
+    "planica": {
+      "hs240": {
+        "avg_rank": 21.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              21
+            ],
+            "avg_rank": 21.0,
+            "season_avg": 34.8,
+            "diff": 13.8
+          }
+        }
+      }
+    }
+  }
+}

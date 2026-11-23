@@ -1,0 +1,318 @@
+{
+  "name": "Peter Prevc",
+  "country": "SLO",
+  "fis_code": "5658",
+  "competitor_id": "131309",
+  "seasons": {
+    "2023/2024": {
+      "starts": 30,
+      "avg_rank": 10.0
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 9.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              9
+            ],
+            "avg_rank": 9.0,
+            "season_avg": 10.0,
+            "diff": 1.0
+          }
+        }
+      }
+    },
+    "engelberg": {
+      "hs140": {
+        "avg_rank": 15.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              16,
+              15
+            ],
+            "avg_rank": 15.5,
+            "season_avg": 10.0,
+            "diff": -5.5
+          }
+        }
+      }
+    },
+    "garmisch_partenkirchen": {
+      "hs142": {
+        "avg_rank": 9.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              9
+            ],
+            "avg_rank": 9.0,
+            "season_avg": 10.0,
+            "diff": 1.0
+          }
+        }
+      }
+    },
+    "innsbruck": {
+      "hs128": {
+        "avg_rank": 31.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              31
+            ],
+            "avg_rank": 31.0,
+            "season_avg": 10.0,
+            "diff": -21.0
+          }
+        }
+      }
+    },
+    "klingenthal": {
+      "hs140": {
+        "avg_rank": 11.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              12,
+              11
+            ],
+            "avg_rank": 11.5,
+            "season_avg": 10.0,
+            "diff": -1.5
+          }
+        }
+      }
+    },
+    "lahti": {
+      "hs130": {
+        "avg_rank": 8.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              14,
+              2
+            ],
+            "avg_rank": 8.0,
+            "season_avg": 10.0,
+            "diff": 2.0
+          }
+        }
+      }
+    },
+    "lillehammer": {
+      "hs98": {
+        "avg_rank": 19.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              19
+            ],
+            "avg_rank": 19.0,
+            "season_avg": 10.0,
+            "diff": -9.0
+          }
+        }
+      },
+      "hs140": {
+        "avg_rank": 10.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              10
+            ],
+            "avg_rank": 10.0,
+            "season_avg": 10.0,
+            "diff": 0.0
+          }
+        }
+      }
+    },
+    "oberstdorf": {
+      "hs137": {
+        "avg_rank": 9.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              9
+            ],
+            "avg_rank": 9.0,
+            "season_avg": 10.0,
+            "diff": 1.0
+          }
+        }
+      },
+      "hs235": {
+        "avg_rank": 2.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              2,
+              2
+            ],
+            "avg_rank": 2.0,
+            "season_avg": 10.0,
+            "diff": 8.0
+          }
+        }
+      }
+    },
+    "oslo": {
+      "hs134": {
+        "avg_rank": 9.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              8,
+              11
+            ],
+            "avg_rank": 9.5,
+            "season_avg": 10.0,
+            "diff": 0.5
+          }
+        }
+      }
+    },
+    "planica": {
+      "hs240": {
+        "avg_rank": 3.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              1,
+              6
+            ],
+            "avg_rank": 3.5,
+            "season_avg": 10.0,
+            "diff": 6.5
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 9.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              13,
+              6
+            ],
+            "avg_rank": 9.5,
+            "season_avg": 10.0,
+            "diff": 0.5
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 8.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              9,
+              8
+            ],
+            "avg_rank": 8.5,
+            "season_avg": 10.0,
+            "diff": 1.5
+          }
+        }
+      }
+    },
+    "trondheim": {
+      "hs105": {
+        "avg_rank": 2.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              2
+            ],
+            "avg_rank": 2.0,
+            "season_avg": 10.0,
+            "diff": 8.0
+          }
+        }
+      },
+      "hs138": {
+        "avg_rank": 5.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              5
+            ],
+            "avg_rank": 5.0,
+            "season_avg": 10.0,
+            "diff": 5.0
+          }
+        }
+      }
+    },
+    "vikersund": {
+      "hs240": {
+        "avg_rank": 6.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              8,
+              4
+            ],
+            "avg_rank": 6.0,
+            "season_avg": 10.0,
+            "diff": 4.0
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 16.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              20,
+              13
+            ],
+            "avg_rank": 16.5,
+            "season_avg": 10.0,
+            "diff": -6.5
+          }
+        }
+      }
+    },
+    "wisla": {
+      "hs134": {
+        "avg_rank": 5.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              5
+            ],
+            "avg_rank": 5.0,
+            "season_avg": 10.0,
+            "diff": 5.0
+          }
+        }
+      }
+    },
+    "zakopane": {
+      "hs140": {
+        "avg_rank": 20.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              20
+            ],
+            "avg_rank": 20.0,
+            "season_avg": 10.0,
+            "diff": -10.0
+          }
+        }
+      }
+    }
+  }
+}

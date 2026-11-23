@@ -1,0 +1,152 @@
+{
+  "name": "Ziga Jelar",
+  "country": "SLO",
+  "fis_code": "6483",
+  "competitor_id": "164624",
+  "seasons": {
+    "2023/2024": {
+      "starts": 4,
+      "avg_rank": 29.2
+    },
+    "2024/2025": {
+      "starts": 6,
+      "avg_rank": 39.3
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 39.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              39
+            ],
+            "avg_rank": 39.0,
+            "season_avg": 39.3,
+            "diff": 0.3
+          }
+        }
+      }
+    },
+    "engelberg": {
+      "hs140": {
+        "avg_rank": 44.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              44
+            ],
+            "avg_rank": 44.0,
+            "season_avg": 39.3,
+            "diff": -4.7
+          }
+        }
+      }
+    },
+    "garmisch_partenkirchen": {
+      "hs142": {
+        "avg_rank": 27.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              27
+            ],
+            "avg_rank": 27.0,
+            "season_avg": 39.3,
+            "diff": 12.3
+          }
+        }
+      }
+    },
+    "innsbruck": {
+      "hs128": {
+        "avg_rank": 49.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 39.3,
+            "diff": -9.7
+          }
+        }
+      }
+    },
+    "lillehammer": {
+      "hs98": {
+        "avg_rank": 31.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              31
+            ],
+            "avg_rank": 31.0,
+            "season_avg": 29.2,
+            "diff": -1.8
+          }
+        }
+      },
+      "hs140": {
+        "avg_rank": 26.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              26
+            ],
+            "avg_rank": 26.0,
+            "season_avg": 29.2,
+            "diff": 3.2
+          }
+        }
+      }
+    },
+    "oberstdorf": {
+      "hs137": {
+        "avg_rank": 46.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              46
+            ],
+            "avg_rank": 46.0,
+            "season_avg": 39.3,
+            "diff": -6.7
+          }
+        }
+      }
+    },
+    "planica": {
+      "hs240": {
+        "avg_rank": 31.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              31
+            ],
+            "avg_rank": 31.0,
+            "season_avg": 39.3,
+            "diff": 8.3
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 30.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              29,
+              31
+            ],
+            "avg_rank": 30.0,
+            "season_avg": 29.2,
+            "diff": -0.8
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Marco Woergoetter",
+  "country": "AUT",
+  "fis_code": "8019",
+  "competitor_id": "218403",
+  "seasons": {
+    "2023/2024": {
+      "starts": 1,
+      "avg_rank": 39.0
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 39.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              39
+            ],
+            "avg_rank": 39.0,
+            "season_avg": 39.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

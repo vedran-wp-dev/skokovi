@@ -1,0 +1,29 @@
+{
+  "name": "Go Yamamoto",
+  "country": "JPN",
+  "fis_code": "6466",
+  "competitor_id": "164320",
+  "seasons": {
+    "2025/2026": {
+      "starts": 1,
+      "avg_rank": 32.0
+    }
+  },
+  "hills": {
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 32.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              32
+            ],
+            "avg_rank": 32.0,
+            "season_avg": 32.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

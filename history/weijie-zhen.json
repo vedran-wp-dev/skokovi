@@ -1,0 +1,29 @@
+{
+  "name": "Weijie Zhen",
+  "country": "CHN",
+  "fis_code": "8514",
+  "competitor_id": "237718",
+  "seasons": {
+    "2024/2025": {
+      "starts": 1,
+      "avg_rank": 49.0
+    }
+  },
+  "hills": {
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 49.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 49.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

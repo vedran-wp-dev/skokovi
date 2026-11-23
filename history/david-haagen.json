@@ -1,0 +1,29 @@
+{
+  "name": "David Haagen",
+  "country": "AUT",
+  "fis_code": "7179",
+  "competitor_id": "189068",
+  "seasons": {
+    "2023/2024": {
+      "starts": 1,
+      "avg_rank": 34.0
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 34.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              34
+            ],
+            "avg_rank": 34.0,
+            "season_avg": 34.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

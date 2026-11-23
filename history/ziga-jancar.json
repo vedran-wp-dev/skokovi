@@ -1,0 +1,79 @@
+{
+  "name": "Ziga Jancar",
+  "country": "SLO",
+  "fis_code": "220004",
+  "competitor_id": "269726",
+  "seasons": {
+    "2024/2025": {
+      "starts": 2,
+      "avg_rank": 35.5
+    },
+    "2025/2026": {
+      "starts": 3,
+      "avg_rank": 32.7
+    }
+  },
+  "hills": {
+    "lake_placid": {
+      "hs128": {
+        "avg_rank": 35.5,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              34,
+              37
+            ],
+            "avg_rank": 35.5,
+            "season_avg": 35.5,
+            "diff": 0.0
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 19.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              19
+            ],
+            "avg_rank": 19.0,
+            "season_avg": 32.7,
+            "diff": 13.7
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 38.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              38
+            ],
+            "avg_rank": 38.0,
+            "season_avg": 32.7,
+            "diff": -5.3
+          }
+        }
+      }
+    },
+    "wisla": {
+      "hs134": {
+        "avg_rank": 41.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              41
+            ],
+            "avg_rank": 41.0,
+            "season_avg": 32.7,
+            "diff": -8.3
+          }
+        }
+      }
+    }
+  }
+}

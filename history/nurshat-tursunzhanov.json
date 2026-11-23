@@ -1,0 +1,29 @@
+{
+  "name": "Nurshat Tursunzhanov",
+  "country": "KAZ",
+  "fis_code": "7586",
+  "competitor_id": "203240",
+  "seasons": {
+    "2025/2026": {
+      "starts": 1,
+      "avg_rank": 62.0
+    }
+  },
+  "hills": {
+    "lahti": {
+      "hs130": {
+        "avg_rank": 62.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              62
+            ],
+            "avg_rank": 62.0,
+            "season_avg": 62.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

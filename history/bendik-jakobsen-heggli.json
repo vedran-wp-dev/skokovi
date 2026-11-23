@@ -1,0 +1,29 @@
+{
+  "name": "Bendik Jakobsen Heggli",
+  "country": "NOR",
+  "fis_code": "9341",
+  "competitor_id": "245133",
+  "seasons": {
+    "2023/2024": {
+      "starts": 1,
+      "avg_rank": 43.0
+    }
+  },
+  "hills": {
+    "lillehammer": {
+      "hs140": {
+        "avg_rank": 43.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              43
+            ],
+            "avg_rank": 43.0,
+            "season_avg": 43.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

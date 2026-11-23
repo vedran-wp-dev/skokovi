@@ -1,0 +1,80 @@
+{
+  "name": "Soelve Jokerud Strand",
+  "country": "NOR",
+  "fis_code": "8443",
+  "competitor_id": "236223",
+  "seasons": {
+    "2024/2025": {
+      "starts": 4,
+      "avg_rank": 31.2
+    },
+    "2025/2026": {
+      "starts": 2,
+      "avg_rank": 36.0
+    }
+  },
+  "hills": {
+    "lahti": {
+      "hs130": {
+        "avg_rank": 29.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              29
+            ],
+            "avg_rank": 29.0,
+            "season_avg": 31.2,
+            "diff": 2.2
+          }
+        }
+      }
+    },
+    "oslo": {
+      "hs134": {
+        "avg_rank": 34.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              34
+            ],
+            "avg_rank": 34.0,
+            "season_avg": 31.2,
+            "diff": -2.8
+          }
+        }
+      }
+    },
+    "vikersund": {
+      "hs240": {
+        "avg_rank": 31.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              34,
+              28
+            ],
+            "avg_rank": 31.0,
+            "season_avg": 31.2,
+            "diff": 0.2
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 36.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              30,
+              42
+            ],
+            "avg_rank": 36.0,
+            "season_avg": 36.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

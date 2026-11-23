@@ -1,0 +1,143 @@
+{
+  "name": "Muhammed Ali Bedir",
+  "country": "TUR",
+  "fis_code": "7282",
+  "competitor_id": "193864",
+  "seasons": {
+    "2023/2024": {
+      "starts": 1,
+      "avg_rank": 49.0
+    },
+    "2024/2025": {
+      "starts": 5,
+      "avg_rank": 41.2
+    },
+    "2025/2026": {
+      "starts": 3,
+      "avg_rank": 53.7
+    }
+  },
+  "hills": {
+    "lahti": {
+      "hs130": {
+        "avg_rank": 63.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              63
+            ],
+            "avg_rank": 63.0,
+            "season_avg": 53.7,
+            "diff": -9.3
+          }
+        }
+      }
+    },
+    "planica": {
+      "hs240": {
+        "avg_rank": 34.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              34
+            ],
+            "avg_rank": 34.0,
+            "season_avg": 41.2,
+            "diff": 7.2
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 40.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 49.0,
+            "diff": 0.0
+          },
+          "2024/2025": {
+            "ranks": [
+              31
+            ],
+            "avg_rank": 31.0,
+            "season_avg": 41.2,
+            "diff": 10.2
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 48.5,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              48
+            ],
+            "avg_rank": 48.0,
+            "season_avg": 41.2,
+            "diff": -6.8
+          },
+          "2025/2026": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 53.7,
+            "diff": 4.7
+          }
+        }
+      }
+    },
+    "titisee_neustadt": {
+      "hs142": {
+        "avg_rank": 45.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              45
+            ],
+            "avg_rank": 45.0,
+            "season_avg": 41.2,
+            "diff": -3.8
+          }
+        }
+      }
+    },
+    "vikersund": {
+      "hs240": {
+        "avg_rank": 48.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              48
+            ],
+            "avg_rank": 48.0,
+            "season_avg": 41.2,
+            "diff": -6.8
+          }
+        }
+      }
+    },
+    "wisla": {
+      "hs134": {
+        "avg_rank": 49.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 53.7,
+            "diff": 4.7
+          }
+        }
+      }
+    }
+  }
+}

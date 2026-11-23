@@ -1,0 +1,44 @@
+{
+  "name": "Svyatoslav Nazarenko",
+  "country": "KAZ",
+  "fis_code": "219683",
+  "competitor_id": "252513",
+  "seasons": {
+    "2023/2024": {
+      "starts": 2,
+      "avg_rank": 46.0
+    }
+  },
+  "hills": {
+    "klingenthal": {
+      "hs140": {
+        "avg_rank": 49.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 46.0,
+            "diff": -3.0
+          }
+        }
+      }
+    },
+    "oberstdorf": {
+      "hs137": {
+        "avg_rank": 43.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              43
+            ],
+            "avg_rank": 43.0,
+            "season_avg": 46.0,
+            "diff": 3.0
+          }
+        }
+      }
+    }
+  }
+}

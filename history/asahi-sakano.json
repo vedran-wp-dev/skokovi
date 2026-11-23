@@ -1,0 +1,30 @@
+{
+  "name": "Asahi Sakano",
+  "country": "JPN",
+  "fis_code": "8256",
+  "competitor_id": "229116",
+  "seasons": {
+    "2023/2024": {
+      "starts": 2,
+      "avg_rank": 48.0
+    }
+  },
+  "hills": {
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 48.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              49,
+              47
+            ],
+            "avg_rank": 48.0,
+            "season_avg": 48.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

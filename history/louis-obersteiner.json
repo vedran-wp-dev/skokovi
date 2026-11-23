@@ -1,0 +1,29 @@
+{
+  "name": "Louis Obersteiner",
+  "country": "FRA",
+  "fis_code": "8282",
+  "competitor_id": "229568",
+  "seasons": {
+    "2025/2026": {
+      "starts": 1,
+      "avg_rank": 44.0
+    }
+  },
+  "hills": {
+    "falun": {
+      "hs132": {
+        "avg_rank": 44.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              44
+            ],
+            "avg_rank": 44.0,
+            "season_avg": 44.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

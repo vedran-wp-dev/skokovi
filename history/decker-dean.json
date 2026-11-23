@@ -1,0 +1,71 @@
+{
+  "name": "Decker Dean",
+  "country": "USA",
+  "fis_code": "7936",
+  "competitor_id": "217495",
+  "seasons": {
+    "2023/2024": {
+      "starts": 3,
+      "avg_rank": 48.3
+    },
+    "2024/2025": {
+      "starts": 1,
+      "avg_rank": 50.0
+    }
+  },
+  "hills": {
+    "lake_placid": {
+      "hs128": {
+        "avg_rank": 49.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 48.3,
+            "diff": -0.7
+          },
+          "2024/2025": {
+            "ranks": [
+              50
+            ],
+            "avg_rank": 50.0,
+            "season_avg": 50.0,
+            "diff": 0.0
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 50.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              50
+            ],
+            "avg_rank": 50.0,
+            "season_avg": 48.3,
+            "diff": -1.7
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 46.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              46
+            ],
+            "avg_rank": 46.0,
+            "season_avg": 48.3,
+            "diff": 2.3
+          }
+        }
+      }
+    }
+  }
+}

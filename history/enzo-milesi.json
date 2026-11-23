@@ -1,0 +1,127 @@
+{
+  "name": "Enzo Milesi",
+  "country": "FRA",
+  "fis_code": "8013",
+  "competitor_id": "218365",
+  "seasons": {
+    "2024/2025": {
+      "starts": 6,
+      "avg_rank": 45.8
+    },
+    "2025/2026": {
+      "starts": 5,
+      "avg_rank": 48.2
+    }
+  },
+  "hills": {
+    "engelberg": {
+      "hs140": {
+        "avg_rank": 48.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              48
+            ],
+            "avg_rank": 48.0,
+            "season_avg": 48.2,
+            "diff": 0.2
+          }
+        }
+      }
+    },
+    "lahti": {
+      "hs130": {
+        "avg_rank": 50.7,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              50
+            ],
+            "avg_rank": 50.0,
+            "season_avg": 45.8,
+            "diff": -4.2
+          },
+          "2025/2026": {
+            "ranks": [
+              53,
+              49
+            ],
+            "avg_rank": 51.0,
+            "season_avg": 48.2,
+            "diff": -2.8
+          }
+        }
+      }
+    },
+    "lillehammer": {
+      "hs140": {
+        "avg_rank": 45.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              45
+            ],
+            "avg_rank": 45.0,
+            "season_avg": 45.8,
+            "diff": 0.8
+          }
+        }
+      }
+    },
+    "oslo": {
+      "hs134": {
+        "avg_rank": 46.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              46
+            ],
+            "avg_rank": 46.0,
+            "season_avg": 45.8,
+            "diff": -0.2
+          }
+        }
+      }
+    },
+    "vikersund": {
+      "hs240": {
+        "avg_rank": 46.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              46
+            ],
+            "avg_rank": 46.0,
+            "season_avg": 45.8,
+            "diff": -0.2
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 44.8,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              47,
+              41
+            ],
+            "avg_rank": 44.0,
+            "season_avg": 45.8,
+            "diff": 1.8
+          },
+          "2025/2026": {
+            "ranks": [
+              47,
+              44
+            ],
+            "avg_rank": 45.5,
+            "season_avg": 48.2,
+            "diff": 2.7
+          }
+        }
+      }
+    }
+  }
+}

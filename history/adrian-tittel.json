@@ -1,0 +1,168 @@
+{
+  "name": "Adrian Tittel",
+  "country": "GER",
+  "fis_code": "8329",
+  "competitor_id": "229872",
+  "seasons": {
+    "2024/2025": {
+      "starts": 14,
+      "avg_rank": 37.8
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 33.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              33
+            ],
+            "avg_rank": 33.0,
+            "season_avg": 37.8,
+            "diff": 4.8
+          }
+        }
+      }
+    },
+    "engelberg": {
+      "hs140": {
+        "avg_rank": 45.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              49,
+              41
+            ],
+            "avg_rank": 45.0,
+            "season_avg": 37.8,
+            "diff": -7.2
+          }
+        }
+      }
+    },
+    "innsbruck": {
+      "hs128": {
+        "avg_rank": 45.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              45
+            ],
+            "avg_rank": 45.0,
+            "season_avg": 37.8,
+            "diff": -7.2
+          }
+        }
+      }
+    },
+    "lillehammer": {
+      "hs140": {
+        "avg_rank": 28.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              28
+            ],
+            "avg_rank": 28.0,
+            "season_avg": 37.8,
+            "diff": 9.8
+          }
+        }
+      }
+    },
+    "oberstdorf": {
+      "hs137": {
+        "avg_rank": 44.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              44
+            ],
+            "avg_rank": 44.0,
+            "season_avg": 37.8,
+            "diff": -6.2
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 28.5,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              24,
+              33
+            ],
+            "avg_rank": 28.5,
+            "season_avg": 37.8,
+            "diff": 9.3
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 40.5,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              37,
+              44
+            ],
+            "avg_rank": 40.5,
+            "season_avg": 37.8,
+            "diff": -2.7
+          }
+        }
+      }
+    },
+    "titisee_neustadt": {
+      "hs142": {
+        "avg_rank": 33.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              30,
+              36
+            ],
+            "avg_rank": 33.0,
+            "season_avg": 37.8,
+            "diff": 4.8
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 45.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              45
+            ],
+            "avg_rank": 45.0,
+            "season_avg": 37.8,
+            "diff": -7.2
+          }
+        }
+      }
+    },
+    "wisla": {
+      "hs134": {
+        "avg_rank": 40.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              40
+            ],
+            "avg_rank": 40.0,
+            "season_avg": 37.8,
+            "diff": -2.2
+          }
+        }
+      }
+    }
+  }
+}

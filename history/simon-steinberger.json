@@ -1,0 +1,29 @@
+{
+  "name": "Simon Steinberger",
+  "country": "AUT",
+  "fis_code": "8091",
+  "competitor_id": "221384",
+  "seasons": {
+    "2023/2024": {
+      "starts": 1,
+      "avg_rank": 48.0
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 48.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              48
+            ],
+            "avg_rank": 48.0,
+            "season_avg": 48.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

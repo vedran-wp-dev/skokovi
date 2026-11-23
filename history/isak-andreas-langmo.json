@@ -1,0 +1,195 @@
+{
+  "name": "Isak Andreas Langmo",
+  "country": "NOR",
+  "fis_code": "219702",
+  "competitor_id": "253455",
+  "seasons": {
+    "2024/2025": {
+      "starts": 1,
+      "avg_rank": 46.0
+    },
+    "2025/2026": {
+      "starts": 15,
+      "avg_rank": 21.9
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 20.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              20
+            ],
+            "avg_rank": 20.0,
+            "season_avg": 21.9,
+            "diff": 1.9
+          }
+        }
+      }
+    },
+    "garmisch_partenkirchen": {
+      "hs142": {
+        "avg_rank": 29.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              29
+            ],
+            "avg_rank": 29.0,
+            "season_avg": 21.9,
+            "diff": -7.1
+          }
+        }
+      }
+    },
+    "innsbruck": {
+      "hs128": {
+        "avg_rank": 34.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              34
+            ],
+            "avg_rank": 34.0,
+            "season_avg": 21.9,
+            "diff": -12.1
+          }
+        }
+      }
+    },
+    "kulm": {
+      "hs235": {
+        "avg_rank": 15.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              15
+            ],
+            "avg_rank": 15.0,
+            "season_avg": 21.9,
+            "diff": 6.9
+          }
+        }
+      }
+    },
+    "lahti": {
+      "hs130": {
+        "avg_rank": 22.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              46
+            ],
+            "avg_rank": 46.0,
+            "season_avg": 46.0,
+            "diff": 0.0
+          },
+          "2025/2026": {
+            "ranks": [
+              13,
+              7
+            ],
+            "avg_rank": 10.0,
+            "season_avg": 21.9,
+            "diff": 11.9
+          }
+        }
+      }
+    },
+    "oberstdorf": {
+      "hs137": {
+        "avg_rank": 40.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              40
+            ],
+            "avg_rank": 40.0,
+            "season_avg": 21.9,
+            "diff": -18.1
+          }
+        }
+      }
+    },
+    "oslo": {
+      "hs134": {
+        "avg_rank": 14.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              20,
+              8
+            ],
+            "avg_rank": 14.0,
+            "season_avg": 21.9,
+            "diff": 7.9
+          }
+        }
+      }
+    },
+    "planica": {
+      "hs240": {
+        "avg_rank": 22.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              26,
+              18
+            ],
+            "avg_rank": 22.0,
+            "season_avg": 21.9,
+            "diff": -0.1
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 26.5,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              37,
+              16
+            ],
+            "avg_rank": 26.5,
+            "season_avg": 21.9,
+            "diff": -4.6
+          }
+        }
+      }
+    },
+    "vikersund": {
+      "hs240": {
+        "avg_rank": 4.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              4
+            ],
+            "avg_rank": 4.0,
+            "season_avg": 21.9,
+            "diff": 17.9
+          }
+        }
+      }
+    },
+    "zakopane": {
+      "hs140": {
+        "avg_rank": 41.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              41
+            ],
+            "avg_rank": 41.0,
+            "season_avg": 21.9,
+            "diff": -19.1
+          }
+        }
+      }
+    }
+  }
+}

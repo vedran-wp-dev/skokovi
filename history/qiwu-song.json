@@ -1,0 +1,56 @@
+{
+  "name": "Qiwu Song",
+  "country": "CHN",
+  "fis_code": "8520",
+  "competitor_id": "237724",
+  "seasons": {
+    "2024/2025": {
+      "starts": 2,
+      "avg_rank": 35.5
+    },
+    "2025/2026": {
+      "starts": 1,
+      "avg_rank": 45.0
+    }
+  },
+  "hills": {
+    "lahti": {
+      "hs130": {
+        "avg_rank": 34.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              34
+            ],
+            "avg_rank": 34.0,
+            "season_avg": 35.5,
+            "diff": 1.5
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 41.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              37
+            ],
+            "avg_rank": 37.0,
+            "season_avg": 35.5,
+            "diff": -1.5
+          },
+          "2025/2026": {
+            "ranks": [
+              45
+            ],
+            "avg_rank": 45.0,
+            "season_avg": 45.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

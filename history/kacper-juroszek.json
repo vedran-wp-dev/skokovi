@@ -1,0 +1,30 @@
+{
+  "name": "Kacper Juroszek",
+  "country": "POL",
+  "fis_code": "7835",
+  "competitor_id": "212115",
+  "seasons": {
+    "2024/2025": {
+      "starts": 2,
+      "avg_rank": 41.5
+    }
+  },
+  "hills": {
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 41.5,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              36,
+              47
+            ],
+            "avg_rank": 41.5,
+            "season_avg": 41.5,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

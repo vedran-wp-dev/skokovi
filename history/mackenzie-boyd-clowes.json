@@ -1,0 +1,132 @@
+{
+  "name": "Mackenzie Boyd-Clowes",
+  "country": "CAN",
+  "fis_code": "4678",
+  "competitor_id": "78803",
+  "seasons": {
+    "2025/2026": {
+      "starts": 8,
+      "avg_rank": 42.9
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 49.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 42.9,
+            "diff": -6.1
+          }
+        }
+      }
+    },
+    "falun": {
+      "hs95": {
+        "avg_rank": 42.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              42
+            ],
+            "avg_rank": 42.0,
+            "season_avg": 42.9,
+            "diff": 0.9
+          }
+        }
+      },
+      "hs132": {
+        "avg_rank": 49.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 42.9,
+            "diff": -6.1
+          }
+        }
+      }
+    },
+    "garmisch_partenkirchen": {
+      "hs142": {
+        "avg_rank": 30.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              30
+            ],
+            "avg_rank": 30.0,
+            "season_avg": 42.9,
+            "diff": 12.9
+          }
+        }
+      }
+    },
+    "lillehammer": {
+      "hs140": {
+        "avg_rank": 32.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              32
+            ],
+            "avg_rank": 32.0,
+            "season_avg": 42.9,
+            "diff": 10.9
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 49.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 42.9,
+            "diff": -6.1
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 48.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              48
+            ],
+            "avg_rank": 48.0,
+            "season_avg": 42.9,
+            "diff": -5.1
+          }
+        }
+      }
+    },
+    "wisla": {
+      "hs134": {
+        "avg_rank": 44.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              44
+            ],
+            "avg_rank": 44.0,
+            "season_avg": 42.9,
+            "diff": -1.1
+          }
+        }
+      }
+    }
+  }
+}

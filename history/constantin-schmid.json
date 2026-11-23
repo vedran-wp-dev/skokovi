@@ -1,0 +1,173 @@
+{
+  "name": "Constantin Schmid",
+  "country": "GER",
+  "fis_code": "7196",
+  "competitor_id": "189105",
+  "seasons": {
+    "2023/2024": {
+      "starts": 9,
+      "avg_rank": 29.8
+    },
+    "2024/2025": {
+      "starts": 3,
+      "avg_rank": 39.0
+    },
+    "2025/2026": {
+      "starts": 1,
+      "avg_rank": 49.0
+    }
+  },
+  "hills": {
+    "garmisch_partenkirchen": {
+      "hs142": {
+        "avg_rank": 25.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              17
+            ],
+            "avg_rank": 17.0,
+            "season_avg": 29.8,
+            "diff": 12.8
+          },
+          "2024/2025": {
+            "ranks": [
+              34
+            ],
+            "avg_rank": 34.0,
+            "season_avg": 39.0,
+            "diff": 5.0
+          }
+        }
+      }
+    },
+    "lahti": {
+      "hs130": {
+        "avg_rank": 24.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              21,
+              27
+            ],
+            "avg_rank": 24.0,
+            "season_avg": 29.8,
+            "diff": 5.8
+          }
+        }
+      }
+    },
+    "oberstdorf": {
+      "hs137": {
+        "avg_rank": 49.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 49.0,
+            "diff": 0.0
+          }
+        }
+      }
+    },
+    "oslo": {
+      "hs134": {
+        "avg_rank": 25.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              28,
+              23
+            ],
+            "avg_rank": 25.5,
+            "season_avg": 29.8,
+            "diff": 4.3
+          }
+        }
+      }
+    },
+    "trondheim": {
+      "hs105": {
+        "avg_rank": 45.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              45
+            ],
+            "avg_rank": 45.0,
+            "season_avg": 29.8,
+            "diff": -15.2
+          }
+        }
+      },
+      "hs138": {
+        "avg_rank": 37.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              37
+            ],
+            "avg_rank": 37.0,
+            "season_avg": 29.8,
+            "diff": -7.2
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 42.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              42
+            ],
+            "avg_rank": 42.0,
+            "season_avg": 39.0,
+            "diff": -3.0
+          }
+        }
+      }
+    },
+    "wisla": {
+      "hs134": {
+        "avg_rank": 32.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              32
+            ],
+            "avg_rank": 32.0,
+            "season_avg": 29.8,
+            "diff": -2.2
+          }
+        }
+      }
+    },
+    "zakopane": {
+      "hs140": {
+        "avg_rank": 39.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              38
+            ],
+            "avg_rank": 38.0,
+            "season_avg": 29.8,
+            "diff": -8.2
+          },
+          "2024/2025": {
+            "ranks": [
+              41
+            ],
+            "avg_rank": 41.0,
+            "season_avg": 39.0,
+            "diff": -2.0
+          }
+        }
+      }
+    }
+  }
+}

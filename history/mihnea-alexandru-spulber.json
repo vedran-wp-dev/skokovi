@@ -1,0 +1,29 @@
+{
+  "name": "Mihnea Alexandru Spulber",
+  "country": "ROU",
+  "fis_code": "6807",
+  "competitor_id": "178038",
+  "seasons": {
+    "2023/2024": {
+      "starts": 1,
+      "avg_rank": 49.0
+    }
+  },
+  "hills": {
+    "lake_placid": {
+      "hs128": {
+        "avg_rank": 49.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 49.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

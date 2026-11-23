@@ -1,0 +1,135 @@
+{
+  "name": "Taku Takeuchi",
+  "country": "JPN",
+  "fis_code": "4367",
+  "competitor_id": "73277",
+  "seasons": {
+    "2023/2024": {
+      "starts": 10,
+      "avg_rank": 41.1
+    },
+    "2024/2025": {
+      "starts": 2,
+      "avg_rank": 49.0
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 44.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              44
+            ],
+            "avg_rank": 44.0,
+            "season_avg": 41.1,
+            "diff": -2.9
+          }
+        }
+      }
+    },
+    "engelberg": {
+      "hs140": {
+        "avg_rank": 35.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              30,
+              41
+            ],
+            "avg_rank": 35.5,
+            "season_avg": 41.1,
+            "diff": 5.6
+          }
+        }
+      }
+    },
+    "lahti": {
+      "hs130": {
+        "avg_rank": 49.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 41.1,
+            "diff": -7.9
+          }
+        }
+      }
+    },
+    "lake_placid": {
+      "hs128": {
+        "avg_rank": 43.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              45,
+              42
+            ],
+            "avg_rank": 43.5,
+            "season_avg": 41.1,
+            "diff": -2.4
+          }
+        }
+      }
+    },
+    "oberstdorf": {
+      "hs137": {
+        "avg_rank": 43.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              43
+            ],
+            "avg_rank": 43.0,
+            "season_avg": 41.1,
+            "diff": -1.9
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 48.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              46
+            ],
+            "avg_rank": 46.0,
+            "season_avg": 41.1,
+            "diff": -4.9
+          },
+          "2024/2025": {
+            "ranks": [
+              50,
+              48
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 49.0,
+            "diff": 0.0
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 35.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              30,
+              41
+            ],
+            "avg_rank": 35.5,
+            "season_avg": 41.1,
+            "diff": 5.6
+          }
+        }
+      }
+    }
+  }
+}

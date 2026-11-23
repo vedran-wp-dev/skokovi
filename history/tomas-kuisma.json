@@ -1,0 +1,29 @@
+{
+  "name": "Tomas Kuisma",
+  "country": "FIN",
+  "fis_code": "7859",
+  "competitor_id": "212416",
+  "seasons": {
+    "2024/2025": {
+      "starts": 1,
+      "avg_rank": 30.0
+    }
+  },
+  "hills": {
+    "lahti": {
+      "hs130": {
+        "avg_rank": 30.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              30
+            ],
+            "avg_rank": 30.0,
+            "season_avg": 30.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

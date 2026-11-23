@@ -1,0 +1,48 @@
+{
+  "name": "Rok Masle",
+  "country": "SLO",
+  "fis_code": "7620",
+  "competitor_id": "204078",
+  "seasons": {
+    "2024/2025": {
+      "starts": 1,
+      "avg_rank": 26.0
+    },
+    "2025/2026": {
+      "starts": 1,
+      "avg_rank": 41.0
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 41.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              41
+            ],
+            "avg_rank": 41.0,
+            "season_avg": 41.0,
+            "diff": 0.0
+          }
+        }
+      }
+    },
+    "planica": {
+      "hs240": {
+        "avg_rank": 26.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              26
+            ],
+            "avg_rank": 26.0,
+            "season_avg": 26.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

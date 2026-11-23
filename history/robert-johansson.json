@@ -1,0 +1,211 @@
+{
+  "name": "Robert Johansson",
+  "country": "NOR",
+  "fis_code": "5589",
+  "competitor_id": "128806",
+  "seasons": {
+    "2023/2024": {
+      "starts": 12,
+      "avg_rank": 22.8
+    },
+    "2024/2025": {
+      "starts": 8,
+      "avg_rank": 31.6
+    }
+  },
+  "hills": {
+    "lahti": {
+      "hs130": {
+        "avg_rank": 17.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              20,
+              15
+            ],
+            "avg_rank": 17.5,
+            "season_avg": 22.8,
+            "diff": 5.3
+          }
+        }
+      }
+    },
+    "lillehammer": {
+      "hs140": {
+        "avg_rank": 38.7,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 22.8,
+            "diff": -26.2
+          },
+          "2024/2025": {
+            "ranks": [
+              33,
+              34
+            ],
+            "avg_rank": 33.5,
+            "season_avg": 31.6,
+            "diff": -1.9
+          }
+        }
+      }
+    },
+    "oslo": {
+      "hs134": {
+        "avg_rank": 24.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              44,
+              5
+            ],
+            "avg_rank": 24.5,
+            "season_avg": 22.8,
+            "diff": -1.7
+          }
+        }
+      }
+    },
+    "planica": {
+      "hs240": {
+        "avg_rank": 13.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              19,
+              7
+            ],
+            "avg_rank": 13.0,
+            "season_avg": 22.8,
+            "diff": 9.8
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 12.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              12
+            ],
+            "avg_rank": 12.0,
+            "season_avg": 31.6,
+            "diff": 19.6
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 34.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              45,
+              23
+            ],
+            "avg_rank": 34.0,
+            "season_avg": 31.6,
+            "diff": -2.4
+          }
+        }
+      }
+    },
+    "titisee_neustadt": {
+      "hs142": {
+        "avg_rank": 29.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              29
+            ],
+            "avg_rank": 29.0,
+            "season_avg": 31.6,
+            "diff": 2.6
+          }
+        }
+      }
+    },
+    "trondheim": {
+      "hs105": {
+        "avg_rank": 39.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              39
+            ],
+            "avg_rank": 39.0,
+            "season_avg": 22.8,
+            "diff": -16.2
+          }
+        }
+      },
+      "hs138": {
+        "avg_rank": 38.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              38
+            ],
+            "avg_rank": 38.0,
+            "season_avg": 22.8,
+            "diff": -15.2
+          }
+        }
+      }
+    },
+    "vikersund": {
+      "hs240": {
+        "avg_rank": 10.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              5,
+              15
+            ],
+            "avg_rank": 10.0,
+            "season_avg": 22.8,
+            "diff": 12.8
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 17.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              17
+            ],
+            "avg_rank": 17.0,
+            "season_avg": 22.8,
+            "diff": 5.8
+          }
+        }
+      }
+    },
+    "wisla": {
+      "hs134": {
+        "avg_rank": 38.5,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              32,
+              45
+            ],
+            "avg_rank": 38.5,
+            "season_avg": 31.6,
+            "diff": -6.9
+          }
+        }
+      }
+    }
+  }
+}

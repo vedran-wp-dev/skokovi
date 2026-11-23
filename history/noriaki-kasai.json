@@ -1,0 +1,131 @@
+{
+  "name": "Noriaki Kasai",
+  "country": "JPN",
+  "fis_code": "2022",
+  "competitor_id": "29533",
+  "seasons": {
+    "2023/2024": {
+      "starts": 9,
+      "avg_rank": 36.7
+    },
+    "2024/2025": {
+      "starts": 1,
+      "avg_rank": 45.0
+    }
+  },
+  "hills": {
+    "lahti": {
+      "hs130": {
+        "avg_rank": 33.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              38,
+              28
+            ],
+            "avg_rank": 33.0,
+            "season_avg": 36.7,
+            "diff": 3.7
+          }
+        }
+      }
+    },
+    "oslo": {
+      "hs134": {
+        "avg_rank": 47.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              47
+            ],
+            "avg_rank": 47.0,
+            "season_avg": 36.7,
+            "diff": -10.3
+          }
+        }
+      }
+    },
+    "planica": {
+      "hs240": {
+        "avg_rank": 29.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              29
+            ],
+            "avg_rank": 29.0,
+            "season_avg": 36.7,
+            "diff": 7.7
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 39.3,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              30,
+              43
+            ],
+            "avg_rank": 36.5,
+            "season_avg": 36.7,
+            "diff": 0.2
+          },
+          "2024/2025": {
+            "ranks": [
+              45
+            ],
+            "avg_rank": 45.0,
+            "season_avg": 45.0,
+            "diff": 0.0
+          }
+        }
+      }
+    },
+    "trondheim": {
+      "hs105": {
+        "avg_rank": 49.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 36.7,
+            "diff": -12.3
+          }
+        }
+      },
+      "hs138": {
+        "avg_rank": 39.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              39
+            ],
+            "avg_rank": 39.0,
+            "season_avg": 36.7,
+            "diff": -2.3
+          }
+        }
+      }
+    },
+    "vikersund": {
+      "hs240": {
+        "avg_rank": 27.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              27
+            ],
+            "avg_rank": 27.0,
+            "season_avg": 36.7,
+            "diff": 9.7
+          }
+        }
+      }
+    }
+  }
+}

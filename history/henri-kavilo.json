@@ -1,0 +1,30 @@
+{
+  "name": "Henri Kavilo",
+  "country": "FIN",
+  "fis_code": "6911",
+  "competitor_id": "180888",
+  "seasons": {
+    "2023/2024": {
+      "starts": 2,
+      "avg_rank": 48.5
+    }
+  },
+  "hills": {
+    "lahti": {
+      "hs130": {
+        "avg_rank": 48.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              50,
+              47
+            ],
+            "avg_rank": 48.5,
+            "season_avg": 48.5,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Daniel Andrei Cacina",
+  "country": "ROU",
+  "fis_code": "7048",
+  "competitor_id": "184854",
+  "seasons": {
+    "2023/2024": {
+      "starts": 2,
+      "avg_rank": 45.5
+    }
+  },
+  "hills": {
+    "lake_placid": {
+      "hs128": {
+        "avg_rank": 45.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              44,
+              47
+            ],
+            "avg_rank": 45.5,
+            "season_avg": 45.5,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

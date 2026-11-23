@@ -1,0 +1,105 @@
+{
+  "name": "Martin Hamann",
+  "country": "GER",
+  "fis_code": "6551",
+  "competitor_id": "166435",
+  "seasons": {
+    "2023/2024": {
+      "starts": 9,
+      "avg_rank": 26.6
+    }
+  },
+  "hills": {
+    "engelberg": {
+      "hs140": {
+        "avg_rank": 30.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              24,
+              37
+            ],
+            "avg_rank": 30.5,
+            "season_avg": 26.6,
+            "diff": -3.9
+          }
+        }
+      }
+    },
+    "garmisch_partenkirchen": {
+      "hs142": {
+        "avg_rank": 24.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              24
+            ],
+            "avg_rank": 24.0,
+            "season_avg": 26.6,
+            "diff": 2.6
+          }
+        }
+      }
+    },
+    "klingenthal": {
+      "hs140": {
+        "avg_rank": 28.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              29,
+              27
+            ],
+            "avg_rank": 28.0,
+            "season_avg": 26.6,
+            "diff": -1.4
+          }
+        }
+      }
+    },
+    "lillehammer": {
+      "hs98": {
+        "avg_rank": 26.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              26
+            ],
+            "avg_rank": 26.0,
+            "season_avg": 26.6,
+            "diff": 0.6
+          }
+        }
+      },
+      "hs140": {
+        "avg_rank": 41.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              41
+            ],
+            "avg_rank": 41.0,
+            "season_avg": 26.6,
+            "diff": -14.4
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 15.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              12,
+              19
+            ],
+            "avg_rank": 15.5,
+            "season_avg": 26.6,
+            "diff": 11.1
+          }
+        }
+      }
+    }
+  }
+}

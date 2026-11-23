@@ -1,0 +1,149 @@
+{
+  "name": "Juri Kesseli",
+  "country": "SUI",
+  "fis_code": "8309",
+  "competitor_id": "229759",
+  "seasons": {
+    "2025/2026": {
+      "starts": 11,
+      "avg_rank": 39.5
+    }
+  },
+  "hills": {
+    "engelberg": {
+      "hs140": {
+        "avg_rank": 24.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              24
+            ],
+            "avg_rank": 24.0,
+            "season_avg": 39.5,
+            "diff": 15.5
+          }
+        }
+      }
+    },
+    "falun": {
+      "hs95": {
+        "avg_rank": 46.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              46
+            ],
+            "avg_rank": 46.0,
+            "season_avg": 39.5,
+            "diff": -6.5
+          }
+        }
+      },
+      "hs132": {
+        "avg_rank": 48.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              48
+            ],
+            "avg_rank": 48.0,
+            "season_avg": 39.5,
+            "diff": -8.5
+          }
+        }
+      }
+    },
+    "garmisch_partenkirchen": {
+      "hs142": {
+        "avg_rank": 45.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              45
+            ],
+            "avg_rank": 45.0,
+            "season_avg": 39.5,
+            "diff": -5.5
+          }
+        }
+      }
+    },
+    "lahti": {
+      "hs130": {
+        "avg_rank": 42.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              54,
+              30
+            ],
+            "avg_rank": 42.0,
+            "season_avg": 39.5,
+            "diff": -2.5
+          }
+        }
+      }
+    },
+    "lillehammer": {
+      "hs140": {
+        "avg_rank": 37.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              45,
+              29
+            ],
+            "avg_rank": 37.0,
+            "season_avg": 39.5,
+            "diff": 2.5
+          }
+        }
+      }
+    },
+    "oslo": {
+      "hs134": {
+        "avg_rank": 30.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              30
+            ],
+            "avg_rank": 30.0,
+            "season_avg": 39.5,
+            "diff": 9.5
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 42.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              42
+            ],
+            "avg_rank": 42.0,
+            "season_avg": 39.5,
+            "diff": -2.5
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 42.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              42
+            ],
+            "avg_rank": 42.0,
+            "season_avg": 39.5,
+            "diff": -2.5
+          }
+        }
+      }
+    }
+  }
+}

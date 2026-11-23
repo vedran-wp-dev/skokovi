@@ -1,0 +1,45 @@
+{
+  "name": "Andrzej Stekala",
+  "country": "POL",
+  "fis_code": "6698",
+  "competitor_id": "174246",
+  "seasons": {
+    "2023/2024": {
+      "starts": 3,
+      "avg_rank": 41.7
+    }
+  },
+  "hills": {
+    "klingenthal": {
+      "hs140": {
+        "avg_rank": 41.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              42,
+              40
+            ],
+            "avg_rank": 41.0,
+            "season_avg": 41.7,
+            "diff": 0.7
+          }
+        }
+      }
+    },
+    "zakopane": {
+      "hs140": {
+        "avg_rank": 43.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              43
+            ],
+            "avg_rank": 43.0,
+            "season_avg": 41.7,
+            "diff": -1.3
+          }
+        }
+      }
+    }
+  }
+}

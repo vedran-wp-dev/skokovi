@@ -1,0 +1,223 @@
+{
+  "name": "Clemens Aigner",
+  "country": "AUT",
+  "fis_code": "5518",
+  "competitor_id": "128447",
+  "seasons": {
+    "2023/2024": {
+      "starts": 12,
+      "avg_rank": 20.8
+    },
+    "2024/2025": {
+      "starts": 2,
+      "avg_rank": 34.0
+    },
+    "2025/2026": {
+      "starts": 5,
+      "avg_rank": 25.2
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 18.3,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              6
+            ],
+            "avg_rank": 6.0,
+            "season_avg": 20.8,
+            "diff": 14.8
+          },
+          "2024/2025": {
+            "ranks": [
+              38
+            ],
+            "avg_rank": 38.0,
+            "season_avg": 34.0,
+            "diff": -4.0
+          },
+          "2025/2026": {
+            "ranks": [
+              11
+            ],
+            "avg_rank": 11.0,
+            "season_avg": 25.2,
+            "diff": 14.2
+          }
+        }
+      }
+    },
+    "garmisch_partenkirchen": {
+      "hs142": {
+        "avg_rank": 12.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              12
+            ],
+            "avg_rank": 12.0,
+            "season_avg": 20.8,
+            "diff": 8.8
+          }
+        }
+      }
+    },
+    "innsbruck": {
+      "hs128": {
+        "avg_rank": 27.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              9
+            ],
+            "avg_rank": 9.0,
+            "season_avg": 20.8,
+            "diff": 11.8
+          },
+          "2024/2025": {
+            "ranks": [
+              30
+            ],
+            "avg_rank": 30.0,
+            "season_avg": 34.0,
+            "diff": 4.0
+          },
+          "2025/2026": {
+            "ranks": [
+              42
+            ],
+            "avg_rank": 42.0,
+            "season_avg": 25.2,
+            "diff": -16.8
+          }
+        }
+      }
+    },
+    "kulm": {
+      "hs235": {
+        "avg_rank": 35.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              35
+            ],
+            "avg_rank": 35.0,
+            "season_avg": 25.2,
+            "diff": -9.8
+          }
+        }
+      }
+    },
+    "lake_placid": {
+      "hs128": {
+        "avg_rank": 22.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              22,
+              23
+            ],
+            "avg_rank": 22.5,
+            "season_avg": 20.8,
+            "diff": -1.7
+          }
+        }
+      }
+    },
+    "oberstdorf": {
+      "hs137": {
+        "avg_rank": 19.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              19
+            ],
+            "avg_rank": 19.0,
+            "season_avg": 20.8,
+            "diff": 1.8
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 25.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              19,
+              32
+            ],
+            "avg_rank": 25.5,
+            "season_avg": 20.8,
+            "diff": -4.7
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 25.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              14,
+              36
+            ],
+            "avg_rank": 25.0,
+            "season_avg": 20.8,
+            "diff": -4.2
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 19.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              15,
+              23
+            ],
+            "avg_rank": 19.0,
+            "season_avg": 25.2,
+            "diff": 6.2
+          }
+        }
+      }
+    },
+    "wisla": {
+      "hs134": {
+        "avg_rank": 16.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              16
+            ],
+            "avg_rank": 16.0,
+            "season_avg": 20.8,
+            "diff": 4.8
+          }
+        }
+      }
+    },
+    "zakopane": {
+      "hs140": {
+        "avg_rank": 42.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              42
+            ],
+            "avg_rank": 42.0,
+            "season_avg": 20.8,
+            "diff": -21.2
+          }
+        }
+      }
+    }
+  }
+}

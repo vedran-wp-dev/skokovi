@@ -1,0 +1,29 @@
+{
+  "name": "Hannes Landerer",
+  "country": "AUT",
+  "fis_code": "7180",
+  "competitor_id": "189069",
+  "seasons": {
+    "2024/2025": {
+      "starts": 1,
+      "avg_rank": 44.0
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 44.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              44
+            ],
+            "avg_rank": 44.0,
+            "season_avg": 44.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Klemens Joniak",
+  "country": "POL",
+  "fis_code": "8289",
+  "competitor_id": "229687",
+  "seasons": {
+    "2025/2026": {
+      "starts": 4,
+      "avg_rank": 38.5
+    }
+  },
+  "hills": {
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 30.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              30
+            ],
+            "avg_rank": 30.0,
+            "season_avg": 38.5,
+            "diff": 8.5
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 39.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              48,
+              30
+            ],
+            "avg_rank": 39.0,
+            "season_avg": 38.5,
+            "diff": -0.5
+          }
+        }
+      }
+    },
+    "wisla": {
+      "hs134": {
+        "avg_rank": 46.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              46
+            ],
+            "avg_rank": 46.0,
+            "season_avg": 38.5,
+            "diff": -7.5
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Kaimar Vagul",
+  "country": "EST",
+  "fis_code": "8546",
+  "competitor_id": "238368",
+  "seasons": {
+    "2025/2026": {
+      "starts": 2,
+      "avg_rank": 49.0
+    }
+  },
+  "hills": {
+    "lahti": {
+      "hs130": {
+        "avg_rank": 51.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              51
+            ],
+            "avg_rank": 51.0,
+            "season_avg": 49.0,
+            "diff": -2.0
+          }
+        }
+      }
+    },
+    "oberstdorf": {
+      "hs137": {
+        "avg_rank": 47.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              47
+            ],
+            "avg_rank": 47.0,
+            "season_avg": 49.0,
+            "diff": 2.0
+          }
+        }
+      }
+    }
+  }
+}

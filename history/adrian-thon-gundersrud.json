@@ -1,0 +1,49 @@
+{
+  "name": "Adrian Thon Gundersrud",
+  "country": "NOR",
+  "fis_code": "8233",
+  "competitor_id": "227859",
+  "seasons": {
+    "2024/2025": {
+      "starts": 2,
+      "avg_rank": 37.5
+    },
+    "2025/2026": {
+      "starts": 1,
+      "avg_rank": 16.0
+    }
+  },
+  "hills": {
+    "oslo": {
+      "hs134": {
+        "avg_rank": 16.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              16
+            ],
+            "avg_rank": 16.0,
+            "season_avg": 16.0,
+            "diff": 0.0
+          }
+        }
+      }
+    },
+    "vikersund": {
+      "hs240": {
+        "avg_rank": 37.5,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              40,
+              35
+            ],
+            "avg_rank": 37.5,
+            "season_avg": 37.5,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

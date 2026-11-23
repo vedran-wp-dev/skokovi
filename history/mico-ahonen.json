@@ -1,0 +1,29 @@
+{
+  "name": "Mico Ahonen",
+  "country": "FIN",
+  "fis_code": "7171",
+  "competitor_id": "188946",
+  "seasons": {
+    "2023/2024": {
+      "starts": 1,
+      "avg_rank": 44.0
+    }
+  },
+  "hills": {
+    "ruka": {
+      "hs142": {
+        "avg_rank": 44.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              44
+            ],
+            "avg_rank": 44.0,
+            "season_avg": 44.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

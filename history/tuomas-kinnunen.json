@@ -1,0 +1,29 @@
+{
+  "name": "Tuomas Kinnunen",
+  "country": "FIN",
+  "fis_code": "8098",
+  "competitor_id": "221427",
+  "seasons": {
+    "2025/2026": {
+      "starts": 1,
+      "avg_rank": 61.0
+    }
+  },
+  "hills": {
+    "lahti": {
+      "hs130": {
+        "avg_rank": 61.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              61
+            ],
+            "avg_rank": 61.0,
+            "season_avg": 61.0,
+            "diff": 0.0
+          }
+        }
+      }
+    }
+  }
+}

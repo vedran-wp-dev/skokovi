@@ -1,0 +1,103 @@
+{
+  "name": "Jarkko Maatta",
+  "country": "FIN",
+  "fis_code": "5796",
+  "competitor_id": "136813",
+  "seasons": {
+    "2024/2025": {
+      "starts": 1,
+      "avg_rank": 35.0
+    },
+    "2025/2026": {
+      "starts": 7,
+      "avg_rank": 42.0
+    }
+  },
+  "hills": {
+    "lahti": {
+      "hs130": {
+        "avg_rank": 50.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              50
+            ],
+            "avg_rank": 50.0,
+            "season_avg": 42.0,
+            "diff": -8.0
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 42.5,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              35
+            ],
+            "avg_rank": 35.0,
+            "season_avg": 35.0,
+            "diff": 0.0
+          },
+          "2025/2026": {
+            "ranks": [
+              50
+            ],
+            "avg_rank": 50.0,
+            "season_avg": 42.0,
+            "diff": -8.0
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 46.5,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              49,
+              44
+            ],
+            "avg_rank": 46.5,
+            "season_avg": 42.0,
+            "diff": -4.5
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 27.5,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              24,
+              31
+            ],
+            "avg_rank": 27.5,
+            "season_avg": 42.0,
+            "diff": 14.5
+          }
+        }
+      }
+    },
+    "zakopane": {
+      "hs140": {
+        "avg_rank": 46.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              46
+            ],
+            "avg_rank": 46.0,
+            "season_avg": 42.0,
+            "diff": -4.0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "name": "Kasperi Valto",
+  "country": "FIN",
+  "fis_code": "7873",
+  "competitor_id": "212624",
+  "seasons": {
+    "2023/2024": {
+      "starts": 19,
+      "avg_rank": 37.5
+    },
+    "2024/2025": {
+      "starts": 19,
+      "avg_rank": 40.4
+    }
+  },
+  "hills": {
+    "engelberg": {
+      "hs140": {
+        "avg_rank": 41.2,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              35,
+              42
+            ],
+            "avg_rank": 38.5,
+            "season_avg": 37.5,
+            "diff": -1.0
+          },
+          "2024/2025": {
+            "ranks": [
+              46,
+              42
+            ],
+            "avg_rank": 44.0,
+            "season_avg": 40.4,
+            "diff": -3.6
+          }
+        }
+      }
+    },
+    "garmisch_partenkirchen": {
+      "hs142": {
+        "avg_rank": 26.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              26
+            ],
+            "avg_rank": 26.0,
+            "season_avg": 37.5,
+            "diff": 11.5
+          }
+        }
+      }
+    },
+    "klingenthal": {
+      "hs140": {
+        "avg_rank": 33.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              34,
+              33
+            ],
+            "avg_rank": 33.5,
+            "season_avg": 37.5,
+            "diff": 4.0
+          }
+        }
+      }
+    },
+    "lahti": {
+      "hs130": {
+        "avg_rank": 42.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              45,
+              40
+            ],
+            "avg_rank": 42.5,
+            "season_avg": 37.5,
+            "diff": -5.0
+          },
+          "2024/2025": {
+            "ranks": [
+              41
+            ],
+            "avg_rank": 41.0,
+            "season_avg": 40.4,
+            "diff": -0.6
+          }
+        }
+      }
+    },
+    "lake_placid": {
+      "hs128": {
+        "avg_rank": 43.5,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              43,
+              44
+            ],
+            "avg_rank": 43.5,
+            "season_avg": 40.4,
+            "diff": -3.1
+          }
+        }
+      }
+    },
+    "lillehammer": {
+      "hs140": {
+        "avg_rank": 44.3,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              44
+            ],
+            "avg_rank": 44.0,
+            "season_avg": 37.5,
+            "diff": -6.5
+          },
+          "2024/2025": {
+            "ranks": [
+              49,
+              40
+            ],
+            "avg_rank": 44.5,
+            "season_avg": 40.4,
+            "diff": -4.1
+          }
+        }
+      }
+    },
+    "oberstdorf": {
+      "hs137": {
+        "avg_rank": 42.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              35
+            ],
+            "avg_rank": 35.0,
+            "season_avg": 37.5,
+            "diff": 2.5
+          },
+          "2024/2025": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 40.4,
+            "diff": -8.6
+          }
+        }
+      },
+      "hs235": {
+        "avg_rank": 32.3,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              35
+            ],
+            "avg_rank": 35.0,
+            "season_avg": 37.5,
+            "diff": 2.5
+          },
+          "2024/2025": {
+            "ranks": [
+              33,
+              29
+            ],
+            "avg_rank": 31.0,
+            "season_avg": 40.4,
+            "diff": 9.4
+          }
+        }
+      }
+    },
+    "oslo": {
+      "hs134": {
+        "avg_rank": 46.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              46
+            ],
+            "avg_rank": 46.0,
+            "season_avg": 37.5,
+            "diff": -8.5
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 36.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              24,
+              40
+            ],
+            "avg_rank": 32.0,
+            "season_avg": 37.5,
+            "diff": 5.5
+          },
+          "2024/2025": {
+            "ranks": [
+              48,
+              34
+            ],
+            "avg_rank": 41.0,
+            "season_avg": 40.4,
+            "diff": -0.6
+          }
+        }
+      }
+    },
+    "sapporo": {
+      "hs137": {
+        "avg_rank": 44.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              38,
+              50
+            ],
+            "avg_rank": 44.0,
+            "season_avg": 40.4,
+            "diff": -3.6
+          }
+        }
+      }
+    },
+    "titisee_neustadt": {
+      "hs142": {
+        "avg_rank": 35.5,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              38,
+              33
+            ],
+            "avg_rank": 35.5,
+            "season_avg": 40.4,
+            "diff": 4.9
+          }
+        }
+      }
+    },
+    "trondheim": {
+      "hs105": {
+        "avg_rank": 50.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              50
+            ],
+            "avg_rank": 50.0,
+            "season_avg": 37.5,
+            "diff": -12.5
+          }
+        }
+      },
+      "hs138": {
+        "avg_rank": 48.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              48
+            ],
+            "avg_rank": 48.0,
+            "season_avg": 37.5,
+            "diff": -10.5
+          }
+        }
+      }
+    },
+    "vikersund": {
+      "hs240": {
+        "avg_rank": 31.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              31
+            ],
+            "avg_rank": 31.0,
+            "season_avg": 37.5,
+            "diff": 6.5
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 33.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              34,
+              32
+            ],
+            "avg_rank": 33.0,
+            "season_avg": 37.5,
+            "diff": 4.5
+          }
+        }
+      }
+    },
+    "wisla": {
+      "hs134": {
+        "avg_rank": 37.7,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              39
+            ],
+            "avg_rank": 39.0,
+            "season_avg": 37.5,
+            "diff": -1.5
+          },
+          "2024/2025": {
+            "ranks": [
+              38,
+              36
+            ],
+            "avg_rank": 37.0,
+            "season_avg": 40.4,
+            "diff": 3.4
+          }
+        }
+      }
+    },
+    "zakopane": {
+      "hs140": {
+        "avg_rank": 37.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              37
+            ],
+            "avg_rank": 37.0,
+            "season_avg": 40.4,
+            "diff": 3.4
+          }
+        }
+      }
+    }
+  }
+}

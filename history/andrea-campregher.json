@@ -1,0 +1,180 @@
+{
+  "name": "Andrea Campregher",
+  "country": "ITA",
+  "fis_code": "7935",
+  "competitor_id": "217472",
+  "seasons": {
+    "2023/2024": {
+      "starts": 14,
+      "avg_rank": 44.6
+    }
+  },
+  "hills": {
+    "engelberg": {
+      "hs140": {
+        "avg_rank": 46.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              46
+            ],
+            "avg_rank": 46.0,
+            "season_avg": 44.6,
+            "diff": -1.4
+          }
+        }
+      }
+    },
+    "garmisch_partenkirchen": {
+      "hs142": {
+        "avg_rank": 44.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              44
+            ],
+            "avg_rank": 44.0,
+            "season_avg": 44.6,
+            "diff": 0.6
+          }
+        }
+      }
+    },
+    "innsbruck": {
+      "hs128": {
+        "avg_rank": 47.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              47
+            ],
+            "avg_rank": 47.0,
+            "season_avg": 44.6,
+            "diff": -2.4
+          }
+        }
+      }
+    },
+    "klingenthal": {
+      "hs140": {
+        "avg_rank": 47.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              50,
+              45
+            ],
+            "avg_rank": 47.5,
+            "season_avg": 44.6,
+            "diff": -2.9
+          }
+        }
+      }
+    },
+    "lake_placid": {
+      "hs128": {
+        "avg_rank": 48.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              50,
+              46
+            ],
+            "avg_rank": 48.0,
+            "season_avg": 44.6,
+            "diff": -3.4
+          }
+        }
+      }
+    },
+    "lillehammer": {
+      "hs98": {
+        "avg_rank": 49.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              49
+            ],
+            "avg_rank": 49.0,
+            "season_avg": 44.6,
+            "diff": -4.4
+          }
+        }
+      },
+      "hs140": {
+        "avg_rank": 36.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              36
+            ],
+            "avg_rank": 36.0,
+            "season_avg": 44.6,
+            "diff": 8.6
+          }
+        }
+      }
+    },
+    "oberstdorf": {
+      "hs137": {
+        "avg_rank": 46.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              46
+            ],
+            "avg_rank": 46.0,
+            "season_avg": 44.6,
+            "diff": -1.4
+          }
+        }
+      }
+    },
+    "oslo": {
+      "hs134": {
+        "avg_rank": 50.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              50
+            ],
+            "avg_rank": 50.0,
+            "season_avg": 44.6,
+            "diff": -5.4
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 33.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              39,
+              28
+            ],
+            "avg_rank": 33.5,
+            "season_avg": 44.6,
+            "diff": 11.1
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 48.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              48
+            ],
+            "avg_rank": 48.0,
+            "season_avg": 44.6,
+            "diff": -3.4
+          }
+        }
+      }
+    }
+  }
+}

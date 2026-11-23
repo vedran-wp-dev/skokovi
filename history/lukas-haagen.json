@@ -1,0 +1,46 @@
+{
+  "name": "Lukas Haagen",
+  "country": "AUT",
+  "fis_code": "8298",
+  "competitor_id": "229736",
+  "seasons": {
+    "2025/2026": {
+      "starts": 4,
+      "avg_rank": 41.8
+    }
+  },
+  "hills": {
+    "oslo": {
+      "hs134": {
+        "avg_rank": 45.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              47,
+              43
+            ],
+            "avg_rank": 45.0,
+            "season_avg": 41.8,
+            "diff": -3.2
+          }
+        }
+      }
+    },
+    "willingen": {
+      "hs147": {
+        "avg_rank": 38.5,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              32,
+              45
+            ],
+            "avg_rank": 38.5,
+            "season_avg": 41.8,
+            "diff": 3.3
+          }
+        }
+      }
+    }
+  }
+}

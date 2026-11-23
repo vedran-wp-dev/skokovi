@@ -1,0 +1,180 @@
+{
+  "name": "Daniel Andre Tande",
+  "country": "NOR",
+  "fis_code": "6098",
+  "competitor_id": "147547",
+  "seasons": {
+    "2023/2024": {
+      "starts": 14,
+      "avg_rank": 25.6
+    }
+  },
+  "hills": {
+    "bischofshofen": {
+      "hs142": {
+        "avg_rank": 20.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              20
+            ],
+            "avg_rank": 20.0,
+            "season_avg": 25.6,
+            "diff": 5.6
+          }
+        }
+      }
+    },
+    "engelberg": {
+      "hs140": {
+        "avg_rank": 24.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              27,
+              22
+            ],
+            "avg_rank": 24.5,
+            "season_avg": 25.6,
+            "diff": 1.1
+          }
+        }
+      }
+    },
+    "garmisch_partenkirchen": {
+      "hs142": {
+        "avg_rank": 27.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              27
+            ],
+            "avg_rank": 27.0,
+            "season_avg": 25.6,
+            "diff": -1.4
+          }
+        }
+      }
+    },
+    "innsbruck": {
+      "hs128": {
+        "avg_rank": 27.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              27
+            ],
+            "avg_rank": 27.0,
+            "season_avg": 25.6,
+            "diff": -1.4
+          }
+        }
+      }
+    },
+    "klingenthal": {
+      "hs140": {
+        "avg_rank": 19.5,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              27,
+              12
+            ],
+            "avg_rank": 19.5,
+            "season_avg": 25.6,
+            "diff": 6.1
+          }
+        }
+      }
+    },
+    "lillehammer": {
+      "hs98": {
+        "avg_rank": 43.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              43
+            ],
+            "avg_rank": 43.0,
+            "season_avg": 25.6,
+            "diff": -17.4
+          }
+        }
+      },
+      "hs140": {
+        "avg_rank": 28.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              28
+            ],
+            "avg_rank": 28.0,
+            "season_avg": 25.6,
+            "diff": -2.4
+          }
+        }
+      }
+    },
+    "oberstdorf": {
+      "hs137": {
+        "avg_rank": 23.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              23
+            ],
+            "avg_rank": 23.0,
+            "season_avg": 25.6,
+            "diff": 2.6
+          }
+        }
+      }
+    },
+    "oslo": {
+      "hs134": {
+        "avg_rank": 29.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              29
+            ],
+            "avg_rank": 29.0,
+            "season_avg": 25.6,
+            "diff": -3.4
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 22.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              22,
+              22
+            ],
+            "avg_rank": 22.0,
+            "season_avg": 25.6,
+            "diff": 3.6
+          }
+        }
+      }
+    },
+    "zakopane": {
+      "hs140": {
+        "avg_rank": 30.0,
+        "seasons": {
+          "2023/2024": {
+            "ranks": [
+              30
+            ],
+            "avg_rank": 30.0,
+            "season_avg": 25.6,
+            "diff": -4.4
+          }
+        }
+      }
+    }
+  }
+}

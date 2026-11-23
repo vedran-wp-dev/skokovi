@@ -1,0 +1,78 @@
+{
+  "name": "Paavo Romppainen",
+  "country": "FIN",
+  "fis_code": "7375",
+  "competitor_id": "196465",
+  "seasons": {
+    "2024/2025": {
+      "starts": 3,
+      "avg_rank": 41.7
+    },
+    "2025/2026": {
+      "starts": 1,
+      "avg_rank": 59.0
+    }
+  },
+  "hills": {
+    "engelberg": {
+      "hs140": {
+        "avg_rank": 43.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              43
+            ],
+            "avg_rank": 43.0,
+            "season_avg": 41.7,
+            "diff": -1.3
+          }
+        }
+      }
+    },
+    "lahti": {
+      "hs130": {
+        "avg_rank": 59.0,
+        "seasons": {
+          "2025/2026": {
+            "ranks": [
+              59
+            ],
+            "avg_rank": 59.0,
+            "season_avg": 59.0,
+            "diff": 0.0
+          }
+        }
+      }
+    },
+    "ruka": {
+      "hs142": {
+        "avg_rank": 34.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              34
+            ],
+            "avg_rank": 34.0,
+            "season_avg": 41.7,
+            "diff": 7.7
+          }
+        }
+      }
+    },
+    "wisla": {
+      "hs134": {
+        "avg_rank": 48.0,
+        "seasons": {
+          "2024/2025": {
+            "ranks": [
+              48
+            ],
+            "avg_rank": 48.0,
+            "season_avg": 41.7,
+            "diff": -6.3
+          }
+        }
+      }
+    }
+  }
+}
