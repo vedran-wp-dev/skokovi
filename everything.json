@@ -44,6 +44,13 @@
             "bib": 1,
             "total_points": 235.1,
             "diff": -42.9
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 3,
+            "bib": 9,
+            "total_points": 299.2,
+            "diff": -4.8
           }
         }
       }
@@ -94,6 +101,13 @@
             "bib": 2,
             "total_points": 248.3,
             "diff": -29.7
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 1,
+            "bib": 5,
+            "total_points": 304.0,
+            "diff": null
           }
         }
       }
@@ -144,6 +158,13 @@
             "bib": 3,
             "total_points": 229.3,
             "diff": -48.7
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 9,
+            "bib": 13,
+            "total_points": 283.0,
+            "diff": -21.0
           }
         }
       }
@@ -194,6 +215,13 @@
             "bib": 4,
             "total_points": 66.8,
             "diff": -211.2
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 27,
+            "bib": 45,
+            "total_points": 246.5,
+            "diff": -57.5
           }
         }
       }
@@ -244,6 +272,13 @@
             "bib": 5,
             "total_points": 85.4,
             "diff": -192.6
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 19,
+            "bib": 36,
+            "total_points": 261.4,
+            "diff": -42.6
           }
         }
       }
@@ -294,6 +329,13 @@
             "bib": 6,
             "total_points": 49.7,
             "diff": -228.3
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 8,
+            "bib": 49,
+            "total_points": 285.4,
+            "diff": -18.6
           }
         }
       }
@@ -344,6 +386,13 @@
             "bib": 7,
             "total_points": 244.2,
             "diff": -33.8
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 13,
+            "bib": 8,
+            "total_points": 268.0,
+            "diff": -36.0
           }
         }
       }
@@ -393,6 +442,13 @@
             "bib": 8,
             "total_points": 205.2,
             "diff": -72.8
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 32,
+            "bib": 23,
+            "total_points": 118.8,
+            "diff": -185.2
           }
         }
       }
@@ -443,6 +499,13 @@
             "bib": 10,
             "total_points": 219.2,
             "diff": -58.8
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 18,
+            "bib": 16,
+            "total_points": 262.0,
+            "diff": -42.0
           }
         }
       }
@@ -494,6 +557,13 @@
             "bib": 9,
             "total_points": 246.2,
             "diff": -31.8
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 6,
+            "bib": 6,
+            "total_points": 289.0,
+            "diff": -15.0
           }
         }
       }
@@ -544,6 +614,13 @@
             "bib": 11,
             "total_points": 265.9,
             "diff": -12.1
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 4,
+            "bib": 2,
+            "total_points": 290.7,
+            "diff": -13.3
           }
         }
       }
@@ -595,6 +672,13 @@
             "bib": 12,
             "total_points": 259.6,
             "diff": -18.4
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 2,
+            "bib": 3,
+            "total_points": 303.8,
+            "diff": -0.2
           }
         }
       }
@@ -646,6 +730,13 @@
             "bib": 13,
             "total_points": 278.0,
             "diff": null
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 5,
+            "bib": 1,
+            "total_points": 289.4,
+            "diff": -14.6
           }
         }
       }
@@ -695,6 +786,13 @@
             "bib": 14,
             "total_points": 214.0,
             "diff": -64.0
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 35,
+            "bib": 18,
+            "total_points": 117.2,
+            "diff": -186.8
           }
         }
       }
@@ -745,6 +843,13 @@
             "bib": 15,
             "total_points": 250.2,
             "diff": -27.8
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 11,
+            "bib": 4,
+            "total_points": 273.9,
+            "diff": -30.1
           }
         }
       }
@@ -795,6 +900,13 @@
             "bib": 16,
             "total_points": 140.3,
             "diff": -137.7
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 38,
+            "bib": 29,
+            "total_points": 112.7,
+            "diff": -191.3
           }
         }
       }
@@ -844,6 +956,13 @@
             "bib": 18,
             "total_points": 213.0,
             "diff": -65.0
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 29,
+            "bib": 19,
+            "total_points": 237.0,
+            "diff": -67.0
           }
         }
       }
@@ -893,6 +1012,13 @@
             "bib": 17,
             "total_points": 226.1,
             "diff": -51.9
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 10,
+            "bib": 14,
+            "total_points": 278.8,
+            "diff": -25.2
           }
         }
       }
@@ -942,6 +1068,13 @@
             "bib": 19,
             "total_points": 188.6,
             "diff": -89.4
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 47,
+            "bib": 24,
+            "total_points": 103.3,
+            "diff": -200.7
           }
         }
       }
@@ -991,6 +1124,13 @@
             "bib": 20,
             "total_points": 89.7,
             "diff": -188.3
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 22,
+            "bib": 34,
+            "total_points": 258.3,
+            "diff": -45.7
           }
         }
       }
@@ -1041,6 +1181,13 @@
             "bib": 21,
             "total_points": 157.2,
             "diff": -120.8
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 14,
+            "bib": 28,
+            "total_points": 267.7,
+            "diff": -36.3
           }
         }
       }
@@ -1090,6 +1237,13 @@
             "bib": 22,
             "total_points": 245.3,
             "diff": -32.7
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 16,
+            "bib": 7,
+            "total_points": 263.2,
+            "diff": -40.8
           }
         }
       }
@@ -1139,6 +1293,13 @@
             "bib": 23,
             "total_points": 229.5,
             "diff": -48.5
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 24,
+            "bib": 12,
+            "total_points": 256.8,
+            "diff": -47.2
           }
         }
       }
@@ -1188,6 +1349,13 @@
             "bib": 24,
             "total_points": 187.3,
             "diff": -90.7
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 26,
+            "bib": 26,
+            "total_points": 249.2,
+            "diff": -54.8
           }
         }
       }
@@ -1237,6 +1405,13 @@
             "bib": 25,
             "total_points": 71.8,
             "diff": -206.2
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 44,
+            "bib": 43,
+            "total_points": 105.9,
+            "diff": -198.1
           }
         }
       }
@@ -1286,6 +1461,13 @@
             "bib": 26,
             "total_points": 234.8,
             "diff": -43.2
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 21,
+            "bib": 10,
+            "total_points": 260.7,
+            "diff": -43.3
           }
         }
       }
@@ -1335,6 +1517,13 @@
             "bib": 27,
             "total_points": 208.7,
             "diff": -69.3
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 17,
+            "bib": 22,
+            "total_points": 262.8,
+            "diff": -41.2
           }
         }
       }
@@ -1384,6 +1573,13 @@
             "bib": 28,
             "total_points": 210.9,
             "diff": -67.1
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 31,
+            "bib": 21,
+            "total_points": 235.3,
+            "diff": -68.7
           }
         }
       }
@@ -1433,6 +1629,13 @@
             "bib": 29,
             "total_points": 75.1,
             "diff": -202.9
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 33,
+            "bib": 41,
+            "total_points": 118.5,
+            "diff": -185.5
           }
         }
       }
@@ -1531,6 +1734,13 @@
             "bib": 31,
             "total_points": 57.6,
             "diff": -220.4
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 39,
+            "bib": 48,
+            "total_points": 112.2,
+            "diff": -191.8
           }
         }
       }
@@ -1580,6 +1790,13 @@
             "bib": 32,
             "total_points": 83.8,
             "diff": -194.2
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 34,
+            "bib": 38,
+            "total_points": 118.1,
+            "diff": -185.9
           }
         }
       }
@@ -1629,6 +1846,13 @@
             "bib": 33,
             "total_points": 223.5,
             "diff": -54.5
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 20,
+            "bib": 15,
+            "total_points": 261.3,
+            "diff": -42.7
           }
         }
       }
@@ -1679,6 +1903,13 @@
             "bib": 34,
             "total_points": 234.7,
             "diff": -43.3
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 15,
+            "bib": 11,
+            "total_points": 264.3,
+            "diff": -39.7
           }
         }
       }
@@ -1728,6 +1959,13 @@
             "bib": 35,
             "total_points": 163.1,
             "diff": -114.9
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 30,
+            "bib": 27,
+            "total_points": 235.4,
+            "diff": -68.6
           }
         }
       }
@@ -1777,6 +2015,13 @@
             "bib": 36,
             "total_points": 84.0,
             "diff": -194.0
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 44,
+            "bib": 37,
+            "total_points": 105.9,
+            "diff": -198.1
           }
         }
       }
@@ -1924,6 +2169,13 @@
             "bib": 39,
             "total_points": 94.4,
             "diff": -183.6
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 42,
+            "bib": 31,
+            "total_points": 110.1,
+            "diff": -193.9
           }
         }
       }
@@ -1973,6 +2225,13 @@
             "bib": 40,
             "total_points": 96.5,
             "diff": -181.5
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 37,
+            "bib": 30,
+            "total_points": 114.9,
+            "diff": -189.1
           }
         }
       }
@@ -2022,6 +2281,13 @@
             "bib": 41,
             "total_points": 87.6,
             "diff": -190.4
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 43,
+            "bib": 35,
+            "total_points": 108.1,
+            "diff": -195.9
           }
         }
       }
@@ -2071,6 +2337,13 @@
             "bib": 42,
             "total_points": 212.6,
             "diff": -65.4
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 23,
+            "bib": 20,
+            "total_points": 257.3,
+            "diff": -46.7
           }
         }
       }
@@ -2218,6 +2491,13 @@
             "bib": 45,
             "total_points": 219.1,
             "diff": -58.9
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 7,
+            "bib": 17,
+            "total_points": 287.4,
+            "diff": -16.6
           }
         }
       }
@@ -2316,6 +2596,13 @@
             "bib": 47,
             "total_points": 74.1,
             "diff": -203.9
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 47,
+            "bib": 42,
+            "total_points": 103.3,
+            "diff": -200.7
           }
         }
       }
@@ -2365,6 +2652,13 @@
             "bib": 48,
             "total_points": 79.3,
             "diff": -198.7
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 25,
+            "bib": 39,
+            "total_points": 250.2,
+            "diff": -53.8
           }
         }
       }
@@ -2463,6 +2757,13 @@
             "bib": 50,
             "total_points": 188.1,
             "diff": -89.9
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 12,
+            "bib": 25,
+            "total_points": 269.9,
+            "diff": -34.1
           }
         }
       }
@@ -2547,6 +2848,13 @@
             "distance": 112.5,
             "total_points": 67.9,
             "diff": -51.9
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 46,
+            "bib": 50,
+            "total_points": 104.2,
+            "diff": -199.8
           }
         }
       }
@@ -2589,6 +2897,13 @@
             "distance": 105.5,
             "total_points": 66.7,
             "diff": -53.1
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 49,
+            "bib": 51,
+            "total_points": 97.0,
+            "diff": -207.0
           }
         }
       }
@@ -2631,6 +2946,13 @@
             "distance": 108.0,
             "total_points": 65.3,
             "diff": -54.5
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 36,
+            "bib": 52,
+            "total_points": 117.0,
+            "diff": -187.0
           }
         }
       }
@@ -2673,6 +2995,13 @@
             "distance": 108.0,
             "total_points": 65.0,
             "diff": -54.8
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 41,
+            "bib": 53,
+            "total_points": 110.4,
+            "diff": -193.6
           }
         }
       }
@@ -2757,6 +3086,13 @@
             "distance": 106.0,
             "total_points": 59.1,
             "diff": -60.7
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 40,
+            "bib": 55,
+            "total_points": 111.2,
+            "diff": -192.8
           }
         }
       }
@@ -3009,6 +3345,13 @@
             "distance": 99.0,
             "total_points": 46.0,
             "diff": -73.8
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 50,
+            "bib": 59,
+            "total_points": 96.4,
+            "diff": -207.6
           }
         }
       }
@@ -3093,6 +3436,13 @@
             "distance": 99.5,
             "total_points": 42.8,
             "diff": -77.0
+          },
+          "competition_2": {
+            "date": "2026-11-22",
+            "rank": 28,
+            "bib": 61,
+            "total_points": 240.4,
+            "diff": -63.6
           }
         }
       }
