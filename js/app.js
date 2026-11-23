@@ -15,21 +15,45 @@
   const hillById = new Map();
   DATA.hills.forEach((h) => hillById.set(h.id, h));
 
+  const DEFAULT_HILL_ID = hillById.has("lillehammer__hs140")
+    ? "lillehammer__hs140"
+    : DATA.hills[0].id;
+  const DEFAULT_JUMPER_SLUG = jumperBySlug.has("domen-prevc")
+    ? "domen-prevc"
+    : DATA.jumpers[0].slug;
+
+  const VALID_SORT_KEYS = new Set([
+    "name",
+    "starts",
+    "hillAvg",
+    "seasonAvg",
+    "diffYear",
+    "prev3Avg",
+    "diffPrev3",
+    "after3Avg",
+    "diffAfter3",
+    "diffNearby",
+  ]);
+  const VALID_SCOPES = new Set(["overall"].concat(DATA.seasons));
+
   const state = {
     activeView: "hill", // "hill" | "jumper"
-    selectedHillId: hillById.has("lillehammer__hs140") ? "lillehammer__hs140" : DATA.hills[0].id,
+    selectedHillId: DEFAULT_HILL_ID,
     selectedJumperSlugs: [], // optional multi-select for Hill View
     rosterMode: "active", // "active" (2026/27 roster) | "all" (all 133)
     hillScope: "overall", // "overall" | "2025/2026" | "2024/2025" | "2023/2024"
     hillSortKey: "hillAvg",
     hillSortDir: "asc",
-    profileJumperSlug: jumperBySlug.has("domen-prevc") ? "domen-prevc" : DATA.jumpers[0].slug,
+    profileJumperSlug: DEFAULT_JUMPER_SLUG,
   };
+
+  let copyFeedbackTimer = null;
 
   // DOM Elements
   const els = {
     tabHill: document.getElementById("tab-hill"),
     tabJumper: document.getElementById("tab-jumper"),
+    copyLinkBtn: document.getElementById("copy-link-btn"),
     viewHill: document.getElementById("view-hill"),
     viewJumper: document.getElementById("view-jumper"),
 
@@ -156,23 +180,169 @@
     } else if (filtered.length > 0) {
       state.profileJumperSlug = filtered[0].slug;
       els.profileJumperSelect.value = state.profileJumperSlug;
-      renderJumperView();
+      if (state.activeView === "jumper") {
+        syncUrlWithState("replace");
+        renderJumperView();
+      }
     }
   }
 
-  function switchView(targetView) {
-    state.activeView = targetView;
-    const isHill = targetView === "hill";
+  function resolveHillIdFromParam(rawHill) {
+    if (!rawHill) {
+      return null;
+    }
+    const trimmed = rawHill.trim().toLowerCase();
+    if (hillById.has(trimmed)) {
+      return trimmed;
+    }
+    const dashNormalized = trimmed.replace(/-hs(\d+)$/, "__hs$1");
+    if (hillById.has(dashNormalized)) {
+      return dashNormalized;
+    }
+    return null;
+  }
+
+  function buildUrlSearchString() {
+    const params = new URLSearchParams();
+    params.set("view", state.activeView);
+
+    if (state.activeView === "hill") {
+      params.set("hill", state.selectedHillId);
+      if (state.selectedJumperSlugs.length > 0) {
+        params.set("jumpers", state.selectedJumperSlugs.join(","));
+      }
+      if (state.rosterMode !== "active") {
+        params.set("pool", state.rosterMode);
+      }
+      if (state.hillScope !== "overall") {
+        params.set("scope", state.hillScope);
+      }
+      if (state.hillSortKey !== "hillAvg" || state.hillSortDir !== "asc") {
+        params.set("sort", state.hillSortKey);
+        params.set("dir", state.hillSortDir);
+      }
+    } else {
+      params.set("jumper", state.profileJumperSlug);
+    }
+
+    const encoded = params.toString().replace(/%2C/gi, ",");
+    return `?${encoded}`;
+  }
+
+  function buildShareableUrl() {
+    const baseUrl = window.location.href.split(/[?#]/)[0];
+    return `${baseUrl}${buildUrlSearchString()}`;
+  }
+
+  function syncUrlWithState(historyMode) {
+    const nextSearch = buildUrlSearchString();
+    if (window.location.search === nextSearch) {
+      return;
+    }
+    const nextRelative = `${window.location.pathname}${nextSearch}`;
+    try {
+      if (historyMode === "push") {
+        window.history.pushState(null, "", nextRelative);
+      } else {
+        window.history.replaceState(null, "", nextRelative);
+      }
+    } catch (_) {
+      // Ignore History API restrictions on sandboxed file:// origins
+    }
+  }
+
+  function syncControlsWithState() {
+    const isHill = state.activeView === "hill";
     els.tabHill.classList.toggle("nav-tabs__btn--active", isHill);
     els.tabJumper.classList.toggle("nav-tabs__btn--active", !isHill);
     els.viewHill.classList.toggle("view-section--hidden", !isHill);
     els.viewJumper.classList.toggle("view-section--hidden", isHill);
 
-    if (isHill) {
+    els.hillSelect.value = state.selectedHillId;
+
+    els.rosterButtons.forEach((btn) => {
+      btn.classList.toggle(
+        "segmented__btn--active",
+        btn.getAttribute("data-roster-mode") === state.rosterMode
+      );
+    });
+
+    els.scopeButtons.forEach((btn) => {
+      btn.classList.toggle(
+        "segmented__btn--active",
+        btn.getAttribute("data-hill-scope") === state.hillScope
+      );
+    });
+
+    populateProfileJumperSelect(els.profileSearchInput.value);
+    els.profileJumperSelect.value = state.profileJumperSlug;
+  }
+
+  function hydrateStateFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+
+    const viewParam = params.get("view");
+    if (viewParam === "jumper" || (!viewParam && params.has("jumper"))) {
+      state.activeView = "jumper";
+    } else {
+      state.activeView = "hill";
+    }
+
+    const resolvedHill = resolveHillIdFromParam(params.get("hill"));
+    state.selectedHillId = resolvedHill || DEFAULT_HILL_ID;
+
+    const rawJumpers = params.get("jumpers");
+    if (rawJumpers) {
+      const seen = new Set();
+      state.selectedJumperSlugs = rawJumpers
+        .split(",")
+        .map((s) => s.trim().toLowerCase())
+        .filter((slug) => {
+          if (!slug || seen.has(slug) || !jumperBySlug.has(slug)) {
+            return false;
+          }
+          seen.add(slug);
+          return true;
+        });
+    } else {
+      state.selectedJumperSlugs = [];
+    }
+
+    const poolParam = params.get("pool");
+    state.rosterMode = poolParam === "all" ? "all" : "active";
+
+    const scopeParam = params.get("scope");
+    state.hillScope = VALID_SCOPES.has(scopeParam) ? scopeParam : "overall";
+
+    const sortParam = params.get("sort");
+    state.hillSortKey = VALID_SORT_KEYS.has(sortParam) ? sortParam : "hillAvg";
+
+    const dirParam = params.get("dir");
+    state.hillSortDir = dirParam === "desc" ? "desc" : "asc";
+
+    const jumperParam = (params.get("jumper") || "").trim().toLowerCase();
+    state.profileJumperSlug = jumperBySlug.has(jumperParam)
+      ? jumperParam
+      : DEFAULT_JUMPER_SLUG;
+
+    syncControlsWithState();
+  }
+
+  function renderActiveView() {
+    if (state.activeView === "hill") {
       renderHillView();
     } else {
       renderJumperView();
     }
+  }
+
+  function switchView(targetView, skipHistoryPush) {
+    state.activeView = targetView;
+    syncControlsWithState();
+    if (!skipHistoryPush) {
+      syncUrlWithState("push");
+    }
+    renderActiveView();
   }
 
   function toggleSelectedJumper(slug) {
@@ -182,8 +352,35 @@
     } else {
       state.selectedJumperSlugs.push(slug);
     }
+    syncUrlWithState("replace");
     renderJumperDropdown(els.jumperSearchInput.value);
     renderHillView();
+  }
+
+  function copyShareableUrlToClipboard() {
+    syncUrlWithState("replace");
+    const shareUrl = buildShareableUrl();
+
+    const showCopiedState = () => {
+      if (!els.copyLinkBtn) return;
+      els.copyLinkBtn.textContent = "Copied ✓";
+      els.copyLinkBtn.classList.add("share-btn--copied");
+      if (copyFeedbackTimer) {
+        clearTimeout(copyFeedbackTimer);
+      }
+      copyFeedbackTimer = setTimeout(() => {
+        els.copyLinkBtn.textContent = "Copy Link";
+        els.copyLinkBtn.classList.remove("share-btn--copied");
+      }, 1800);
+    };
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(shareUrl).then(showCopiedState).catch(() => {
+        window.prompt("Copy shareable link:", shareUrl);
+      });
+    } else {
+      window.prompt("Copy shareable link:", shareUrl);
+    }
   }
 
   function renderJumperDropdown(query) {
@@ -639,8 +836,18 @@
     els.tabHill.addEventListener("click", () => switchView("hill"));
     els.tabJumper.addEventListener("click", () => switchView("jumper"));
 
+    if (els.copyLinkBtn) {
+      els.copyLinkBtn.addEventListener("click", copyShareableUrlToClipboard);
+    }
+
+    window.addEventListener("popstate", () => {
+      hydrateStateFromUrl();
+      renderActiveView();
+    });
+
     els.hillSelect.addEventListener("change", (e) => {
       state.selectedHillId = e.target.value;
+      syncUrlWithState("push");
       renderHillView();
     });
 
@@ -650,6 +857,7 @@
         els.rosterButtons.forEach((b) =>
           b.classList.toggle("segmented__btn--active", b === btn)
         );
+        syncUrlWithState("replace");
         renderJumperDropdown(els.jumperSearchInput.value);
         renderHillView();
       });
@@ -661,6 +869,7 @@
         els.scopeButtons.forEach((b) =>
           b.classList.toggle("segmented__btn--active", b === btn)
         );
+        syncUrlWithState("replace");
         renderHillView();
       });
     });
@@ -695,6 +904,7 @@
 
     els.clearJumpersBtn.addEventListener("click", () => {
       state.selectedJumperSlugs = [];
+      syncUrlWithState("replace");
       renderHillView();
     });
 
@@ -709,6 +919,7 @@
         state.hillSortKey = key;
         state.hillSortDir = defaultDir;
       }
+      syncUrlWithState("replace");
       renderHillView();
     });
 
@@ -721,7 +932,8 @@
       const openJumperBtn = e.target.closest("[data-open-jumper]");
       if (openJumperBtn) {
         state.profileJumperSlug = openJumperBtn.getAttribute("data-open-jumper");
-        populateProfileJumperSelect(els.profileSearchInput.value);
+        els.profileSearchInput.value = "";
+        populateProfileJumperSelect("");
         els.profileJumperSelect.value = state.profileJumperSlug;
         switchView("jumper");
       }
@@ -729,6 +941,7 @@
 
     els.profileJumperSelect.addEventListener("change", (e) => {
       state.profileJumperSlug = e.target.value;
+      syncUrlWithState("push");
       renderJumperView();
     });
 
@@ -754,6 +967,8 @@
 
   populateHillSelect();
   populateProfileJumperSelect("");
+  hydrateStateFromUrl();
+  syncUrlWithState("replace");
   attachEventListeners();
-  renderHillView();
+  renderActiveView();
 })();
