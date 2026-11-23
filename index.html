@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skokovi — 3-Season FIS World Cup Hill &amp; Jumper Analytics</title>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <script defer src="js/history-data.js"></script>
+  <script defer src="js/metrics.js"></script>
+  <script defer src="js/charts.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="topbar__inner">
+        <div class="topbar__brand">
+          <h1 class="topbar__title">Skokovi — 3-Season World Cup History (2023/24 – 2025/26)</h1>
+          <p class="topbar__subtitle">90 Men's Individual WC Competitions · 25 Hills (Exact FIS HS) · 133 Jumpers · Positive Δ (+) = Overperformed</p>
+        </div>
+        <nav class="nav-tabs" aria-label="Primary Views">
+          <button type="button" id="tab-hill" class="nav-tabs__btn nav-tabs__btn--active">Hill Performance Analysis</button>
+          <button type="button" id="tab-jumper" class="nav-tabs__btn">Jumper 3-Season Progression</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="app__main">
+      <!-- VIEW 1: HILL PERFORMANCE ANALYSIS -->
+      <section id="view-hill" class="view-section" aria-label="Hill Performance Analysis">
+        <div class="filter-panel">
+          <div class="filter-panel__row">
+            <div class="field-group">
+              <label class="field-group__label" for="hill-select">Select Hill &amp; Exact Size (HS)</label>
+              <select id="hill-select" class="field-group__select"></select>
+            </div>
+
+            <div id="hill-jumper-picker" class="field-group field-group--grow jumper-picker">
+              <label class="field-group__label" for="hill-jumper-search">Optional Jumpers Filter / H2H Comparison</label>
+              <div class="jumper-picker__controls">
+                <input
+                  type="search"
+                  id="hill-jumper-search"
+                  class="field-group__input"
+                  placeholder="Search jumpers to compare (leave empty for all)..."
+                  autocomplete="off"
+                >
+                <button type="button" id="clear-jumpers-btn" class="btn-ghost" hidden>Clear Selected</button>
+              </div>
+              <div id="hill-jumper-dropdown" class="jumper-picker__dropdown jumper-picker__dropdown--hidden"></div>
+            </div>
+
+            <div class="field-group">
+              <span class="field-group__label">Jumper Pool</span>
+              <div class="segmented" role="group" aria-label="Jumper Pool">
+                <button type="button" class="segmented__btn segmented__btn--active" data-roster-mode="active">Active 26/27 (70)</button>
+                <button type="button" class="segmented__btn" data-roster-mode="all">All WC (133)</button>
+              </div>
+            </div>
+
+            <div class="field-group">
+              <span class="field-group__label">Primary Sort &amp; Delta Scope</span>
+              <div class="segmented" role="group" aria-label="Season Focus">
+                <button type="button" class="segmented__btn segmented__btn--active" data-hill-scope="overall">3-Yr</button>
+                <button type="button" class="segmented__btn" data-hill-scope="2025/2026">25/26</button>
+                <button type="button" class="segmented__btn" data-hill-scope="2024/2025">24/25</button>
+                <button type="button" class="segmented__btn" data-hill-scope="2023/2024">23/24</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="selected-jumpers-chips" class="chip-bar chip-bar--empty"></div>
+
+          <div class="window-strip">
+            <div class="window-strip__title">Same-Category WC Calendar Window (Prev 3 &amp; After 3 Similar-Height Hills per Season)</div>
+            <div id="window-strip-seasons" class="window-strip__seasons"></div>
+          </div>
+        </div>
+
+        <div class="charts-grid">
+          <article class="chart-card">
+            <div class="chart-card__header">
+              <div>
+                <h2 class="chart-card__title">Form Trajectory: Prev 3 → Hill → After 3 vs Whole Year</h2>
+                <p class="chart-card__subtitle">Rank 1 at top · Dashed horizontal segments show each jumper's Whole-Season Avg</p>
+              </div>
+            </div>
+            <div class="chart-card__body">
+              <div id="hill-traj-legend" class="chart-legend"></div>
+              <div id="hill-traj-inspector" class="chart-card__inspector"></div>
+              <div id="hill-traj-chart"></div>
+            </div>
+          </article>
+
+          <article class="chart-card">
+            <div class="chart-card__header">
+              <div>
+                <h2 class="chart-card__title">Over / Underperformance Deltas (Places Gained vs Baseline)</h2>
+                <p id="hill-delta-scope-label" class="chart-card__subtitle"></p>
+              </div>
+              <div class="chart-legend">
+                <span class="chart-legend__item"><span class="badge badge--pos">Δ Year</span></span>
+                <span class="chart-legend__item"><span class="badge badge--cat-normal">Δ Prev 3</span></span>
+                <span class="chart-legend__item"><span class="badge badge--cat-large">Δ After 3</span></span>
+              </div>
+            </div>
+            <div class="chart-card__body">
+              <div id="hill-delta-inspector" class="chart-card__inspector"></div>
+              <div id="hill-delta-chart"></div>
+            </div>
+          </article>
+        </div>
+
+        <article class="table-card">
+          <div class="table-card__header">
+            <div>
+              <h2 id="hill-table-title" class="table-card__title">Hill Leaderboard</h2>
+              <p id="hill-table-subtitle" class="table-card__subtitle"></p>
+            </div>
+          </div>
+          <div class="table-scroll">
+            <table class="data-table">
+              <thead id="hill-table-head"></thead>
+              <tbody id="hill-table-body"></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+
+      <!-- VIEW 2: JUMPER 3-SEASON PROGRESSION -->
+      <section id="view-jumper" class="view-section view-section--hidden" aria-label="Jumper 3-Season Progression">
+        <div class="filter-panel">
+          <div class="filter-panel__row">
+            <div class="field-group">
+              <label class="field-group__label" for="profile-jumper-search">Quick Filter Jumper List</label>
+              <input
+                type="search"
+                id="profile-jumper-search"
+                class="field-group__input"
+                placeholder="Type jumper name or country (e.g. Prevc, AUT)..."
+                autocomplete="off"
+              >
+            </div>
+            <div class="field-group field-group--grow">
+              <label class="field-group__label" for="profile-jumper-select">Select Jumper (★ = Active 2026/27 Roster)</label>
+              <select id="profile-jumper-select" class="field-group__select"></select>
+            </div>
+          </div>
+        </div>
+
+        <div id="profile-banner" class="profile-banner"></div>
+
+        <div id="jumper-seasons-stack" class="seasons-stack"></div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
