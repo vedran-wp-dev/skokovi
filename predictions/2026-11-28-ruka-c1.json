@@ -1,0 +1,1222 @@
+{
+  "date": "2026-11-28",
+  "event": "ruka",
+  "hill_type": "hs142",
+  "session": "competition_1",
+  "source_duel_file": "files/2026-11-28-ponuda-duel.html",
+  "basis": {
+    "pure_ruka_2026": "100% 2026/2027 Ruka HS142 (T1 + T2 + Q1; weighted 0.25*T1 + 0.25*T2 + 0.50*Q1)",
+    "combined_75_25": "75% 2026/2027 Ruka HS142 (T1+T2+Q1 weighted) + 25% 2026/2027 Lillehammer HS140 (C1+C2); 2025/2026 Ruka used as context/tie-breaker only"
+  },
+  "empirical_q1_backtest": {
+    "ruka_2026_t1_t2": {
+      "spearman_rho": 0.746,
+      "n": 64,
+      "duel_h2h_wins": 18,
+      "duel_h2h_total": 33,
+      "duel_h2h_pct": 54.5
+    },
+    "bookmaker_favorite": {
+      "duel_h2h_wins": 11,
+      "duel_h2h_total": 22,
+      "duel_h2h_pct": 50.0
+    },
+    "lillehammer_2026_c1_c2": {
+      "spearman_rho": 0.709,
+      "n": 55,
+      "duel_h2h_wins": 11,
+      "duel_h2h_total": 32,
+      "duel_h2h_pct": 34.4
+    },
+    "ruka_2025_2026_last_year": {
+      "spearman_rho": 0.314,
+      "n": 36,
+      "duel_h2h_wins": 7,
+      "duel_h2h_total": 16,
+      "duel_h2h_pct": 43.8
+    },
+    "blend_70_ruka_30_lil_c": {
+      "spearman_rho": 0.755,
+      "n": 55,
+      "duel_h2h_wins": 15,
+      "duel_h2h_total": 33,
+      "duel_h2h_pct": 45.5
+    }
+  },
+  "rules": {
+    "min_odds": 1.4,
+    "disjoint_athletes_per_ticket": true
+  },
+  "tickets": [
+    {
+      "id": "listic_a1_pure_ruka_main",
+      "label": "Listić A1 — Čista Ruka (Glavni)",
+      "model": "pure_ruka_2026",
+      "strategy": "pure_ruka_main",
+      "combined_odds": 15.49,
+      "status": "pending",
+      "hits": null,
+      "total_picks": 5,
+      "picks": [
+        {
+          "pick": {
+            "name": "Marius Lindvik",
+            "sportsbook_name": "Lindvik M.",
+            "fis_code": "6734",
+            "odds": 1.6
+          },
+          "opponent": {
+            "name": "Kristoffer Eriksen Sundal",
+            "sportsbook_name": "Sundal K.E.",
+            "fis_code": "8021",
+            "odds": 2.16
+          },
+          "metrics": {
+            "ruka_2026_h2h": "2-1",
+            "pick_ruka_sessions": {
+              "t1": 3,
+              "t2": 1,
+              "q1": 1,
+              "q1_pts": 169.5,
+              "q1_wind": -0.19
+            },
+            "opp_ruka_sessions": {
+              "t1": 1,
+              "t2": 3,
+              "q1": 7,
+              "q1_pts": 155.9,
+              "q1_wind": -0.08
+            },
+            "pick_ruka_avg": 1.7,
+            "opp_ruka_avg": 3.7,
+            "pick_ruka_weighted": 1.5,
+            "opp_ruka_weighted": 4.5,
+            "pick_lil_comp": [
+              13,
+              9
+            ],
+            "opp_lil_comp": [
+              5,
+              1
+            ],
+            "pick_blend": 3.9,
+            "opp_blend": 4.1,
+            "pick_ruka_2526": {
+              "rank": 22,
+              "diff": -7.6
+            },
+            "opp_ruka_2526": {
+              "rank": 14,
+              "diff": 3.9
+            }
+          },
+          "reasoning": "Ruka 3,1,1 (avg 1.7, w 1.5, 169.5 pt) vs 1,3,7 (avg 3.7, w 4.5, 155.9 pt), H2H 2-1, +13.6 pt u Q1 iz iste kapije 11.",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Sandro Hauswirth",
+            "sportsbook_name": "Hauswirth S.",
+            "fis_code": "6999",
+            "odds": 1.84
+          },
+          "opponent": {
+            "name": "Ren Nikaido",
+            "sportsbook_name": "Nikaido R.",
+            "fis_code": "7305",
+            "odds": 1.84
+          },
+          "metrics": {
+            "ruka_2026_h2h": "1-2",
+            "pick_ruka_sessions": {
+              "t1": 9,
+              "t2": 10,
+              "q1": 2,
+              "q1_pts": 167.7,
+              "q1_wind": -0.11
+            },
+            "opp_ruka_sessions": {
+              "t1": 6,
+              "t2": 7,
+              "q1": 18,
+              "q1_pts": 140.3,
+              "q1_wind": -0.36
+            },
+            "pick_ruka_avg": 7.0,
+            "opp_ruka_avg": 10.3,
+            "pick_ruka_weighted": 5.8,
+            "opp_ruka_weighted": 12.2,
+            "pick_lil_comp": [
+              14,
+              10
+            ],
+            "opp_lil_comp": [
+              37,
+              19
+            ],
+            "pick_blend": 7.3,
+            "opp_blend": 16.1,
+            "pick_ruka_2526": null,
+            "opp_ruka_2526": {
+              "rank": 2,
+              "diff": 5.8
+            }
+          },
+          "reasoning": "Ruka 9,10,2 (avg 7.0, w 5.8, 167.7 pt) vs 6,7,18 (avg 10.3, w 12.2, 140.3 pt).",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Daniel Tschofenig",
+            "sportsbook_name": "Tschofenig D.",
+            "fis_code": "7395",
+            "odds": 1.94
+          },
+          "opponent": {
+            "name": "Jan Hoerl",
+            "sportsbook_name": "Hoerl J.",
+            "fis_code": "7450",
+            "odds": 1.75
+          },
+          "metrics": {
+            "ruka_2026_h2h": "2-1",
+            "pick_ruka_sessions": {
+              "t1": 10,
+              "t2": 5,
+              "q1": 4,
+              "q1_pts": 161.3,
+              "q1_wind": 0.04
+            },
+            "opp_ruka_sessions": {
+              "t1": 16,
+              "t2": 9,
+              "q1": 3,
+              "q1_pts": 163.8,
+              "q1_wind": -0.09
+            },
+            "pick_ruka_avg": 6.3,
+            "opp_ruka_avg": 9.3,
+            "pick_ruka_weighted": 5.8,
+            "opp_ruka_weighted": 7.8,
+            "pick_lil_comp": [
+              4,
+              11
+            ],
+            "opp_lil_comp": [
+              6,
+              6
+            ],
+            "pick_blend": 6.2,
+            "opp_blend": 7.3,
+            "pick_ruka_2526": {
+              "rank": 12,
+              "diff": -2.0
+            },
+            "opp_ruka_2526": {
+              "rank": 35,
+              "diff": -24.7
+            }
+          },
+          "reasoning": "Ruka 10,5,4 (avg 6.3, w 5.8) vs 16,9,3 (avg 9.3, w 7.8), H2H 2-1.",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Danil Vassilyev",
+            "sportsbook_name": "Vassilyev D.",
+            "fis_code": "7888",
+            "odds": 1.55
+          },
+          "opponent": {
+            "name": "Pawel Wasek",
+            "sportsbook_name": "Wasek P.",
+            "fis_code": "6987",
+            "odds": 2.26
+          },
+          "metrics": {
+            "ruka_2026_h2h": "3-0",
+            "pick_ruka_sessions": {
+              "t1": 11,
+              "t2": 17,
+              "q1": 17,
+              "q1_pts": 141.6,
+              "q1_wind": -0.74
+            },
+            "opp_ruka_sessions": {
+              "t1": 27,
+              "t2": 22,
+              "q1": 20,
+              "q1_pts": 139.2,
+              "q1_wind": -0.19
+            },
+            "pick_ruka_avg": 15.0,
+            "opp_ruka_avg": 23.0,
+            "pick_ruka_weighted": 15.5,
+            "opp_ruka_weighted": 22.2,
+            "pick_lil_comp": [
+              19,
+              29
+            ],
+            "opp_lil_comp": [
+              "DNQ",
+              "DNQ"
+            ],
+            "pick_blend": 17.6,
+            "opp_blend": 30.4,
+            "pick_ruka_2526": {
+              "rank": 41,
+              "diff": -2.4
+            },
+            "opp_ruka_2526": {
+              "rank": 36,
+              "diff": -4.2
+            }
+          },
+          "reasoning": "Ruka 3-0 (11,17,17 vs 27,22,20; avg 15.0 vs 23.0); Vassilyev 17. u Q1 unatoč najgorem vjetru u leđa (-0.74 m/s).",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Pius Paschke",
+            "sportsbook_name": "Paschke P.",
+            "fis_code": "2171",
+            "odds": 1.75
+          },
+          "opponent": {
+            "name": "Ilya Mizernykh",
+            "sportsbook_name": "Mizernykh I.",
+            "fis_code": "8612",
+            "odds": 1.94
+          },
+          "metrics": {
+            "ruka_2026_h2h": "2-0",
+            "pick_ruka_sessions": {
+              "t1": "DNS",
+              "t2": 27,
+              "q1": 32,
+              "q1_pts": 131.0,
+              "q1_wind": -0.48
+            },
+            "opp_ruka_sessions": {
+              "t1": 56,
+              "t2": 29,
+              "q1": 35,
+              "q1_pts": 130.5,
+              "q1_wind": -0.1
+            },
+            "pick_ruka_avg": 29.5,
+            "opp_ruka_avg": 40.0,
+            "pick_ruka_weighted": 30.0,
+            "opp_ruka_weighted": 38.8,
+            "pick_lil_comp": [
+              18,
+              35
+            ],
+            "opp_lil_comp": [
+              49,
+              39
+            ],
+            "pick_blend": 29.1,
+            "opp_blend": 40.1,
+            "pick_ruka_2526": {
+              "rank": 9,
+              "diff": 14.9
+            },
+            "opp_ruka_2526": {
+              "rank": 46,
+              "diff": -13.6
+            }
+          },
+          "reasoning": "Ruka 2-0 (DNS,27,32 vs 56,29,35; avg 29.5 vs 40.0).",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        }
+      ]
+    },
+    {
+      "id": "listic_a2_pure_ruka_value",
+      "label": "Listić A2 — Čista Ruka (Value / Autsajderi)",
+      "model": "pure_ruka_2026",
+      "strategy": "pure_ruka_value",
+      "combined_odds": 32.08,
+      "status": "pending",
+      "hits": null,
+      "total_picks": 5,
+      "picks": [
+        {
+          "pick": {
+            "name": "Anze Lanisek",
+            "sportsbook_name": "Lanisek A.",
+            "fis_code": "6437",
+            "odds": 2.01
+          },
+          "opponent": {
+            "name": "Domen Prevc",
+            "sportsbook_name": "Prevc D.",
+            "fis_code": "7091",
+            "odds": 1.7
+          },
+          "metrics": {
+            "ruka_2026_h2h": "1-2",
+            "pick_ruka_sessions": {
+              "t1": 40,
+              "t2": 12,
+              "q1": 9,
+              "q1_pts": 152.2,
+              "q1_wind": -0.03
+            },
+            "opp_ruka_sessions": {
+              "t1": 15,
+              "t2": 4,
+              "q1": 45,
+              "q1_pts": 120.6,
+              "q1_wind": -0.3
+            },
+            "pick_ruka_avg": 20.3,
+            "opp_ruka_avg": 21.3,
+            "pick_ruka_weighted": 17.5,
+            "opp_ruka_weighted": 27.2,
+            "pick_lil_comp": [
+              17,
+              7
+            ],
+            "opp_lil_comp": [
+              50,
+              8
+            ],
+            "pick_blend": 16.1,
+            "opp_blend": 27.6,
+            "pick_ruka_2526": {
+              "rank": 1,
+              "diff": 8.3
+            },
+            "opp_ruka_2526": {
+              "rank": 3,
+              "diff": 1.7
+            }
+          },
+          "reasoning": "Ruka 40,12,9 (w 17.5, 152.2 pt, rast iz serije u seriju) vs 15,4,45 (w 27.2, 120.6 pt).",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Timi Zajc",
+            "sportsbook_name": "Zajc T.",
+            "fis_code": "7147",
+            "odds": 2.26
+          },
+          "opponent": {
+            "name": "Raffael Zimmermann",
+            "sportsbook_name": "Zimmermann R.",
+            "fis_code": "7617",
+            "odds": 1.55
+          },
+          "metrics": {
+            "ruka_2026_h2h": "2-1",
+            "pick_ruka_sessions": {
+              "t1": 7,
+              "t2": 24,
+              "q1": 22,
+              "q1_pts": 137.9,
+              "q1_wind": -0.24
+            },
+            "opp_ruka_sessions": {
+              "t1": 21,
+              "t2": 15,
+              "q1": 36,
+              "q1_pts": 129.1,
+              "q1_wind": -0.29
+            },
+            "pick_ruka_avg": 17.7,
+            "opp_ruka_avg": 24.0,
+            "pick_ruka_weighted": 18.8,
+            "opp_ruka_weighted": 27.0,
+            "pick_lil_comp": [
+              29,
+              14
+            ],
+            "opp_lil_comp": [
+              3,
+              2
+            ],
+            "pick_blend": 19.5,
+            "opp_blend": 20.9,
+            "pick_ruka_2526": {
+              "rank": 23,
+              "diff": -2.6
+            },
+            "opp_ruka_2526": null
+          },
+          "reasoning": "Ruka 7,24,22 (avg 17.7, w 18.8) vs 21,15,36 (avg 24.0, w 27.0), H2H 2-1.",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Philipp Raimund",
+            "sportsbook_name": "Raimund P.",
+            "fis_code": "7349",
+            "odds": 2.08
+          },
+          "opponent": {
+            "name": "Gregor Deschwanden",
+            "sportsbook_name": "Deschwanden G.",
+            "fis_code": "5435",
+            "odds": 1.65
+          },
+          "metrics": {
+            "ruka_2026_h2h": "2-1",
+            "pick_ruka_sessions": {
+              "t1": 22,
+              "t2": 20,
+              "q1": 11,
+              "q1_pts": 149.5,
+              "q1_wind": -0.13
+            },
+            "opp_ruka_sessions": {
+              "t1": 12,
+              "t2": 28,
+              "q1": 14,
+              "q1_pts": 146.5,
+              "q1_wind": -0.34
+            },
+            "pick_ruka_avg": 17.7,
+            "opp_ruka_avg": 18.0,
+            "pick_ruka_weighted": 16.0,
+            "opp_ruka_weighted": 17.0,
+            "pick_lil_comp": [
+              15,
+              20
+            ],
+            "opp_lil_comp": [
+              16,
+              18
+            ],
+            "pick_blend": 16.4,
+            "opp_blend": 17.0,
+            "pick_ruka_2526": {
+              "rank": 32,
+              "diff": -20.9
+            },
+            "opp_ruka_2526": {
+              "rank": 10,
+              "diff": 11.9
+            }
+          },
+          "reasoning": "Ruka 22,20,11 (w 16.0, trend rasta) vs 12,28,14 (w 17.0), H2H 2-1.",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Vladimir Zografski",
+            "sportsbook_name": "Zografski V.",
+            "fis_code": "5168",
+            "odds": 1.94
+          },
+          "opponent": {
+            "name": "Tate Frantz",
+            "sportsbook_name": "Frantz T.",
+            "fis_code": "220183",
+            "odds": 1.75
+          },
+          "metrics": {
+            "ruka_2026_h2h": "1-2",
+            "pick_ruka_sessions": {
+              "t1": 26,
+              "t2": 22,
+              "q1": 21,
+              "q1_pts": 138.6,
+              "q1_wind": -0.1
+            },
+            "opp_ruka_sessions": {
+              "t1": 18,
+              "t2": 18,
+              "q1": 37,
+              "q1_pts": 125.3,
+              "q1_wind": -0.01
+            },
+            "pick_ruka_avg": 23.0,
+            "opp_ruka_avg": 24.3,
+            "pick_ruka_weighted": 22.5,
+            "opp_ruka_weighted": 27.5,
+            "pick_lil_comp": [
+              28,
+              30
+            ],
+            "opp_lil_comp": [
+              35,
+              22
+            ],
+            "pick_blend": 24.1,
+            "opp_blend": 27.8,
+            "pick_ruka_2526": {
+              "rank": 4,
+              "diff": 15.2
+            },
+            "opp_ruka_2526": {
+              "rank": 38,
+              "diff": -6.6
+            }
+          },
+          "reasoning": "Ruka 26,22,21 (w 22.5, 138.6 pt) vs 18,18,37 (w 27.5, 125.3 pt).",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Pawel Wasek",
+            "sportsbook_name": "Wasek P.",
+            "fis_code": "6987",
+            "odds": 1.75
+          },
+          "opponent": {
+            "name": "Niko Kytosaho",
+            "sportsbook_name": "Kytosaho N.",
+            "fis_code": "6912",
+            "odds": 1.94
+          },
+          "metrics": {
+            "ruka_2026_h2h": "3-0",
+            "pick_ruka_sessions": {
+              "t1": 27,
+              "t2": 22,
+              "q1": 20,
+              "q1_pts": 139.2,
+              "q1_wind": -0.19
+            },
+            "opp_ruka_sessions": {
+              "t1": 29,
+              "t2": 26,
+              "q1": 25,
+              "q1_pts": 136.4,
+              "q1_wind": -0.16
+            },
+            "pick_ruka_avg": 23.0,
+            "opp_ruka_avg": 26.7,
+            "pick_ruka_weighted": 22.2,
+            "opp_ruka_weighted": 26.2,
+            "pick_lil_comp": [
+              "DNQ",
+              "DNQ"
+            ],
+            "opp_lil_comp": [
+              36,
+              43
+            ],
+            "pick_blend": 30.4,
+            "opp_blend": 29.5,
+            "pick_ruka_2526": {
+              "rank": 36,
+              "diff": -4.2
+            },
+            "opp_ruka_2526": {
+              "rank": 8,
+              "diff": 11.1
+            }
+          },
+          "reasoning": "Ruka 3-0 (27,22,20 vs 29,26,25; avg 23.0 vs 26.7).",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        }
+      ]
+    },
+    {
+      "id": "listic_b1_combined_convergence",
+      "label": "Listić B1 — Kombinirani (Najjača konvergencija)",
+      "model": "combined_75_25",
+      "strategy": "combined_convergence",
+      "combined_odds": 14.04,
+      "status": "pending",
+      "hits": null,
+      "total_picks": 5,
+      "picks": [
+        {
+          "pick": {
+            "name": "Kristoffer Eriksen Sundal",
+            "sportsbook_name": "Sundal K.E.",
+            "fis_code": "8021",
+            "odds": 1.45
+          },
+          "opponent": {
+            "name": "Isak Andreas Langmo",
+            "sportsbook_name": "Langmo I.A.",
+            "fis_code": "219702",
+            "odds": 2.52
+          },
+          "metrics": {
+            "ruka_2026_h2h": "3-0",
+            "pick_ruka_sessions": {
+              "t1": 1,
+              "t2": 3,
+              "q1": 7,
+              "q1_pts": 155.9,
+              "q1_wind": -0.08
+            },
+            "opp_ruka_sessions": {
+              "t1": 4,
+              "t2": 8,
+              "q1": 8,
+              "q1_pts": 154.5,
+              "q1_wind": -0.16
+            },
+            "pick_ruka_avg": 3.7,
+            "opp_ruka_avg": 6.7,
+            "pick_ruka_weighted": 4.5,
+            "opp_ruka_weighted": 7.0,
+            "pick_lil_comp": [
+              5,
+              1
+            ],
+            "opp_lil_comp": [
+              9,
+              3
+            ],
+            "pick_blend": 4.1,
+            "opp_blend": 6.8,
+            "pick_ruka_2526": {
+              "rank": 14,
+              "diff": 3.9
+            },
+            "opp_ruka_2526": null
+          },
+          "reasoning": "Ruka 3-0 (1,3,7 vs 4,8,8), Lil C (5/1 vs 9/3), Blend 4.1 vs 6.8.",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Sandro Hauswirth",
+            "sportsbook_name": "Hauswirth S.",
+            "fis_code": "6999",
+            "odds": 1.84
+          },
+          "opponent": {
+            "name": "Ren Nikaido",
+            "sportsbook_name": "Nikaido R.",
+            "fis_code": "7305",
+            "odds": 1.84
+          },
+          "metrics": {
+            "ruka_2026_h2h": "1-2",
+            "pick_ruka_sessions": {
+              "t1": 9,
+              "t2": 10,
+              "q1": 2,
+              "q1_pts": 167.7,
+              "q1_wind": -0.11
+            },
+            "opp_ruka_sessions": {
+              "t1": 6,
+              "t2": 7,
+              "q1": 18,
+              "q1_pts": 140.3,
+              "q1_wind": -0.36
+            },
+            "pick_ruka_avg": 7.0,
+            "opp_ruka_avg": 10.3,
+            "pick_ruka_weighted": 5.8,
+            "opp_ruka_weighted": 12.2,
+            "pick_lil_comp": [
+              14,
+              10
+            ],
+            "opp_lil_comp": [
+              37,
+              19
+            ],
+            "pick_blend": 7.3,
+            "opp_blend": 16.1,
+            "pick_ruka_2526": null,
+            "opp_ruka_2526": {
+              "rank": 2,
+              "diff": 5.8
+            }
+          },
+          "reasoning": "Ruka (9,10,2 vs 6,7,18), Lil C (14/10 vs 37/19), Blend 7.3 vs 16.2.",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Daniel Tschofenig",
+            "sportsbook_name": "Tschofenig D.",
+            "fis_code": "7395",
+            "odds": 1.94
+          },
+          "opponent": {
+            "name": "Jan Hoerl",
+            "sportsbook_name": "Hoerl J.",
+            "fis_code": "7450",
+            "odds": 1.75
+          },
+          "metrics": {
+            "ruka_2026_h2h": "2-1",
+            "pick_ruka_sessions": {
+              "t1": 10,
+              "t2": 5,
+              "q1": 4,
+              "q1_pts": 161.3,
+              "q1_wind": 0.04
+            },
+            "opp_ruka_sessions": {
+              "t1": 16,
+              "t2": 9,
+              "q1": 3,
+              "q1_pts": 163.8,
+              "q1_wind": -0.09
+            },
+            "pick_ruka_avg": 6.3,
+            "opp_ruka_avg": 9.3,
+            "pick_ruka_weighted": 5.8,
+            "opp_ruka_weighted": 7.8,
+            "pick_lil_comp": [
+              4,
+              11
+            ],
+            "opp_lil_comp": [
+              6,
+              6
+            ],
+            "pick_blend": 6.2,
+            "opp_blend": 7.3,
+            "pick_ruka_2526": {
+              "rank": 12,
+              "diff": -2.0
+            },
+            "opp_ruka_2526": {
+              "rank": 35,
+              "diff": -24.7
+            }
+          },
+          "reasoning": "Ruka 2-1 (10,5,4 vs 16,9,3), Blend 6.2 vs 7.3, Ruka 25/26 (12. vs 35.).",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Danil Vassilyev",
+            "sportsbook_name": "Vassilyev D.",
+            "fis_code": "7888",
+            "odds": 1.55
+          },
+          "opponent": {
+            "name": "Pawel Wasek",
+            "sportsbook_name": "Wasek P.",
+            "fis_code": "6987",
+            "odds": 2.26
+          },
+          "metrics": {
+            "ruka_2026_h2h": "3-0",
+            "pick_ruka_sessions": {
+              "t1": 11,
+              "t2": 17,
+              "q1": 17,
+              "q1_pts": 141.6,
+              "q1_wind": -0.74
+            },
+            "opp_ruka_sessions": {
+              "t1": 27,
+              "t2": 22,
+              "q1": 20,
+              "q1_pts": 139.2,
+              "q1_wind": -0.19
+            },
+            "pick_ruka_avg": 15.0,
+            "opp_ruka_avg": 23.0,
+            "pick_ruka_weighted": 15.5,
+            "opp_ruka_weighted": 22.2,
+            "pick_lil_comp": [
+              19,
+              29
+            ],
+            "opp_lil_comp": [
+              "DNQ",
+              "DNQ"
+            ],
+            "pick_blend": 17.6,
+            "opp_blend": 30.4,
+            "pick_ruka_2526": {
+              "rank": 41,
+              "diff": -2.4
+            },
+            "opp_ruka_2526": {
+              "rank": 36,
+              "diff": -4.2
+            }
+          },
+          "reasoning": "Ruka 3-0 (11,17,17 vs 27,22,20), Lil C (19/29 vs DNQ/DNQ), Blend 17.6 vs 30.4.",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Pius Paschke",
+            "sportsbook_name": "Paschke P.",
+            "fis_code": "2171",
+            "odds": 1.75
+          },
+          "opponent": {
+            "name": "Ilya Mizernykh",
+            "sportsbook_name": "Mizernykh I.",
+            "fis_code": "8612",
+            "odds": 1.94
+          },
+          "metrics": {
+            "ruka_2026_h2h": "2-0",
+            "pick_ruka_sessions": {
+              "t1": "DNS",
+              "t2": 27,
+              "q1": 32,
+              "q1_pts": 131.0,
+              "q1_wind": -0.48
+            },
+            "opp_ruka_sessions": {
+              "t1": 56,
+              "t2": 29,
+              "q1": 35,
+              "q1_pts": 130.5,
+              "q1_wind": -0.1
+            },
+            "pick_ruka_avg": 29.5,
+            "opp_ruka_avg": 40.0,
+            "pick_ruka_weighted": 30.0,
+            "opp_ruka_weighted": 38.8,
+            "pick_lil_comp": [
+              18,
+              35
+            ],
+            "opp_lil_comp": [
+              49,
+              39
+            ],
+            "pick_blend": 29.1,
+            "opp_blend": 40.1,
+            "pick_ruka_2526": {
+              "rank": 9,
+              "diff": 14.9
+            },
+            "opp_ruka_2526": {
+              "rank": 46,
+              "diff": -13.6
+            }
+          },
+          "reasoning": "Ruka 2-0, Lil C (18/35 vs 49/39), Blend 29.1 vs 40.1, Ruka 25/26 (9. vs 46.).",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        }
+      ]
+    },
+    {
+      "id": "listic_b2_combined_raceday_value",
+      "label": "Listić B2 — Kombinirani (2-Round Race-Day & Value)",
+      "model": "combined_75_25",
+      "strategy": "combined_raceday_value",
+      "combined_odds": 20.87,
+      "status": "pending",
+      "hits": null,
+      "total_picks": 5,
+      "picks": [
+        {
+          "pick": {
+            "name": "Anze Lanisek",
+            "sportsbook_name": "Lanisek A.",
+            "fis_code": "6437",
+            "odds": 2.01
+          },
+          "opponent": {
+            "name": "Domen Prevc",
+            "sportsbook_name": "Prevc D.",
+            "fis_code": "7091",
+            "odds": 1.7
+          },
+          "metrics": {
+            "ruka_2026_h2h": "1-2",
+            "pick_ruka_sessions": {
+              "t1": 40,
+              "t2": 12,
+              "q1": 9,
+              "q1_pts": 152.2,
+              "q1_wind": -0.03
+            },
+            "opp_ruka_sessions": {
+              "t1": 15,
+              "t2": 4,
+              "q1": 45,
+              "q1_pts": 120.6,
+              "q1_wind": -0.3
+            },
+            "pick_ruka_avg": 20.3,
+            "opp_ruka_avg": 21.3,
+            "pick_ruka_weighted": 17.5,
+            "opp_ruka_weighted": 27.2,
+            "pick_lil_comp": [
+              17,
+              7
+            ],
+            "opp_lil_comp": [
+              50,
+              8
+            ],
+            "pick_blend": 16.1,
+            "opp_blend": 27.6,
+            "pick_ruka_2526": {
+              "rank": 1,
+              "diff": 8.3
+            },
+            "opp_ruka_2526": {
+              "rank": 3,
+              "diff": 1.7
+            }
+          },
+          "reasoning": "Ruka (w 17.5 vs 27.2), Lil C (17/7 vs 50/8), Blend 16.1 vs 27.7, Ruka 25/26 (1. vs 3.).",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Ryoyu Kobayashi",
+            "sportsbook_name": "Kobayashi R.",
+            "fis_code": "6288",
+            "odds": 1.94
+          },
+          "opponent": {
+            "name": "Kacper Tomasiak",
+            "sportsbook_name": "Tomasiak K.",
+            "fis_code": "8585",
+            "odds": 1.75
+          },
+          "metrics": {
+            "ruka_2026_h2h": "1-2",
+            "pick_ruka_sessions": {
+              "t1": 25,
+              "t2": 33,
+              "q1": 13,
+              "q1_pts": 147.2,
+              "q1_wind": 0.0
+            },
+            "opp_ruka_sessions": {
+              "t1": 32,
+              "t2": 11,
+              "q1": 10,
+              "q1_pts": 151.7,
+              "q1_wind": -0.06
+            },
+            "pick_ruka_avg": 23.7,
+            "opp_ruka_avg": 17.7,
+            "pick_ruka_weighted": 21.0,
+            "opp_ruka_weighted": 15.8,
+            "pick_lil_comp": [
+              8,
+              13
+            ],
+            "opp_lil_comp": [
+              46,
+              27
+            ],
+            "pick_blend": 18.4,
+            "opp_blend": 21.0,
+            "pick_ruka_2526": {
+              "rank": 5,
+              "diff": 2.9
+            },
+            "opp_ruka_2526": {
+              "rank": 18,
+              "diff": -1.3
+            }
+          },
+          "reasoning": "Kombinirani flip: Lil C (8/13 vs 46/27 — Tomasiak pada u 2-round utrkama), Blend 18.4 vs 20.9, Ruka 25/26 (5. vs 18.).",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Halvor Egner Granerud",
+            "sportsbook_name": "Granerud H.E.",
+            "fis_code": "6880",
+            "odds": 1.78
+          },
+          "opponent": {
+            "name": "Ren Nikaido",
+            "sportsbook_name": "Nikaido R.",
+            "fis_code": "7305",
+            "odds": 1.9
+          },
+          "metrics": {
+            "ruka_2026_h2h": "2-1",
+            "pick_ruka_sessions": {
+              "t1": 5,
+              "t2": 5,
+              "q1": 27,
+              "q1_pts": 134.6,
+              "q1_wind": -0.42
+            },
+            "opp_ruka_sessions": {
+              "t1": 6,
+              "t2": 7,
+              "q1": 18,
+              "q1_pts": 140.3,
+              "q1_wind": -0.36
+            },
+            "pick_ruka_avg": 12.3,
+            "opp_ruka_avg": 10.3,
+            "pick_ruka_weighted": 16.0,
+            "opp_ruka_weighted": 12.2,
+            "pick_lil_comp": [
+              2,
+              4
+            ],
+            "opp_lil_comp": [
+              37,
+              19
+            ],
+            "pick_blend": 12.8,
+            "opp_blend": 16.1,
+            "pick_ruka_2526": {
+              "rank": 18,
+              "diff": 6.6
+            },
+            "opp_ruka_2526": {
+              "rank": 2,
+              "diff": 5.8
+            }
+          },
+          "reasoning": "Kombinirani flip: Granerud T1=5, T2=5 (Q1=27 u -0.42 vjetru) + Lil C (2/4 vs 37/19), Blend 12.8 vs 16.2.",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Vladimir Zografski",
+            "sportsbook_name": "Zografski V.",
+            "fis_code": "5168",
+            "odds": 1.94
+          },
+          "opponent": {
+            "name": "Tate Frantz",
+            "sportsbook_name": "Frantz T.",
+            "fis_code": "220183",
+            "odds": 1.75
+          },
+          "metrics": {
+            "ruka_2026_h2h": "1-2",
+            "pick_ruka_sessions": {
+              "t1": 26,
+              "t2": 22,
+              "q1": 21,
+              "q1_pts": 138.6,
+              "q1_wind": -0.1
+            },
+            "opp_ruka_sessions": {
+              "t1": 18,
+              "t2": 18,
+              "q1": 37,
+              "q1_pts": 125.3,
+              "q1_wind": -0.01
+            },
+            "pick_ruka_avg": 23.0,
+            "opp_ruka_avg": 24.3,
+            "pick_ruka_weighted": 22.5,
+            "opp_ruka_weighted": 27.5,
+            "pick_lil_comp": [
+              28,
+              30
+            ],
+            "opp_lil_comp": [
+              35,
+              22
+            ],
+            "pick_blend": 24.1,
+            "opp_blend": 27.8,
+            "pick_ruka_2526": {
+              "rank": 4,
+              "diff": 15.2
+            },
+            "opp_ruka_2526": {
+              "rank": 38,
+              "diff": -6.6
+            }
+          },
+          "reasoning": "Ruka (w 22.5 vs 27.5), Blend 24.1 vs 27.8, Ruka 25/26 (4. vs 38.).",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        },
+        {
+          "pick": {
+            "name": "Maciej Kot",
+            "sportsbook_name": "Kot M.",
+            "fis_code": "5298",
+            "odds": 1.55
+          },
+          "opponent": {
+            "name": "Kasperi Valto",
+            "sportsbook_name": "Valto K.",
+            "fis_code": "7873",
+            "odds": 2.26
+          },
+          "metrics": {
+            "ruka_2026_h2h": "2-1",
+            "pick_ruka_sessions": {
+              "t1": 30,
+              "t2": 32,
+              "q1": 41,
+              "q1_pts": 122.9,
+              "q1_wind": -0.32
+            },
+            "opp_ruka_sessions": {
+              "t1": 36,
+              "t2": 30,
+              "q1": 45,
+              "q1_pts": 120.6,
+              "q1_wind": 0.09
+            },
+            "pick_ruka_avg": 34.3,
+            "opp_ruka_avg": 37.0,
+            "pick_ruka_weighted": 36.0,
+            "opp_ruka_weighted": 39.0,
+            "pick_lil_comp": [
+              32,
+              42
+            ],
+            "opp_lil_comp": [
+              44,
+              44
+            ],
+            "pick_blend": 36.2,
+            "opp_blend": 40.2,
+            "pick_ruka_2526": null,
+            "opp_ruka_2526": null
+          },
+          "reasoning": "Ruka 2-1 (30,32,41 vs 36,30,45), Lil C (32/42 vs 44/44), Blend 36.2 vs 40.2.",
+          "result": null,
+          "pick_rank": null,
+          "opponent_rank": null
+        }
+      ]
+    }
+  ]
+}

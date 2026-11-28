@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruka HS142 — 1. pojedinačno natjecanje (28.11.2026.) | Duel Analiza</title>
+  <style>
+    :root {
+      --bg: #f1f5f9;
+      --surface: #ffffff;
+      --surface-alt: #f8fafc;
+      --border: #e2e8f0;
+      --border-strong: #cbd5e1;
+      --ink: #0f172a;
+      --ink-muted: #475569;
+      --ink-soft: #64748b;
+      --accent: #0284c7;
+      --accent-dark: #0369a1;
+      --accent-bg: #e0f2fe;
+      --agree-ink: #166534;
+      --agree-bg: #dcfce7;
+      --flip-ink: #92400e;
+      --flip-bg: #fef3c7;
+      --value-ink: #6b21a8;
+      --value-bg: #f3e8ff;
+      --radius: 12px;
+      --radius-sm: 8px;
+      --shadow: 0 1px 3px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.04);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.5;
+      padding: 20px 16px 48px;
+    }
+
+    .report {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .report__header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+      color: #ffffff;
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      box-shadow: var(--shadow);
+    }
+
+    .report__kicker {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #7dd3fc;
+    }
+
+    .report__title {
+      font-size: clamp(22px, 3vw, 30px);
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    .report__meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.14);
+      color: #f8fafc;
+    }
+
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .section__header {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+    }
+
+    .section__title {
+      font-size: 19px;
+      font-weight: 800;
+      color: var(--ink);
+    }
+
+    .section__desc {
+      font-size: 14px;
+      color: var(--ink-muted);
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+    }
+
+    .stat-table,
+    .duel-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .stat-table th,
+    .stat-table td,
+    .duel-table th,
+    .duel-table td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+
+    .stat-table th,
+    .duel-table th {
+      background: var(--surface-alt);
+      font-weight: 700;
+      color: var(--ink-muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+
+    .stat-table__row--highlight {
+      background: var(--accent-bg);
+      font-weight: 700;
+    }
+
+    .stat-table__row--weak {
+      background: #fef2f2;
+      color: #991b1b;
+    }
+
+    .insights {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+    }
+
+    .insight {
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 14px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .insight__label {
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .insight__label--go { color: var(--agree-ink); }
+    .insight__label--warn { color: var(--flip-ink); }
+    .insight__label--no { color: #b91c1c; }
+
+    .insight__text {
+      font-size: 13px;
+      color: var(--ink-muted);
+    }
+
+    .ticket-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+    }
+
+    .ticket-card {
+      border: 1px solid var(--border-strong);
+      border-radius: var(--radius);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      background: var(--surface);
+    }
+
+    .ticket-card__header {
+      padding: 14px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .ticket-card--pure .ticket-card__header { background: var(--accent-bg); }
+    .ticket-card--value .ticket-card__header { background: var(--value-bg); }
+    .ticket-card--agree .ticket-card__header { background: var(--agree-bg); }
+    .ticket-card--flip .ticket-card__header { background: var(--flip-bg); }
+
+    .ticket-card__title {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--ink);
+    }
+
+    .ticket-card__subtitle {
+      font-size: 12px;
+      color: var(--ink-muted);
+    }
+
+    .ticket-card__total {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      flex-shrink: 0;
+    }
+
+    .ticket-card__total-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--ink-soft);
+    }
+
+    .ticket-card__total-value {
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--ink);
+    }
+
+    .ticket-card__list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .ticket-card__pick {
+      padding: 12px 18px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .ticket-card__pick:last-child {
+      border-bottom: none;
+    }
+
+    .ticket-card__pick-top {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .ticket-card__pick-num {
+      font-weight: 700;
+      color: var(--ink-soft);
+      font-size: 13px;
+    }
+
+    .ticket-card__match {
+      flex: 1;
+      font-size: 14px;
+    }
+
+    .ticket-card__winner {
+      color: var(--ink);
+    }
+
+    .ticket-card__vs {
+      color: var(--ink-soft);
+      font-size: 12px;
+      padding: 0 4px;
+    }
+
+    .ticket-card__opponent {
+      color: var(--ink-muted);
+    }
+
+    .ticket-card__reason {
+      font-size: 12.5px;
+      color: var(--ink-muted);
+      padding-left: 20px;
+    }
+
+    .flips {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 10px;
+    }
+
+    .flip-box {
+      background: var(--flip-bg);
+      border: 1px solid #fde68a;
+      border-radius: var(--radius-sm);
+      padding: 12px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .flip-box__title {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--flip-ink);
+    }
+
+    .flip-box__body {
+      font-size: 12.5px;
+      color: #78350f;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .badge--odds {
+      background: #0f172a;
+      color: #ffffff;
+    }
+
+    .badge--agree {
+      background: var(--agree-bg);
+      color: var(--agree-ink);
+    }
+
+    .badge--flip {
+      background: var(--flip-bg);
+      color: var(--flip-ink);
+    }
+
+    .badge--muted {
+      background: var(--surface-alt);
+      color: var(--ink-soft);
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .controls__filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .filter-btn {
+      border: 1px solid var(--border-strong);
+      background: var(--surface);
+      color: var(--ink-muted);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 12.5px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .filter-btn--active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #ffffff;
+    }
+
+    .controls__search {
+      border: 1px solid var(--border-strong);
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-size: 13px;
+      min-width: 210px;
+      color: var(--ink);
+      background: var(--surface);
+    }
+
+    .duel-table__row--hidden {
+      display: none;
+    }
+
+    .duel-table__row--flip {
+      background: #fffbeb;
+    }
+
+    .duel-table__cell--num {
+      color: var(--ink-soft);
+      font-weight: 700;
+      width: 36px;
+    }
+
+    .duel-table__cell--mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .duel-table__pair {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .duel-table__odd {
+      color: var(--ink-soft);
+      font-weight: 600;
+    }
+
+    .duel-table__vs {
+      display: none;
+    }
+
+    .duel-table__sub {
+      color: var(--ink-soft);
+    }
+
+    .report__footer {
+      text-align: center;
+      font-size: 12px;
+      color: var(--ink-soft);
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px 10px 36px; }
+      .report__header, .section { padding: 16px; }
+      .ticket-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="report">
+    <header class="report__header">
+      <span class="report__kicker">FIS Ski Jumping World Cup · Duel Predikcija</span>
+      <h1 class="report__title">Ruka HS142 — 1. pojedinačno natjecanje</h1>
+      <div class="report__meta">
+        <span class="pill">Datum: 28.11.2026.</span>
+        <span class="pill">47 duela analizirano</span>
+        <span class="pill">4 listića (min. kvota 1.40 · bez preklapanja)</span>
+        <span class="pill">2 modela: Čista Ruka vs 75/25 Blend</span>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="section__header">
+        <h2 class="section__title">1. Empirijska provjera signala (test na Ruka 2026 Q1)</h2>
+        <p class="section__desc">Koliko dobro je svaki izvor predvidio jučerašnje kvalifikacije u Ruki (65 skakača i 33 duela).</p>
+      </div>
+
+      <div class="table-wrap">
+        <table class="stat-table">
+          <thead>
+            <tr>
+              <th>Prediktor za Ruka 2026 Q1</th>
+              <th>Spearman korelacija (rho)</th>
+              <th>H2H točnost na 33 Q1 duela</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="stat-table__row--highlight">
+              <td>Ruka 2026 T1 + T2 (samo 2 treninga)</td>
+              <td>0.746 (n=64)</td>
+              <td>18 / 33 (54.5%)</td>
+            </tr>
+            <tr>
+              <td>Kladioničarski favorit (niža kvota)</td>
+              <td>—</td>
+              <td>11 / 22 (50.0%)</td>
+            </tr>
+            <tr>
+              <td>Lillehammer 2026 C1 + C2</td>
+              <td>0.709 (n=55)</td>
+              <td>11 / 32 (34.4%)</td>
+            </tr>
+            <tr class="stat-table__row--weak">
+              <td>Prošlogodišnja Ruka (2025/26)</td>
+              <td>0.314 (n=36)</td>
+              <td>7 / 16 (43.8%)</td>
+            </tr>
+            <tr class="stat-table__row--highlight">
+              <td>Blend: 70% Ruka T1+T2 + 30% Lillehammer C1+C2</td>
+              <td>0.755 (n=55)</td>
+              <td>15 / 33 (45.5%)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="insights">
+        <div class="insight">
+          <span class="insight__label insight__label--go">Primarno: Ruka 2026 (75–100%)</span>
+          <p class="insight__text">Već imamo 3 svježa skoka (T1 + T2 + Q1) na istoj skakaonici. Već su sami T1+T2 nadmašili kladionice (54.5% vs 50.0%).</p>
+        </div>
+        <div class="insight">
+          <span class="insight__label insight__label--warn">Sekundarno: Lillehammer C1+C2 (25%)</span>
+          <p class="insight__text">Podigao je ukupnu korelaciju (0.746 → 0.755) i štiti u 2-round utrkama od jednoskoknih Q-specijalista (Tomasiak, Nikaido) i vjetrovnih outliera (Granerud Q1 -0.42 m/s).</p>
+        </div>
+        <div class="insight">
+          <span class="insight__label insight__label--no">Ne oslanjati se: Ruka 2025/26</span>
+          <p class="insight__text">Samo 1 vjetrovita utrka lani (rho 0.314, 43.8% H2H). Koristi se isključivo kao kontekst / tie-breaker kad je sve ostalo egal.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__header">
+        <h2 class="section__title">2. Analiza A — Čista Ruka 2026 (T1 + T2 + Q1)</h2>
+        <p class="section__desc">Isključivo ovogodišnji skokovi u Ruki (ponderirano 25% T1 + 25% T2 + 50% Q1 + kontrola vjetra i bodova).</p>
+      </div>
+      <div class="ticket-grid">
+        
+      <article class="ticket-card ticket-card--pure">
+        <header class="ticket-card__header">
+          <div>
+            <h3 class="ticket-card__title">Listić A1 — Čista Ruka (Glavni)</h3>
+            <p class="ticket-card__subtitle">5 parova · 10 unikatnih skakača</p>
+          </div>
+          <div class="ticket-card__total">
+            <span class="ticket-card__total-label">Ukupna kvota</span>
+            <span class="ticket-card__total-value">15.49</span>
+          </div>
+        </header>
+        <ol class="ticket-card__list">
+          
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">1.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Lindvik M.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Sundal K.E.</span>
+            </span>
+            <span class="badge badge--odds">1.60</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 3,1,1 (avg 1.7, w 1.5, 169.5 pt) vs 1,3,7 (avg 3.7, w 4.5, 155.9 pt), H2H 2-1, +13.6 pt u Q1 iz iste kapije 11.</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">2.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Hauswirth S.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Nikaido R.</span>
+            </span>
+            <span class="badge badge--odds">1.84</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 9,10,2 (avg 7.0, w 5.8, 167.7 pt) vs 6,7,18 (avg 10.3, w 12.2, 140.3 pt).</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">3.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Tschofenig D.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Hoerl J.</span>
+            </span>
+            <span class="badge badge--odds">1.94</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 10,5,4 (avg 6.3, w 5.8) vs 16,9,3 (avg 9.3, w 7.8), H2H 2-1.</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">4.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Vassilyev D.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Wasek P.</span>
+            </span>
+            <span class="badge badge--odds">1.55</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 3-0 (11,17,17 vs 27,22,20; avg 15.0 vs 23.0); Vassilyev 17. u Q1 unatoč najgorem vjetru u leđa (-0.74 m/s).</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">5.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Paschke P.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Mizernykh I.</span>
+            </span>
+            <span class="badge badge--odds">1.75</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 2-0 (DNS,27,32 vs 56,29,35; avg 29.5 vs 40.0).</p>
+        </li>
+        </ol>
+      </article>
+        
+      <article class="ticket-card ticket-card--value">
+        <header class="ticket-card__header">
+          <div>
+            <h3 class="ticket-card__title">Listić A2 — Čista Ruka (Value / Autsajderi)</h3>
+            <p class="ticket-card__subtitle">5 parova · 10 unikatnih skakača</p>
+          </div>
+          <div class="ticket-card__total">
+            <span class="ticket-card__total-label">Ukupna kvota</span>
+            <span class="ticket-card__total-value">32.08</span>
+          </div>
+        </header>
+        <ol class="ticket-card__list">
+          
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">1.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Lanisek A.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Prevc D.</span>
+            </span>
+            <span class="badge badge--odds">2.01</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 40,12,9 (w 17.5, 152.2 pt, rast iz serije u seriju) vs 15,4,45 (w 27.2, 120.6 pt).</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">2.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Zajc T.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Zimmermann R.</span>
+            </span>
+            <span class="badge badge--odds">2.26</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 7,24,22 (avg 17.7, w 18.8) vs 21,15,36 (avg 24.0, w 27.0), H2H 2-1.</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">3.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Raimund P.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Deschwanden G.</span>
+            </span>
+            <span class="badge badge--odds">2.08</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 22,20,11 (w 16.0, trend rasta) vs 12,28,14 (w 17.0), H2H 2-1.</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">4.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Zografski V.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Frantz T.</span>
+            </span>
+            <span class="badge badge--odds">1.94</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 26,22,21 (w 22.5, 138.6 pt) vs 18,18,37 (w 27.5, 125.3 pt).</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">5.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Wasek P.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Kytosaho N.</span>
+            </span>
+            <span class="badge badge--odds">1.75</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 3-0 (27,22,20 vs 29,26,25; avg 23.0 vs 26.7).</p>
+        </li>
+        </ol>
+      </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__header">
+        <h2 class="section__title">3. Analiza B — Kombinirani (75% Ruka 2026 + 25% Lillehammer C1+C2)</h2>
+        <p class="section__desc">Uključuje 2-round natjecateljsku stabilnost iz Lillehammera; Ruka 2025/26 služi samo kao tie-breaker.</p>
+      </div>
+
+      <div class="flips">
+        <div class="flip-box">
+          <span class="flip-box__title">#34 Kobayashi (1.94) vs Tomasiak</span>
+          <p class="flip-box__body">Čista Ruka vuče Tomasiaka, ali u Lillehammer utrkama pao je na 46./27., dok je Kobayashi 8./13. → Blend okreće na Kobayashija.</p>
+        </div>
+        <div class="flip-box">
+          <span class="flip-box__title">#33 Lanisek (1.55) vs Tomasiak</span>
+          <p class="flip-box__body">Lanisek ima 17./7. u Lillehammeru + rast u Ruki (40→12→9) i pobjedu lani → Blend okreće na Laniseka.</p>
+        </div>
+        <div class="flip-box">
+          <span class="flip-box__title">#18 Granerud (1.78) vs Nikaido</span>
+          <p class="flip-box__body">Granerud je bio 5./5. na treninzima pa ulovio -0.42 m/s u Q1, a u Lillehammeru je 2./4. vs Nikaido 37./19. → Blend okreće na Graneruda.</p>
+        </div>
+        <div class="flip-box">
+          <span class="flip-box__title">#1 Lindvik (1.68) vs Embacher</span>
+          <p class="flip-box__body">Čista Ruka je jasno Lindvik (3,1,1), ali Embacherov Lillehammer (1./5.) izjednačava Blend (3.8 vs 3.9) → u Blendu preskok.</p>
+        </div>
+      </div>
+
+      <div class="ticket-grid">
+        
+      <article class="ticket-card ticket-card--agree">
+        <header class="ticket-card__header">
+          <div>
+            <h3 class="ticket-card__title">Listić B1 — Kombinirani (Najjača konvergencija)</h3>
+            <p class="ticket-card__subtitle">5 parova · 10 unikatnih skakača</p>
+          </div>
+          <div class="ticket-card__total">
+            <span class="ticket-card__total-label">Ukupna kvota</span>
+            <span class="ticket-card__total-value">14.04</span>
+          </div>
+        </header>
+        <ol class="ticket-card__list">
+          
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">1.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Sundal K.E.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Langmo I.A.</span>
+            </span>
+            <span class="badge badge--odds">1.45</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 3-0 (1,3,7 vs 4,8,8), Lil C (5/1 vs 9/3), Blend 4.1 vs 6.8.</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">2.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Hauswirth S.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Nikaido R.</span>
+            </span>
+            <span class="badge badge--odds">1.84</span>
+          </div>
+          <p class="ticket-card__reason">Ruka (9,10,2 vs 6,7,18), Lil C (14/10 vs 37/19), Blend 7.3 vs 16.2.</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">3.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Tschofenig D.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Hoerl J.</span>
+            </span>
+            <span class="badge badge--odds">1.94</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 2-1 (10,5,4 vs 16,9,3), Blend 6.2 vs 7.3, Ruka 25/26 (12. vs 35.).</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">4.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Vassilyev D.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Wasek P.</span>
+            </span>
+            <span class="badge badge--odds">1.55</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 3-0 (11,17,17 vs 27,22,20), Lil C (19/29 vs DNQ/DNQ), Blend 17.6 vs 30.4.</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">5.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Paschke P.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Mizernykh I.</span>
+            </span>
+            <span class="badge badge--odds">1.75</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 2-0, Lil C (18/35 vs 49/39), Blend 29.1 vs 40.1, Ruka 25/26 (9. vs 46.).</p>
+        </li>
+        </ol>
+      </article>
+        
+      <article class="ticket-card ticket-card--flip">
+        <header class="ticket-card__header">
+          <div>
+            <h3 class="ticket-card__title">Listić B2 — Kombinirani (2-Round Race-Day &amp; Value)</h3>
+            <p class="ticket-card__subtitle">5 parova · 10 unikatnih skakača</p>
+          </div>
+          <div class="ticket-card__total">
+            <span class="ticket-card__total-label">Ukupna kvota</span>
+            <span class="ticket-card__total-value">20.87</span>
+          </div>
+        </header>
+        <ol class="ticket-card__list">
+          
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">1.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Lanisek A.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Prevc D.</span>
+            </span>
+            <span class="badge badge--odds">2.01</span>
+          </div>
+          <p class="ticket-card__reason">Ruka (w 17.5 vs 27.2), Lil C (17/7 vs 50/8), Blend 16.1 vs 27.7, Ruka 25/26 (1. vs 3.).</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">2.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Kobayashi R.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Tomasiak K.</span>
+            </span>
+            <span class="badge badge--odds">1.94</span>
+          </div>
+          <p class="ticket-card__reason">Kombinirani flip: Lil C (8/13 vs 46/27 — Tomasiak pada u 2-round utrkama), Blend 18.4 vs 20.9, Ruka 25/26 (5. vs 18.).</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">3.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Granerud H.E.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Nikaido R.</span>
+            </span>
+            <span class="badge badge--odds">1.78</span>
+          </div>
+          <p class="ticket-card__reason">Kombinirani flip: Granerud T1=5, T2=5 (Q1=27 u -0.42 vjetru) + Lil C (2/4 vs 37/19), Blend 12.8 vs 16.2.</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">4.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Zografski V.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Frantz T.</span>
+            </span>
+            <span class="badge badge--odds">1.94</span>
+          </div>
+          <p class="ticket-card__reason">Ruka (w 22.5 vs 27.5), Blend 24.1 vs 27.8, Ruka 25/26 (4. vs 38.).</p>
+        </li>
+        <li class="ticket-card__pick">
+          <div class="ticket-card__pick-top">
+            <span class="ticket-card__pick-num">5.</span>
+            <span class="ticket-card__match">
+              <strong class="ticket-card__winner">Kot M.</strong>
+              <span class="ticket-card__vs">vs</span>
+              <span class="ticket-card__opponent">Valto K.</span>
+            </span>
+            <span class="badge badge--odds">1.55</span>
+          </div>
+          <p class="ticket-card__reason">Ruka 2-1 (30,32,41 vs 36,30,45), Lil C (32/42 vs 44/44), Blend 36.2 vs 40.2.</p>
+        </li>
+        </ol>
+      </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__header">
+        <h2 class="section__title">4. Svih 47 duela — Čista Ruka vs Kombinirani</h2>
+        <p class="section__desc">Klikni filter ili pretraži po prezimenu skakača. Žuto označeni redovi su flipovi između dva modela.</p>
+      </div>
+
+      <div class="controls">
+        <div class="controls__filters" id="filters">
+          <button type="button" class="filter-btn filter-btn--active" data-filter="all">Svi (47)</button>
+          <button type="button" class="filter-btn" data-filter="agree">Složni oba modela</button>
+          <button type="button" class="filter-btn" data-filter="flip">Flipovi</button>
+          <button type="button" class="filter-btn" data-filter="value">Value (&gt;= 1.90)</button>
+        </div>
+        <input type="search" id="searchInput" class="controls__search" placeholder="Pretraži skakača...">
+      </div>
+
+      <div class="table-wrap">
+        <table class="duel-table" id="duelTable">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Duel (Kvote)</th>
+              <th>Ruka T1/T2/Q1 (w)</th>
+              <th>Lil C1/C2</th>
+              <th>Blend</th>
+              <th>Čista Ruka</th>
+              <th>Kombinirani</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+          <tr class="duel-table__row duel-table__row--flip" data-tag="flip" data-value="1" data-search="lindvik m. embacher s.">
+            <td class="duel-table__cell duel-table__cell--num">1</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Lindvik M.</strong> <span class="duel-table__odd">(1.68)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Embacher S.</strong> <span class="duel-table__odd">(2.03)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">3/1/1 (1.5)<br><span class="duel-table__sub">2/2/6 (4.0)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">13/9<br><span class="duel-table__sub">1/5</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">3.9<br><span class="duel-table__sub">3.8</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Lindvik</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Preskok (Embacher)</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="lindvik m. sundal k.e.">
+            <td class="duel-table__cell duel-table__cell--num">2</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Lindvik M.</strong> <span class="duel-table__odd">(1.60)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Sundal K.E.</strong> <span class="duel-table__odd">(2.16)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">3/1/1 (1.5)<br><span class="duel-table__sub">1/3/7 (4.5)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">13/9<br><span class="duel-table__sub">5/1</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">3.9<br><span class="duel-table__sub">4.1</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Lindvik</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Blago Lindvik</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="lindvik m. hoerl j.">
+            <td class="duel-table__cell duel-table__cell--num">3</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Lindvik M.</strong> <span class="duel-table__odd">(1.38)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Hoerl J.</strong> <span class="duel-table__odd">(2.76)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">3/1/1 (1.5)<br><span class="duel-table__sub">16/9/3 (7.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">13/9<br><span class="duel-table__sub">6/6</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">3.9<br><span class="duel-table__sub">7.3</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Lindvik (&lt;1.40)</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Lindvik (&lt;1.40)</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="embacher s. sundal k.e.">
+            <td class="duel-table__cell duel-table__cell--num">4</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Embacher S.</strong> <span class="duel-table__odd">(1.75)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Sundal K.E.</strong> <span class="duel-table__odd">(1.94)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">2/2/6 (4.0)<br><span class="duel-table__sub">1/3/7 (4.5)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">1/5<br><span class="duel-table__sub">5/1</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">3.8<br><span class="duel-table__sub">4.1</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Blago Embacher</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Blago Embacher</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="embacher s. hoerl j.">
+            <td class="duel-table__cell duel-table__cell--num">5</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Embacher S.</strong> <span class="duel-table__odd">(1.40)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Hoerl J.</strong> <span class="duel-table__odd">(2.68)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">2/2/6 (4.0)<br><span class="duel-table__sub">16/9/3 (7.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">1/5<br><span class="duel-table__sub">6/6</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">3.8<br><span class="duel-table__sub">7.3</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Embacher</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Embacher</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="embacher s. tschofenig d.">
+            <td class="duel-table__cell duel-table__cell--num">6</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Embacher S.</strong> <span class="duel-table__odd">(1.40)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Tschofenig D.</strong> <span class="duel-table__odd">(2.68)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">2/2/6 (4.0)<br><span class="duel-table__sub">10/5/4 (5.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">1/5<br><span class="duel-table__sub">4/11</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">3.8<br><span class="duel-table__sub">6.2</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Embacher</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Embacher</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="sundal k.e. hoerl j.">
+            <td class="duel-table__cell duel-table__cell--num">7</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Sundal K.E.</strong> <span class="duel-table__odd">(1.60)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Hoerl J.</strong> <span class="duel-table__odd">(2.16)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">1/3/7 (4.5)<br><span class="duel-table__sub">16/9/3 (7.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">5/1<br><span class="duel-table__sub">6/6</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">4.1<br><span class="duel-table__sub">7.3</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Sundal</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Sundal</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="sundal k.e. tschofenig d.">
+            <td class="duel-table__cell duel-table__cell--num">8</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Sundal K.E.</strong> <span class="duel-table__odd">(1.50)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Tschofenig D.</strong> <span class="duel-table__odd">(2.38)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">1/3/7 (4.5)<br><span class="duel-table__sub">10/5/4 (5.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">5/1<br><span class="duel-table__sub">4/11</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">4.1<br><span class="duel-table__sub">6.2</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Sundal</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Sundal</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="sundal k.e. langmo i.a.">
+            <td class="duel-table__cell duel-table__cell--num">9</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Sundal K.E.</strong> <span class="duel-table__odd">(1.45)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Langmo I.A.</strong> <span class="duel-table__odd">(2.52)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">1/3/7 (4.5)<br><span class="duel-table__sub">4/8/8 (7.0)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">5/1<br><span class="duel-table__sub">9/3</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">4.1<br><span class="duel-table__sub">6.8</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Sundal (3–0)</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Sundal</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="1" data-search="hoerl j. tschofenig d.">
+            <td class="duel-table__cell duel-table__cell--num">10</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Hoerl J.</strong> <span class="duel-table__odd">(1.75)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Tschofenig D.</strong> <span class="duel-table__odd">(1.94)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">16/9/3 (7.8)<br><span class="duel-table__sub">10/5/4 (5.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">6/6<br><span class="duel-table__sub">4/11</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">7.3<br><span class="duel-table__sub">6.2</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Tschofenig</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Tschofenig</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="1" data-search="hoerl j. langmo i.a.">
+            <td class="duel-table__cell duel-table__cell--num">11</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Hoerl J.</strong> <span class="duel-table__odd">(1.67)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Langmo I.A.</strong> <span class="duel-table__odd">(2.05)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">16/9/3 (7.8)<br><span class="duel-table__sub">4/8/8 (7.0)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">6/6<br><span class="duel-table__sub">9/3</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">7.3<br><span class="duel-table__sub">6.8</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Value Langmo</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Value Langmo</span></td>
+          </tr>
+          <tr class="duel-table__row " data-tag="split" data-value="0" data-search="hoerl j. granerud h.e.">
+            <td class="duel-table__cell duel-table__cell--num">12</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Hoerl J.</strong> <span class="duel-table__odd">(1.55)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Granerud H.E.</strong> <span class="duel-table__odd">(2.26)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">16/9/3 (7.8)<br><span class="duel-table__sub">5/5/27 (16.0)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">6/6<br><span class="duel-table__sub">2/4</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">7.3<br><span class="duel-table__sub">12.8</span></td>
+            <td class="duel-table__cell"><span class="badge badge--muted">Hoerl (oprez vjetar)</span></td>
+            <td class="duel-table__cell"><span class="badge badge--muted">Preskok</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="tschofenig d. langmo i.a.">
+            <td class="duel-table__cell duel-table__cell--num">13</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Tschofenig D.</strong> <span class="duel-table__odd">(1.75)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Langmo I.A.</strong> <span class="duel-table__odd">(1.94)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">10/5/4 (5.8)<br><span class="duel-table__sub">4/8/8 (7.0)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">4/11<br><span class="duel-table__sub">9/3</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">6.2<br><span class="duel-table__sub">6.8</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Tschofenig</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Tschofenig</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="tschofenig d. granerud h.e.">
+            <td class="duel-table__cell duel-table__cell--num">14</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Tschofenig D.</strong> <span class="duel-table__odd">(1.65)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Granerud H.E.</strong> <span class="duel-table__odd">(2.08)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">10/5/4 (5.8)<br><span class="duel-table__sub">5/5/27 (16.0)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">4/11<br><span class="duel-table__sub">2/4</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">6.2<br><span class="duel-table__sub">12.8</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Tschofenig</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Blago Tschofenig</span></td>
+          </tr>
+          <tr class="duel-table__row " data-tag="split" data-value="0" data-search="langmo i.a. granerud h.e.">
+            <td class="duel-table__cell duel-table__cell--num">15</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Langmo I.A.</strong> <span class="duel-table__odd">(1.70)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Granerud H.E.</strong> <span class="duel-table__odd">(2.01)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">4/8/8 (7.0)<br><span class="duel-table__sub">5/5/27 (16.0)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">9/3<br><span class="duel-table__sub">2/4</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">6.8<br><span class="duel-table__sub">12.8</span></td>
+            <td class="duel-table__cell"><span class="badge badge--muted">Langmo</span></td>
+            <td class="duel-table__cell"><span class="badge badge--muted">Preskok (Q1 vjetar)</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="langmo i.a. nikaido r.">
+            <td class="duel-table__cell duel-table__cell--num">16</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Langmo I.A.</strong> <span class="duel-table__odd">(1.60)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Nikaido R.</strong> <span class="duel-table__odd">(2.16)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">4/8/8 (7.0)<br><span class="duel-table__sub">6/7/18 (12.2)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">9/3<br><span class="duel-table__sub">37/19</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">6.8<br><span class="duel-table__sub">16.1</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Langmo</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Langmo</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--flip" data-tag="flip" data-value="1" data-search="langmo i.a. hauswirth s.">
+            <td class="duel-table__cell duel-table__cell--num">17</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Langmo I.A.</strong> <span class="duel-table__odd">(1.60)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Hauswirth S.</strong> <span class="duel-table__odd">(2.16)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">4/8/8 (7.0)<br><span class="duel-table__sub">9/10/2 (5.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">9/3<br><span class="duel-table__sub">14/10</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">6.8<br><span class="duel-table__sub">7.3</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Value Hauswirth</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Preskok</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--flip" data-tag="flip" data-value="1" data-search="granerud h.e. nikaido r.">
+            <td class="duel-table__cell duel-table__cell--num">18</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Granerud H.E.</strong> <span class="duel-table__odd">(1.78)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Nikaido R.</strong> <span class="duel-table__odd">(1.90)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">5/5/27 (16.0)<br><span class="duel-table__sub">6/7/18 (12.2)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">2/4<br><span class="duel-table__sub">37/19</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">12.8<br><span class="duel-table__sub">16.1</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Nikaido</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Granerud (flip!)</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="1" data-search="granerud h.e. hauswirth s.">
+            <td class="duel-table__cell duel-table__cell--num">19</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Granerud H.E.</strong> <span class="duel-table__odd">(1.75)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Hauswirth S.</strong> <span class="duel-table__odd">(1.94)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">5/5/27 (16.0)<br><span class="duel-table__sub">9/10/2 (5.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">2/4<br><span class="duel-table__sub">14/10</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">12.8<br><span class="duel-table__sub">7.3</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Hauswirth</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Hauswirth</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="granerud h.e. prevc d.">
+            <td class="duel-table__cell duel-table__cell--num">20</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Granerud H.E.</strong> <span class="duel-table__odd">(1.65)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Prevc D.</strong> <span class="duel-table__odd">(2.08)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">5/5/27 (16.0)<br><span class="duel-table__sub">15/4/45 (27.2)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">2/4<br><span class="duel-table__sub">50/8</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">12.8<br><span class="duel-table__sub">27.6</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Granerud</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Granerud</span></td>
+          </tr>
+          <tr class="duel-table__row " data-tag="split" data-value="0" data-search="granerud h.e. lanisek a.">
+            <td class="duel-table__cell duel-table__cell--num">21</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Granerud H.E.</strong> <span class="duel-table__odd">(1.60)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Lanisek A.</strong> <span class="duel-table__odd">(2.16)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">5/5/27 (16.0)<br><span class="duel-table__sub">40/12/9 (17.5)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">2/4<br><span class="duel-table__sub">17/7</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">12.8<br><span class="duel-table__sub">16.1</span></td>
+            <td class="duel-table__cell"><span class="badge badge--muted">Preskok</span></td>
+            <td class="duel-table__cell"><span class="badge badge--muted">Blago Granerud</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="nikaido r. hauswirth s.">
+            <td class="duel-table__cell duel-table__cell--num">22</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Nikaido R.</strong> <span class="duel-table__odd">(1.84)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Hauswirth S.</strong> <span class="duel-table__odd">(1.84)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">6/7/18 (12.2)<br><span class="duel-table__sub">9/10/2 (5.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">37/19<br><span class="duel-table__sub">14/10</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">16.1<br><span class="duel-table__sub">7.3</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Hauswirth</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Hauswirth</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="nikaido r. prevc d.">
+            <td class="duel-table__cell duel-table__cell--num">23</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Nikaido R.</strong> <span class="duel-table__odd">(1.70)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Prevc D.</strong> <span class="duel-table__odd">(2.01)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">6/7/18 (12.2)<br><span class="duel-table__sub">15/4/45 (27.2)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">37/19<br><span class="duel-table__sub">50/8</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">16.1<br><span class="duel-table__sub">27.6</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Nikaido</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Nikaido</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--flip" data-tag="flip" data-value="1" data-search="nikaido r. lanisek a.">
+            <td class="duel-table__cell duel-table__cell--num">24</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Nikaido R.</strong> <span class="duel-table__odd">(1.65)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Lanisek A.</strong> <span class="duel-table__odd">(2.08)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">6/7/18 (12.2)<br><span class="duel-table__sub">40/12/9 (17.5)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">37/19<br><span class="duel-table__sub">17/7</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">16.1<br><span class="duel-table__sub">16.1</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Nikaido</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Value Lanisek (flip!)</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="hauswirth s. prevc d.">
+            <td class="duel-table__cell duel-table__cell--num">25</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Hauswirth S.</strong> <span class="duel-table__odd">(1.70)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Prevc D.</strong> <span class="duel-table__odd">(2.01)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">9/10/2 (5.8)<br><span class="duel-table__sub">15/4/45 (27.2)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">14/10<br><span class="duel-table__sub">50/8</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">7.3<br><span class="duel-table__sub">27.6</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Hauswirth</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Hauswirth</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="hauswirth s. lanisek a.">
+            <td class="duel-table__cell duel-table__cell--num">26</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Hauswirth S.</strong> <span class="duel-table__odd">(1.65)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Lanisek A.</strong> <span class="duel-table__odd">(2.08)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">9/10/2 (5.8)<br><span class="duel-table__sub">40/12/9 (17.5)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">14/10<br><span class="duel-table__sub">17/7</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">7.3<br><span class="duel-table__sub">16.1</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Hauswirth (3–0)</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Hauswirth</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="hauswirth s. kobayashi r.">
+            <td class="duel-table__cell duel-table__cell--num">27</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Hauswirth S.</strong> <span class="duel-table__odd">(1.30)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Kobayashi R.</strong> <span class="duel-table__odd">(3.15)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">9/10/2 (5.8)<br><span class="duel-table__sub">25/33/13 (21.0)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">14/10<br><span class="duel-table__sub">8/13</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">7.3<br><span class="duel-table__sub">18.4</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Hauswirth (&lt;1.40)</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Hauswirth (&lt;1.40)</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="hauswirth s. tomasiak k.">
+            <td class="duel-table__cell duel-table__cell--num">28</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Hauswirth S.</strong> <span class="duel-table__odd">(1.35)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Tomasiak K.</strong> <span class="duel-table__odd">(2.89)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">9/10/2 (5.8)<br><span class="duel-table__sub">32/11/10 (15.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">14/10<br><span class="duel-table__sub">46/27</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">7.3<br><span class="duel-table__sub">21.0</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Hauswirth (&lt;1.40)</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Hauswirth (&lt;1.40)</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="1" data-search="prevc d. lanisek a.">
+            <td class="duel-table__cell duel-table__cell--num">29</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Prevc D.</strong> <span class="duel-table__odd">(1.70)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Lanisek A.</strong> <span class="duel-table__odd">(2.01)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">15/4/45 (27.2)<br><span class="duel-table__sub">40/12/9 (17.5)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">50/8<br><span class="duel-table__sub">17/7</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">27.6<br><span class="duel-table__sub">16.1</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Lanisek</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Lanisek</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="1" data-search="prevc d. kobayashi r.">
+            <td class="duel-table__cell duel-table__cell--num">30</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Prevc D.</strong> <span class="duel-table__odd">(1.60)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Kobayashi R.</strong> <span class="duel-table__odd">(2.16)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">15/4/45 (27.2)<br><span class="duel-table__sub">25/33/13 (21.0)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">50/8<br><span class="duel-table__sub">8/13</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">27.6<br><span class="duel-table__sub">18.4</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Value Kobayashi</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Kobayashi</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="1" data-search="prevc d. tomasiak k.">
+            <td class="duel-table__cell duel-table__cell--num">31</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Prevc D.</strong> <span class="duel-table__odd">(1.60)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Tomasiak K.</strong> <span class="duel-table__odd">(2.16)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">15/4/45 (27.2)<br><span class="duel-table__sub">32/11/10 (15.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">50/8<br><span class="duel-table__sub">46/27</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">27.6<br><span class="duel-table__sub">21.0</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Value Tomasiak</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Blago Tomasiak</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="lanisek a. kobayashi r.">
+            <td class="duel-table__cell duel-table__cell--num">32</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Lanisek A.</strong> <span class="duel-table__odd">(1.55)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Kobayashi R.</strong> <span class="duel-table__odd">(2.26)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">40/12/9 (17.5)<br><span class="duel-table__sub">25/33/13 (21.0)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">17/7<br><span class="duel-table__sub">8/13</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">16.1<br><span class="duel-table__sub">18.4</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Lanisek</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Lanisek</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--flip" data-tag="flip" data-value="1" data-search="lanisek a. tomasiak k.">
+            <td class="duel-table__cell duel-table__cell--num">33</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Lanisek A.</strong> <span class="duel-table__odd">(1.55)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Tomasiak K.</strong> <span class="duel-table__odd">(2.26)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">40/12/9 (17.5)<br><span class="duel-table__sub">32/11/10 (15.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">17/7<br><span class="duel-table__sub">46/27</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">16.1<br><span class="duel-table__sub">21.0</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Value Tomasiak</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Lanisek (flip!)</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--flip" data-tag="flip" data-value="1" data-search="kobayashi r. tomasiak k.">
+            <td class="duel-table__cell duel-table__cell--num">34</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Kobayashi R.</strong> <span class="duel-table__odd">(1.94)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Tomasiak K.</strong> <span class="duel-table__odd">(1.75)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">25/33/13 (21.0)<br><span class="duel-table__sub">32/11/10 (15.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">8/13<br><span class="duel-table__sub">46/27</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">18.4<br><span class="duel-table__sub">21.0</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Tomasiak</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Kobayashi (flip!)</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="1" data-search="zimmermann r. zajc t.">
+            <td class="duel-table__cell duel-table__cell--num">35</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Zimmermann R.</strong> <span class="duel-table__odd">(1.55)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Zajc T.</strong> <span class="duel-table__odd">(2.26)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">21/15/36 (27.0)<br><span class="duel-table__sub">7/24/22 (18.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">3/2<br><span class="duel-table__sub">29/14</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">20.9<br><span class="duel-table__sub">19.5</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Zajc (2.26)</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Blago Zajc (oprez Lil)</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--flip" data-tag="flip" data-value="1" data-search="zajc t. nakamura n.">
+            <td class="duel-table__cell duel-table__cell--num">36</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Zajc T.</strong> <span class="duel-table__odd">(1.65)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Nakamura N.</strong> <span class="duel-table__odd">(2.08)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">7/24/22 (18.8)<br><span class="duel-table__sub">8/DNS/29 (20.6)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">29/14<br><span class="duel-table__sub">11/15</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">19.5<br><span class="duel-table__sub">18.7</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Blago Zajc (2–0)</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Preskok</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="1" data-search="deschwanden g. raimund p.">
+            <td class="duel-table__cell duel-table__cell--num">37</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Deschwanden G.</strong> <span class="duel-table__odd">(1.65)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Raimund P.</strong> <span class="duel-table__odd">(2.08)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">12/28/14 (17.0)<br><span class="duel-table__sub">22/20/11 (16.0)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">16/18<br><span class="duel-table__sub">15/20</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">17.0<br><span class="duel-table__sub">16.4</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Raimund (2.08)</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Value Raimund</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="kraft s. forfang j.a.">
+            <td class="duel-table__cell duel-table__cell--num">38</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Kraft S.</strong> <span class="duel-table__odd">(1.84)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Forfang J.A.</strong> <span class="duel-table__odd">(1.84)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">23/35/15 (22.0)<br><span class="duel-table__sub">17/14/34 (24.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">30/38<br><span class="duel-table__sub">45/DNQ</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">25.0<br><span class="duel-table__sub">31.1</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Blago Kraft</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Kraft</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="1" data-search="frantz t. zografski v.">
+            <td class="duel-table__cell duel-table__cell--num">39</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Frantz T.</strong> <span class="duel-table__odd">(1.75)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Zografski V.</strong> <span class="duel-table__odd">(1.94)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">18/18/37 (27.5)<br><span class="duel-table__sub">26/22/21 (22.5)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">35/22<br><span class="duel-table__sub">28/30</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">27.8<br><span class="duel-table__sub">24.1</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Zografski</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Zografski</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--flip" data-tag="flip" data-value="1" data-search="wasek p. aalto a.">
+            <td class="duel-table__cell duel-table__cell--num">40</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Wasek P.</strong> <span class="duel-table__odd">(2.26)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Aalto A.</strong> <span class="duel-table__odd">(1.55)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">27/22/20 (22.2)<br><span class="duel-table__sub">20/21/24 (22.2)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">DNQ/DNQ<br><span class="duel-table__sub">22/17</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">30.4<br><span class="duel-table__sub">21.5</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Egal (22.2 vs 22.2)</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Aalto</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="wasek p. vassilyev d.">
+            <td class="duel-table__cell duel-table__cell--num">41</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Wasek P.</strong> <span class="duel-table__odd">(2.26)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Vassilyev D.</strong> <span class="duel-table__odd">(1.55)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">27/22/20 (22.2)<br><span class="duel-table__sub">11/17/17 (15.5)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">DNQ/DNQ<br><span class="duel-table__sub">19/29</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">30.4<br><span class="duel-table__sub">17.6</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Vassilyev (3–0)</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Vassilyev</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--flip" data-tag="flip" data-value="1" data-search="wasek p. kytosaho n.">
+            <td class="duel-table__cell duel-table__cell--num">42</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Wasek P.</strong> <span class="duel-table__odd">(1.75)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Kytosaho N.</strong> <span class="duel-table__odd">(1.94)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">27/22/20 (22.2)<br><span class="duel-table__sub">29/26/25 (26.2)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">DNQ/DNQ<br><span class="duel-table__sub">36/43</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">30.4<br><span class="duel-table__sub">29.5</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Wasek (3–0)</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Preskok (flip!)</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--flip" data-tag="flip" data-value="0" data-search="kot m. koudelka r.">
+            <td class="duel-table__cell duel-table__cell--num">43</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Kot M.</strong> <span class="duel-table__odd">(1.75)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Koudelka R.</strong> <span class="duel-table__odd">(1.94)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">30/32/41 (36.0)<br><span class="duel-table__sub">42/37/32 (35.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">32/42<br><span class="duel-table__sub">DNQ/DNQ</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">36.2<br><span class="duel-table__sub">40.6</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Preskok</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Blago Kot</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="kot m. valto k.">
+            <td class="duel-table__cell duel-table__cell--num">44</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Kot M.</strong> <span class="duel-table__odd">(1.55)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Valto K.</strong> <span class="duel-table__odd">(2.26)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">30/32/41 (36.0)<br><span class="duel-table__sub">36/30/45 (39.0)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">32/42<br><span class="duel-table__sub">44/44</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">36.2<br><span class="duel-table__sub">40.2</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Kot</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Kot</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--flip" data-tag="flip" data-value="0" data-search="wellinger a. bickner k.">
+            <td class="duel-table__cell duel-table__cell--num">45</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Wellinger A.</strong> <span class="duel-table__odd">(1.70)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Bickner K.</strong> <span class="duel-table__odd">(2.01)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">44/25/26 (30.2)<br><span class="duel-table__sub">32/44/23 (30.5)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">DNQ/41<br><span class="duel-table__sub">DNQ/28</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">34.6<br><span class="duel-table__sub">33.2</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Preskok</span></td>
+            <td class="duel-table__cell"><span class="badge badge--flip">Preskok</span></td>
+          </tr>
+          <tr class="duel-table__row duel-table__row--agree" data-tag="agree" data-value="0" data-search="paschke p. mizernykh i.">
+            <td class="duel-table__cell duel-table__cell--num">46</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Paschke P.</strong> <span class="duel-table__odd">(1.75)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Mizernykh I.</strong> <span class="duel-table__odd">(1.94)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">DNS/27/32 (30.0)<br><span class="duel-table__sub">56/29/35 (38.8)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">18/35<br><span class="duel-table__sub">49/39</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">29.1<br><span class="duel-table__sub">40.1</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Paschke (2–0)</span></td>
+            <td class="duel-table__cell"><span class="badge badge--agree">Paschke</span></td>
+          </tr>
+          <tr class="duel-table__row " data-tag="split" data-value="0" data-search="nousiainen e. palosaari v.">
+            <td class="duel-table__cell duel-table__cell--num">47</td>
+            <td class="duel-table__cell duel-table__cell--duel">
+              <div class="duel-table__pair">
+                <span><strong>Nousiainen E.</strong> <span class="duel-table__odd">(1.84)</span></span>
+                <span class="duel-table__vs">vs</span>
+                <span><strong>Palosaari V.</strong> <span class="duel-table__odd">(1.84)</span></span>
+              </div>
+            </td>
+            <td class="duel-table__cell duel-table__cell--mono">34/51/39 (40.8)<br><span class="duel-table__sub">31/39/48 (41.5)</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">-/-<br><span class="duel-table__sub">-/-</span></td>
+            <td class="duel-table__cell duel-table__cell--mono">40.8<br><span class="duel-table__sub">41.5</span></td>
+            <td class="duel-table__cell"><span class="badge badge--muted">Preskok</span></td>
+            <td class="duel-table__cell"><span class="badge badge--muted">Preskok</span></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="report__footer">
+      Generirano iz everything.json, history/*.json i files/2026-11-28-ponuda-duel.html · Skokovi 2026/27
+    </footer>
+  </main>
+
+  <script>
+    (function () {
+      var activeFilter = "all";
+      var buttons = document.querySelectorAll(".filter-btn");
+      var search = document.getElementById("searchInput");
+      var rows = document.querySelectorAll("#duelTable tbody tr");
+
+      function apply() {
+        var q = search.value.trim().toLowerCase();
+        rows.forEach(function (row) {
+          var tag = row.getAttribute("data-tag");
+          var val = row.getAttribute("data-value");
+          var txt = row.getAttribute("data-search");
+          var matchFilter =
+            activeFilter === "all" ||
+            (activeFilter === "agree" && tag === "agree") ||
+            (activeFilter === "flip" && tag === "flip") ||
+            (activeFilter === "value" && val === "1");
+          var matchSearch = !q || txt.indexOf(q) !== -1;
+          row.classList.toggle("duel-table__row--hidden", !(matchFilter && matchSearch));
+        });
+      }
+
+      buttons.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          buttons.forEach(function (b) { b.classList.remove("filter-btn--active"); });
+          btn.classList.add("filter-btn--active");
+          activeFilter = btn.getAttribute("data-filter");
+          apply();
+        });
+      });
+      search.addEventListener("input", apply);
+    })();
+  </script>
+</body>
+</html>
