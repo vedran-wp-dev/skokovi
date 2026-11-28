@@ -88,6 +88,51 @@
             "diff": -4.8
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 4,
+            "bib": 5,
+            "speed": 86.8,
+            "wind": -0.67,
+            "wind_comp": 11.8,
+            "gate": 11,
+            "gate_comp": 32.5,
+            "distance": 135.0,
+            "total_points": 131.3
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 8,
+            "bib": 5,
+            "speed": 86.4,
+            "wind": -0.1,
+            "wind_comp": 1.8,
+            "gate": 11,
+            "gate_comp": 16.3,
+            "distance": 136.0,
+            "total_points": 106.9
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 8,
+            "qualified": true,
+            "bib": 5,
+            "speed": 86.5,
+            "wind": -0.16,
+            "wind_comp": 2.8,
+            "gate": 11,
+            "gate_comp": 10.7,
+            "judge_points": 54.0,
+            "distance_points": 87.0,
+            "distance": 135.0,
+            "total_points": 154.5,
+            "diff": -15.0
+          }
+        }
       }
     }
   },
@@ -178,6 +223,51 @@
             },
             "total_points": 304.0,
             "diff": null
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 1,
+            "bib": 1,
+            "speed": 86.7,
+            "wind": -0.42,
+            "wind_comp": 7.4,
+            "gate": 11,
+            "gate_comp": 32.5,
+            "distance": 142.0,
+            "total_points": 139.5
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 3,
+            "bib": 1,
+            "speed": 86.5,
+            "wind": -0.05,
+            "wind_comp": 0.9,
+            "gate": 11,
+            "gate_comp": 16.3,
+            "distance": 141.0,
+            "total_points": 115.0
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 7,
+            "qualified": true,
+            "bib": 1,
+            "speed": 86.5,
+            "wind": -0.08,
+            "wind_comp": 1.4,
+            "gate": 11,
+            "gate_comp": 10.7,
+            "judge_points": 55.0,
+            "distance_points": 88.8,
+            "distance": 136.0,
+            "total_points": 155.9,
+            "diff": -13.6
           }
         }
       }
@@ -272,6 +362,51 @@
             "diff": -21.0
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 3,
+            "bib": 11,
+            "speed": 86.2,
+            "wind": -0.29,
+            "wind_comp": 5.1,
+            "gate": 11,
+            "gate_comp": 32.5,
+            "distance": 140.0,
+            "total_points": 133.6
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 1,
+            "bib": 11,
+            "speed": 86.1,
+            "wind": -0.12,
+            "wind_comp": 2.1,
+            "gate": 11,
+            "gate_comp": 16.3,
+            "distance": 143.0,
+            "total_points": 119.8
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 1,
+            "qualified": true,
+            "bib": 11,
+            "speed": 86.3,
+            "wind": -0.19,
+            "wind_comp": 3.3,
+            "gate": 11,
+            "gate_comp": 10.7,
+            "judge_points": 55.0,
+            "distance_points": 100.5,
+            "distance": 142.5,
+            "total_points": 169.5,
+            "diff": null
+          }
+        }
       }
     }
   },
@@ -358,6 +493,51 @@
             },
             "total_points": 246.5,
             "diff": -57.5
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 32,
+            "bib": 32,
+            "speed": 88.1,
+            "wind": -0.48,
+            "wind_comp": 8.4,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 126.5,
+            "total_points": 96.3
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 11,
+            "bib": 32,
+            "speed": 88.1,
+            "wind": -0.12,
+            "wind_comp": 2.1,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 141.0,
+            "total_points": 99.9
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 10,
+            "qualified": true,
+            "bib": 32,
+            "speed": 87.5,
+            "wind": -0.06,
+            "wind_comp": 1.1,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 55.5,
+            "distance_points": 95.1,
+            "distance": 139.5,
+            "total_points": 151.7,
+            "diff": -17.8
           }
         }
       }
@@ -448,6 +628,51 @@
             "diff": -42.6
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 6,
+            "bib": 25,
+            "speed": 88.2,
+            "wind": -0.23,
+            "wind_comp": 4.0,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 144.0,
+            "total_points": 123.4
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 7,
+            "bib": 25,
+            "speed": 87.3,
+            "wind": -0.1,
+            "wind_comp": 1.8,
+            "gate": 12,
+            "gate_comp": 11.0,
+            "distance": 139.0,
+            "total_points": 107.0
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 18,
+            "qualified": true,
+            "bib": 25,
+            "speed": 86.7,
+            "wind": -0.36,
+            "wind_comp": 6.3,
+            "gate": 11,
+            "gate_comp": 5.3,
+            "judge_points": 52.5,
+            "distance_points": 76.2,
+            "distance": 129.0,
+            "total_points": 140.3,
+            "diff": -29.2
+          }
+        }
       }
     }
   },
@@ -534,6 +759,51 @@
             },
             "total_points": 285.4,
             "diff": -18.6
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 15,
+            "bib": 15,
+            "speed": 87.1,
+            "wind": -0.13,
+            "wind_comp": 2.3,
+            "gate": 12,
+            "gate_comp": 27.2,
+            "distance": 132.5,
+            "total_points": 112.0
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 4,
+            "bib": 15,
+            "speed": 87.0,
+            "wind": -0.23,
+            "wind_comp": 4.0,
+            "gate": 12,
+            "gate_comp": 11.0,
+            "distance": 140.5,
+            "total_points": 111.9
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 45,
+            "qualified": true,
+            "bib": 15,
+            "speed": 86.6,
+            "wind": -0.3,
+            "wind_comp": 5.3,
+            "gate": 12,
+            "gate_comp": 5.3,
+            "judge_points": 50.0,
+            "distance_points": 60.0,
+            "distance": 120.0,
+            "total_points": 120.6,
+            "diff": -48.9
           }
         }
       }
@@ -628,6 +898,51 @@
             "diff": -36.0
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 25,
+            "bib": 8,
+            "speed": 86.9,
+            "wind": -0.66,
+            "wind_comp": 11.6,
+            "gate": 11,
+            "gate_comp": 32.5,
+            "distance": 119.5,
+            "total_points": 103.2
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 33,
+            "bib": 8,
+            "speed": 86.5,
+            "wind": -0.31,
+            "wind_comp": 5.4,
+            "gate": 11,
+            "gate_comp": 16.3,
+            "distance": 118.0,
+            "total_points": 78.1
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 13,
+            "qualified": true,
+            "bib": 8,
+            "speed": 86.5,
+            "wind": 0.0,
+            "wind_comp": 0.0,
+            "gate": 11,
+            "gate_comp": 10.7,
+            "judge_points": 54.0,
+            "distance_points": 82.5,
+            "distance": 132.5,
+            "total_points": 147.2,
+            "diff": -22.3
+          }
+        }
       }
     }
   },
@@ -713,6 +1028,51 @@
             },
             "total_points": 118.8,
             "diff": -185.2
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 35,
+            "bib": 29,
+            "speed": 87.9,
+            "wind": -0.46,
+            "wind_comp": 8.1,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 125.5,
+            "total_points": 94.2
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 40,
+            "bib": 29,
+            "speed": 87.7,
+            "wind": -0.16,
+            "wind_comp": 2.8,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 125.5,
+            "total_points": 72.7
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 44,
+            "qualified": true,
+            "bib": 29,
+            "speed": 87.2,
+            "wind": 0.08,
+            "wind_comp": -0.9,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 51.0,
+            "distance_points": 70.8,
+            "distance": 126.0,
+            "total_points": 120.9,
+            "diff": -48.6
           }
         }
       }
@@ -805,6 +1165,51 @@
             },
             "total_points": 262.0,
             "diff": -42.0
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 12,
+            "bib": 17,
+            "speed": 87.5,
+            "wind": -0.17,
+            "wind_comp": 3.0,
+            "gate": 12,
+            "gate_comp": 27.2,
+            "distance": 133.5,
+            "total_points": 114.5
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 28,
+            "bib": 17,
+            "speed": 87.3,
+            "wind": -0.45,
+            "wind_comp": 7.9,
+            "gate": 12,
+            "gate_comp": 11.0,
+            "distance": 123.0,
+            "total_points": 84.3
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 14,
+            "qualified": true,
+            "bib": 17,
+            "speed": 87.4,
+            "wind": -0.34,
+            "wind_comp": 6.0,
+            "gate": 12,
+            "gate_comp": 5.3,
+            "judge_points": 54.5,
+            "distance_points": 80.7,
+            "distance": 131.5,
+            "total_points": 146.5,
+            "diff": -23.0
           }
         }
       }
@@ -900,6 +1305,51 @@
             "diff": -15.0
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 16,
+            "bib": 6,
+            "speed": 86.4,
+            "wind": -0.97,
+            "wind_comp": 17.0,
+            "gate": 11,
+            "gate_comp": 32.5,
+            "distance": 121.0,
+            "total_points": 111.3
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 9,
+            "bib": 6,
+            "speed": 86.5,
+            "wind": -0.1,
+            "wind_comp": 1.8,
+            "gate": 11,
+            "gate_comp": 16.3,
+            "distance": 134.5,
+            "total_points": 104.2
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 3,
+            "qualified": true,
+            "bib": 6,
+            "speed": 86.4,
+            "wind": -0.09,
+            "wind_comp": 1.6,
+            "gate": 11,
+            "gate_comp": 10.7,
+            "judge_points": 55.5,
+            "distance_points": 96.0,
+            "distance": 140.0,
+            "total_points": 163.8,
+            "diff": -5.7
+          }
+        }
       }
     }
   },
@@ -990,6 +1440,51 @@
             },
             "total_points": 290.7,
             "diff": -13.3
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 5,
+            "bib": 4,
+            "speed": 86.5,
+            "wind": -0.51,
+            "wind_comp": 9.0,
+            "gate": 11,
+            "gate_comp": 32.5,
+            "distance": 133.0,
+            "total_points": 124.9
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 5,
+            "bib": 4,
+            "speed": 86.2,
+            "wind": -0.09,
+            "wind_comp": 1.6,
+            "gate": 11,
+            "gate_comp": 16.3,
+            "distance": 137.0,
+            "total_points": 108.5
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 27,
+            "qualified": true,
+            "bib": 4,
+            "speed": 86.4,
+            "wind": -0.42,
+            "wind_comp": 7.4,
+            "gate": 11,
+            "gate_comp": 10.7,
+            "judge_points": 52.0,
+            "distance_points": 64.5,
+            "distance": 122.5,
+            "total_points": 134.6,
+            "diff": -34.9
           }
         }
       }
@@ -1085,6 +1580,51 @@
             "diff": -0.2
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 21,
+            "bib": 3,
+            "speed": 86.5,
+            "wind": -0.53,
+            "wind_comp": 9.3,
+            "gate": 11,
+            "gate_comp": 32.5,
+            "distance": 124.0,
+            "total_points": 109.0
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 15,
+            "bib": 3,
+            "speed": 86.4,
+            "wind": -0.06,
+            "wind_comp": 1.1,
+            "gate": 11,
+            "gate_comp": 16.3,
+            "distance": 131.0,
+            "total_points": 97.2
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 36,
+            "qualified": true,
+            "bib": 3,
+            "speed": 86.7,
+            "wind": -0.29,
+            "wind_comp": 5.1,
+            "gate": 11,
+            "gate_comp": 10.7,
+            "judge_points": 51.5,
+            "distance_points": 61.8,
+            "distance": 121.0,
+            "total_points": 129.1,
+            "diff": -40.4
+          }
+        }
       }
     }
   },
@@ -1178,12 +1718,58 @@
             "diff": -14.6
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 2,
+            "bib": 2,
+            "speed": 86.5,
+            "wind": -0.57,
+            "wind_comp": 10.0,
+            "gate": 11,
+            "gate_comp": 32.5,
+            "distance": 138.5,
+            "total_points": 135.8
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 2,
+            "bib": 2,
+            "speed": 86.2,
+            "wind": -0.21,
+            "wind_comp": 3.7,
+            "gate": 11,
+            "gate_comp": 16.3,
+            "distance": 139.5,
+            "total_points": 115.1
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 6,
+            "qualified": true,
+            "bib": 2,
+            "speed": 86.3,
+            "wind": -0.13,
+            "wind_comp": 2.3,
+            "gate": 11,
+            "gate_comp": 10.7,
+            "judge_points": 55.5,
+            "distance_points": 87.9,
+            "distance": 135.5,
+            "total_points": 156.4,
+            "diff": -13.1
+          }
+        }
       }
     }
   },
   "Pius Paschke": {
     "aliases": [
-      "PASCHKE Pius"
+      "PASCHKE Pius",
+      "Paschke P."
     ],
     "country": "GER",
     "fis_code": "2171",
@@ -1263,6 +1849,52 @@
             },
             "total_points": 117.2,
             "diff": -186.8
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "status": "DNS",
+            "rank": null,
+            "bib": 24,
+            "speed": null,
+            "wind": null,
+            "wind_comp": null,
+            "gate": null,
+            "gate_comp": null,
+            "distance": null,
+            "total_points": null
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 27,
+            "bib": 24,
+            "speed": 86.7,
+            "wind": -0.16,
+            "wind_comp": 2.8,
+            "gate": 12,
+            "gate_comp": 11.0,
+            "distance": 126.5,
+            "total_points": 85.5
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 32,
+            "qualified": true,
+            "bib": 24,
+            "speed": 86.4,
+            "wind": -0.48,
+            "wind_comp": 8.4,
+            "gate": 12,
+            "gate_comp": 5.3,
+            "judge_points": 51.0,
+            "distance_points": 66.3,
+            "distance": 123.5,
+            "total_points": 131.0,
+            "diff": -38.5
           }
         }
       }
@@ -1357,6 +1989,51 @@
             "diff": -30.1
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 10,
+            "bib": 7,
+            "speed": 86.8,
+            "wind": -0.83,
+            "wind_comp": 14.6,
+            "gate": 11,
+            "gate_comp": 32.5,
+            "distance": 126.5,
+            "total_points": 118.8
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 5,
+            "bib": 7,
+            "speed": 86.5,
+            "wind": -0.14,
+            "wind_comp": 2.5,
+            "gate": 11,
+            "gate_comp": 16.3,
+            "distance": 136.5,
+            "total_points": 108.5
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 4,
+            "qualified": true,
+            "bib": 7,
+            "speed": 86.6,
+            "wind": 0.04,
+            "wind_comp": -0.5,
+            "gate": 11,
+            "gate_comp": 10.7,
+            "judge_points": 56.0,
+            "distance_points": 95.1,
+            "distance": 139.5,
+            "total_points": 161.3,
+            "diff": -8.2
+          }
+        }
       }
     }
   },
@@ -1445,12 +2122,58 @@
             "diff": -191.3
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 23,
+            "bib": 35,
+            "speed": 88.2,
+            "wind": -0.41,
+            "wind_comp": 7.2,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 133.0,
+            "total_points": 106.8
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 35,
+            "bib": 35,
+            "speed": 88.1,
+            "wind": -0.12,
+            "wind_comp": 2.1,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 128.0,
+            "total_points": 76.5
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 15,
+            "qualified": true,
+            "bib": 35,
+            "speed": 87.5,
+            "wind": -0.23,
+            "wind_comp": 4.0,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 54.0,
+            "distance_points": 87.9,
+            "distance": 135.5,
+            "total_points": 145.9,
+            "diff": -23.6
+          }
+        }
       }
     }
   },
   "Danil Vassilyev": {
     "aliases": [
-      "VASSILYEV Danil"
+      "VASSILYEV Danil",
+      "Vassilyev D."
     ],
     "country": "KAZ",
     "fis_code": "7888",
@@ -1536,12 +2259,58 @@
             "diff": -67.0
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 11,
+            "bib": 23,
+            "speed": 87.3,
+            "wind": 0.02,
+            "wind_comp": -0.2,
+            "gate": 13,
+            "gate_comp": 21.8,
+            "distance": 140.0,
+            "total_points": 117.6
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 17,
+            "bib": 23,
+            "speed": 86.9,
+            "wind": -0.15,
+            "wind_comp": 2.6,
+            "gate": 12,
+            "gate_comp": 11.0,
+            "distance": 132.5,
+            "total_points": 96.1
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 17,
+            "qualified": true,
+            "bib": 23,
+            "speed": 86.5,
+            "wind": -0.74,
+            "wind_comp": 13.0,
+            "gate": 12,
+            "gate_comp": 5.3,
+            "judge_points": 52.5,
+            "distance_points": 70.8,
+            "distance": 126.0,
+            "total_points": 141.6,
+            "diff": -27.9
+          }
+        }
       }
     }
   },
   "Sandro Hauswirth": {
     "aliases": [
-      "HAUSWIRTH Sandro"
+      "HAUSWIRTH Sandro",
+      "Hauswirth S."
     ],
     "country": "SUI",
     "fis_code": "6999",
@@ -1625,6 +2394,51 @@
             },
             "total_points": 278.8,
             "diff": -25.2
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 9,
+            "bib": 12,
+            "speed": 87.4,
+            "wind": -0.11,
+            "wind_comp": 1.9,
+            "gate": 12,
+            "gate_comp": 27.2,
+            "distance": 137.5,
+            "total_points": 120.6
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 10,
+            "bib": 12,
+            "speed": 87.4,
+            "wind": -0.21,
+            "wind_comp": 3.7,
+            "gate": 12,
+            "gate_comp": 11.0,
+            "distance": 136.0,
+            "total_points": 103.5
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 2,
+            "qualified": true,
+            "bib": 12,
+            "speed": 87.4,
+            "wind": -0.11,
+            "wind_comp": 1.9,
+            "gate": 12,
+            "gate_comp": 5.3,
+            "judge_points": 55.5,
+            "distance_points": 105.0,
+            "distance": 145.0,
+            "total_points": 167.7,
+            "diff": -1.8
           }
         }
       }
@@ -1714,12 +2528,58 @@
             "diff": -200.7
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 54,
+            "bib": 31,
+            "speed": 87.6,
+            "wind": -0.27,
+            "wind_comp": 4.7,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 109.0,
+            "total_points": 61.1
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 49,
+            "bib": 31,
+            "speed": 87.5,
+            "wind": -0.11,
+            "wind_comp": 1.9,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 120.5,
+            "total_points": 62.8
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 49,
+            "qualified": true,
+            "bib": 31,
+            "speed": 87.1,
+            "wind": -0.09,
+            "wind_comp": 1.6,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 51.0,
+            "distance_points": 63.6,
+            "distance": 122.0,
+            "total_points": 116.2,
+            "diff": -53.3
+          }
+        }
       }
     }
   },
   "Tate Frantz": {
     "aliases": [
-      "FRANTZ Tate"
+      "FRANTZ Tate",
+      "Frantz T."
     ],
     "country": "USA",
     "fis_code": "220183",
@@ -1799,6 +2659,51 @@
             },
             "total_points": 258.3,
             "diff": -45.7
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 18,
+            "bib": 27,
+            "speed": 87.9,
+            "wind": -0.24,
+            "wind_comp": 4.2,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 136.5,
+            "total_points": 110.1
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 18,
+            "bib": 27,
+            "speed": 88.1,
+            "wind": -0.16,
+            "wind_comp": 2.8,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 138.0,
+            "total_points": 95.2
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 37,
+            "qualified": true,
+            "bib": 27,
+            "speed": 87.6,
+            "wind": -0.01,
+            "wind_comp": 0.2,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 52.5,
+            "distance_points": 72.6,
+            "distance": 127.0,
+            "total_points": 125.3,
+            "diff": -44.2
           }
         }
       }
@@ -1893,6 +2798,51 @@
             "diff": -36.3
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 7,
+            "bib": 21,
+            "speed": 86.7,
+            "wind": -0.11,
+            "wind_comp": 1.9,
+            "gate": 12,
+            "gate_comp": 27.2,
+            "distance": 139.0,
+            "total_points": 123.3
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 24,
+            "bib": 21,
+            "speed": 86.4,
+            "wind": -0.51,
+            "wind_comp": 9.0,
+            "gate": 12,
+            "gate_comp": 11.0,
+            "distance": 126.5,
+            "total_points": 91.7
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 22,
+            "qualified": true,
+            "bib": 21,
+            "speed": 86.4,
+            "wind": -0.24,
+            "wind_comp": 4.2,
+            "gate": 12,
+            "gate_comp": 5.3,
+            "judge_points": 54.0,
+            "distance_points": 74.4,
+            "distance": 128.0,
+            "total_points": 137.9,
+            "diff": -31.6
+          }
+        }
       }
     }
   },
@@ -1984,12 +2934,58 @@
             "diff": -40.8
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 18,
+            "bib": 9,
+            "speed": 86.8,
+            "wind": -0.39,
+            "wind_comp": 6.8,
+            "gate": 11,
+            "gate_comp": 32.5,
+            "distance": 126.0,
+            "total_points": 110.1
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 19,
+            "bib": 9,
+            "speed": 86.6,
+            "wind": -0.15,
+            "wind_comp": 2.6,
+            "gate": 11,
+            "gate_comp": 16.3,
+            "distance": 128.5,
+            "total_points": 94.2
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 5,
+            "qualified": true,
+            "bib": 9,
+            "speed": 86.6,
+            "wind": -0.28,
+            "wind_comp": 4.9,
+            "gate": 11,
+            "gate_comp": 10.7,
+            "judge_points": 54.0,
+            "distance_points": 87.0,
+            "distance": 135.0,
+            "total_points": 156.6,
+            "diff": -12.9
+          }
+        }
       }
     }
   },
   "Valentin Foubert": {
     "aliases": [
-      "FOUBERT Valentin"
+      "FOUBERT Valentin",
+      "Foubert V."
     ],
     "country": "FRA",
     "fis_code": "7856",
@@ -2073,6 +3069,51 @@
             },
             "total_points": 256.8,
             "diff": -47.2
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 49,
+            "bib": 16,
+            "speed": 86.7,
+            "wind": -0.23,
+            "wind_comp": 4.0,
+            "gate": 12,
+            "gate_comp": 27.2,
+            "distance": 108.5,
+            "total_points": 70.5
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 47,
+            "bib": 16,
+            "speed": 86.7,
+            "wind": -0.46,
+            "wind_comp": 8.1,
+            "gate": 12,
+            "gate_comp": 11.0,
+            "distance": 111.5,
+            "total_points": 63.8
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 31,
+            "qualified": true,
+            "bib": 16,
+            "speed": 86.7,
+            "wind": -0.41,
+            "wind_comp": 7.2,
+            "gate": 12,
+            "gate_comp": 5.3,
+            "judge_points": 53.5,
+            "distance_points": 65.4,
+            "distance": 123.0,
+            "total_points": 131.4,
+            "diff": -38.1
           }
         }
       }
@@ -2166,12 +3207,58 @@
             "diff": -54.8
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 61,
+            "bib": 28,
+            "speed": 87.8,
+            "wind": -0.35,
+            "wind_comp": 6.1,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 86.5,
+            "total_points": 22.0
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 42,
+            "bib": 28,
+            "speed": 87.8,
+            "wind": -0.2,
+            "wind_comp": 3.5,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 124.5,
+            "total_points": 71.6
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 16,
+            "qualified": true,
+            "bib": 28,
+            "speed": 87.5,
+            "wind": -0.01,
+            "wind_comp": 0.2,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 52.5,
+            "distance_points": 89.7,
+            "distance": 136.5,
+            "total_points": 142.4,
+            "diff": -27.1
+          }
+        }
       }
     }
   },
   "Kasperi Valto": {
     "aliases": [
-      "VALTO Kasperi"
+      "VALTO Kasperi",
+      "Valto K."
     ],
     "country": "FIN",
     "fis_code": "7873",
@@ -2249,12 +3336,58 @@
             "diff": -198.1
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 36,
+            "bib": 52,
+            "speed": 88.0,
+            "wind": -0.41,
+            "wind_comp": 7.2,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 125.5,
+            "total_points": 93.3
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 30,
+            "bib": 52,
+            "speed": 88.0,
+            "wind": -0.47,
+            "wind_comp": 8.2,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 127.5,
+            "total_points": 81.7
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 45,
+            "qualified": true,
+            "bib": 52,
+            "speed": 87.2,
+            "wind": 0.09,
+            "wind_comp": -1.1,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 50.0,
+            "distance_points": 71.7,
+            "distance": 126.5,
+            "total_points": 120.6,
+            "diff": -48.9
+          }
+        }
       }
     }
   },
   "Remo Imhof": {
     "aliases": [
-      "IMHOF Remo"
+      "IMHOF Remo",
+      "Imhof R."
     ],
     "country": "SUI",
     "fis_code": "7657",
@@ -2340,12 +3473,58 @@
             "diff": -43.3
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 39,
+            "bib": 14,
+            "speed": 86.9,
+            "wind": -0.1,
+            "wind_comp": 1.8,
+            "gate": 12,
+            "gate_comp": 27.2,
+            "distance": 121.5,
+            "total_points": 91.7
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 46,
+            "bib": 14,
+            "speed": 86.8,
+            "wind": -0.23,
+            "wind_comp": 4.0,
+            "gate": 12,
+            "gate_comp": 11.0,
+            "distance": 114.0,
+            "total_points": 64.2
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 28,
+            "qualified": true,
+            "bib": 14,
+            "speed": 87.1,
+            "wind": -0.14,
+            "wind_comp": 2.5,
+            "gate": 12,
+            "gate_comp": 5.3,
+            "judge_points": 53.5,
+            "distance_points": 72.6,
+            "distance": 127.0,
+            "total_points": 133.9,
+            "diff": -35.6
+          }
+        }
       }
     }
   },
   "Antti Aalto": {
     "aliases": [
-      "AALTO Antti"
+      "AALTO Antti",
+      "Aalto A."
     ],
     "country": "FIN",
     "fis_code": "6996",
@@ -2429,6 +3608,51 @@
             },
             "total_points": 262.8,
             "diff": -41.2
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 20,
+            "bib": 20,
+            "speed": 87.2,
+            "wind": -0.03,
+            "wind_comp": 0.5,
+            "gate": 12,
+            "gate_comp": 27.2,
+            "distance": 132.0,
+            "total_points": 109.3
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 21,
+            "bib": 20,
+            "speed": 87.2,
+            "wind": -0.43,
+            "wind_comp": 7.5,
+            "gate": 12,
+            "gate_comp": 11.0,
+            "distance": 127.5,
+            "total_points": 92.0
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 24,
+            "qualified": true,
+            "bib": 20,
+            "speed": 87.2,
+            "wind": 0.05,
+            "wind_comp": -0.6,
+            "gate": 12,
+            "gate_comp": 5.3,
+            "judge_points": 54.0,
+            "distance_points": 78.0,
+            "distance": 130.0,
+            "total_points": 136.7,
+            "diff": -32.8
           }
         }
       }
@@ -2522,6 +3746,51 @@
             "diff": -68.7
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 37,
+            "bib": 26,
+            "speed": 88.0,
+            "wind": -0.14,
+            "wind_comp": 2.5,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 128.0,
+            "total_points": 93.1
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 41,
+            "bib": 26,
+            "speed": 87.9,
+            "wind": -0.05,
+            "wind_comp": 0.9,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 126.5,
+            "total_points": 72.6
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 52,
+            "qualified": false,
+            "bib": 26,
+            "speed": 87.5,
+            "wind": -0.11,
+            "wind_comp": 1.9,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 49.5,
+            "distance_points": 60.0,
+            "distance": 120.0,
+            "total_points": 111.4,
+            "diff": -58.1
+          }
+        }
       }
     }
   },
@@ -2605,6 +3874,51 @@
             "diff": -185.5
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 55,
+            "bib": 38,
+            "speed": 88.0,
+            "wind": -0.57,
+            "wind_comp": 10.0,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 105.5,
+            "total_points": 60.1
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 53,
+            "bib": 38,
+            "speed": 88.1,
+            "wind": 0.02,
+            "wind_comp": -0.2,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 118.5,
+            "total_points": 57.1
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 30,
+            "qualified": true,
+            "bib": 38,
+            "speed": 87.6,
+            "wind": -0.08,
+            "wind_comp": 1.4,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 54.0,
+            "distance_points": 76.2,
+            "distance": 129.0,
+            "total_points": 131.6,
+            "diff": -37.9
+          }
+        }
       }
     }
   },
@@ -2673,7 +3987,8 @@
   },
   "Ilya Mizernykh": {
     "aliases": [
-      "MIZERNYKH Ilya"
+      "MIZERNYKH Ilya",
+      "Mizernykh I."
     ],
     "country": "KAZ",
     "fis_code": "8612",
@@ -2749,6 +4064,51 @@
             },
             "total_points": 112.2,
             "diff": -191.8
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 56,
+            "bib": 39,
+            "speed": 88.0,
+            "wind": -0.59,
+            "wind_comp": 10.4,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 100.0,
+            "total_points": 50.6
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 29,
+            "bib": 39,
+            "speed": 88.1,
+            "wind": -0.22,
+            "wind_comp": 3.9,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 130.5,
+            "total_points": 82.8
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 35,
+            "qualified": true,
+            "bib": 39,
+            "speed": 87.5,
+            "wind": -0.1,
+            "wind_comp": 1.8,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 52.5,
+            "distance_points": 76.2,
+            "distance": 129.0,
+            "total_points": 130.5,
+            "diff": -39.0
           }
         }
       }
@@ -2834,12 +4194,58 @@
             "diff": -185.9
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 41,
+            "bib": 57,
+            "speed": 88.1,
+            "wind": -0.21,
+            "wind_comp": 3.7,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 125.5,
+            "total_points": 89.8
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 31,
+            "bib": 57,
+            "speed": 88.4,
+            "wind": -0.65,
+            "wind_comp": 11.4,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 125.5,
+            "total_points": 81.3
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 50,
+            "qualified": true,
+            "bib": 57,
+            "speed": 87.9,
+            "wind": -0.25,
+            "wind_comp": 4.4,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 48.5,
+            "distance_points": 60.0,
+            "distance": 120.0,
+            "total_points": 112.9,
+            "diff": -56.6
+          }
+        }
       }
     }
   },
   "Philipp Raimund": {
     "aliases": [
-      "RAIMUND Philipp"
+      "RAIMUND Philipp",
+      "Raimund P."
     ],
     "country": "GER",
     "fis_code": "7349",
@@ -2925,12 +4331,58 @@
             "diff": -42.7
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 22,
+            "bib": 19,
+            "speed": 87.4,
+            "wind": -0.09,
+            "wind_comp": 1.6,
+            "gate": 12,
+            "gate_comp": 27.2,
+            "distance": 131.0,
+            "total_points": 108.6
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 20,
+            "bib": 19,
+            "speed": 87.2,
+            "wind": -0.47,
+            "wind_comp": 8.2,
+            "gate": 12,
+            "gate_comp": 11.0,
+            "distance": 128.0,
+            "total_points": 93.6
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 11,
+            "qualified": true,
+            "bib": 19,
+            "speed": 87.2,
+            "wind": -0.13,
+            "wind_comp": 2.3,
+            "gate": 12,
+            "gate_comp": 5.3,
+            "judge_points": 54.0,
+            "distance_points": 87.9,
+            "distance": 135.5,
+            "total_points": 149.5,
+            "diff": -20.0
+          }
+        }
       }
     }
   },
   "Naoki Nakamura": {
     "aliases": [
-      "NAKAMURA Naoki"
+      "NAKAMURA Naoki",
+      "Nakamura N."
     ],
     "country": "JPN",
     "fis_code": "6392",
@@ -3017,12 +4469,59 @@
             "diff": -39.7
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 8,
+            "bib": 13,
+            "speed": 86.9,
+            "wind": -0.22,
+            "wind_comp": 3.9,
+            "gate": 12,
+            "gate_comp": 27.2,
+            "distance": 136.5,
+            "total_points": 120.8
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "status": "DNS",
+            "rank": null,
+            "bib": 13,
+            "speed": null,
+            "wind": null,
+            "wind_comp": null,
+            "gate": null,
+            "gate_comp": null,
+            "distance": null,
+            "total_points": null
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 29,
+            "qualified": true,
+            "bib": 13,
+            "speed": 86.9,
+            "wind": 0.03,
+            "wind_comp": -0.4,
+            "gate": 12,
+            "gate_comp": 5.3,
+            "judge_points": 53.5,
+            "distance_points": 75.3,
+            "distance": 128.5,
+            "total_points": 133.7,
+            "diff": -35.8
+          }
+        }
       }
     }
   },
   "Vladimir Zografski": {
     "aliases": [
-      "ZOGRAFSKI Vladimir"
+      "ZOGRAFSKI Vladimir",
+      "Zografski V."
     ],
     "country": "BUL",
     "fis_code": "5168",
@@ -3108,6 +4607,51 @@
             "diff": -68.6
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 26,
+            "bib": 33,
+            "speed": 87.2,
+            "wind": -0.34,
+            "wind_comp": 6.0,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 131.5,
+            "total_points": 102.9
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 22,
+            "bib": 33,
+            "speed": 87.4,
+            "wind": -0.07,
+            "wind_comp": 1.2,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 137.0,
+            "total_points": 91.8
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 21,
+            "qualified": true,
+            "bib": 33,
+            "speed": 86.9,
+            "wind": -0.1,
+            "wind_comp": 1.8,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 52.5,
+            "distance_points": 84.3,
+            "distance": 133.5,
+            "total_points": 138.6,
+            "diff": -30.9
+          }
+        }
       }
     }
   },
@@ -3191,6 +4735,51 @@
             "diff": -198.1
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 45,
+            "bib": 45,
+            "speed": 88.0,
+            "wind": -0.14,
+            "wind_comp": 2.5,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 121.0,
+            "total_points": 80.5
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 50,
+            "bib": 45,
+            "speed": 88.0,
+            "wind": -0.31,
+            "wind_comp": 5.4,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 118.0,
+            "total_points": 61.8
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 53,
+            "qualified": false,
+            "bib": 45,
+            "speed": 87.4,
+            "wind": -0.16,
+            "wind_comp": 2.8,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 48.5,
+            "distance_points": 59.1,
+            "distance": 119.5,
+            "total_points": 110.4,
+            "diff": -59.1
+          }
+        }
       }
     }
   },
@@ -3259,12 +4848,58 @@
             "diff": -72.1
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 59,
+            "bib": 46,
+            "speed": 87.5,
+            "wind": -0.07,
+            "wind_comp": 1.2,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 98.0,
+            "total_points": 37.8
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 60,
+            "bib": 46,
+            "speed": 87.6,
+            "wind": -0.68,
+            "wind_comp": 11.9,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 98.0,
+            "total_points": 32.3
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 63,
+            "qualified": false,
+            "bib": 46,
+            "speed": 86.8,
+            "wind": -0.01,
+            "wind_comp": 0.2,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 47.0,
+            "distance_points": 9.6,
+            "distance": 92.0,
+            "total_points": 56.8,
+            "diff": -112.7
+          }
+        }
       }
     }
   },
   "Jakub Wolny": {
     "aliases": [
-      "WOLNY Jakub"
+      "WOLNY Jakub",
+      "Wolny J."
     ],
     "country": "POL",
     "fis_code": "6165",
@@ -3327,12 +4962,58 @@
             "diff": -126.1
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 50,
+            "bib": 44,
+            "speed": 87.6,
+            "wind": -0.24,
+            "wind_comp": 4.2,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 114.0,
+            "total_points": 69.6
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 45,
+            "bib": 44,
+            "speed": 87.6,
+            "wind": -0.2,
+            "wind_comp": 3.5,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 123.0,
+            "total_points": 68.9
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 56,
+            "qualified": false,
+            "bib": 44,
+            "speed": 87.0,
+            "wind": -0.27,
+            "wind_comp": 4.7,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 49.5,
+            "distance_points": 51.0,
+            "distance": 115.0,
+            "total_points": 105.2,
+            "diff": -64.3
+          }
+        }
       }
     }
   },
   "Maciej Kot": {
     "aliases": [
-      "KOT Maciej"
+      "KOT Maciej",
+      "Kot M."
     ],
     "country": "POL",
     "fis_code": "5298",
@@ -3408,6 +5089,51 @@
             },
             "total_points": 110.1,
             "diff": -193.9
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 30,
+            "bib": 56,
+            "speed": 88.0,
+            "wind": -0.07,
+            "wind_comp": 1.2,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 131.5,
+            "total_points": 98.1
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 32,
+            "bib": 56,
+            "speed": 88.2,
+            "wind": -0.62,
+            "wind_comp": 10.9,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 124.5,
+            "total_points": 79.0
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 41,
+            "qualified": true,
+            "bib": 56,
+            "speed": 87.5,
+            "wind": -0.32,
+            "wind_comp": 5.6,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 51.0,
+            "distance_points": 66.3,
+            "distance": 123.5,
+            "total_points": 122.9,
+            "diff": -46.6
           }
         }
       }
@@ -3493,12 +5219,58 @@
             "diff": -189.1
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 27,
+            "bib": 55,
+            "speed": 87.5,
+            "wind": -0.33,
+            "wind_comp": 5.8,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 131.0,
+            "total_points": 101.8
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 52,
+            "bib": 55,
+            "speed": 87.8,
+            "wind": -0.73,
+            "wind_comp": 12.8,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 112.5,
+            "total_points": 59.3
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 56,
+            "qualified": false,
+            "bib": 55,
+            "speed": 86.8,
+            "wind": -0.32,
+            "wind_comp": 5.6,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 49.5,
+            "distance_points": 50.1,
+            "distance": 114.5,
+            "total_points": 105.2,
+            "diff": -64.3
+          }
+        }
       }
     }
   },
   "Niko Kytosaho": {
     "aliases": [
-      "KYTOSAHO Niko"
+      "KYTOSAHO Niko",
+      "Kytosaho N."
     ],
     "country": "FIN",
     "fis_code": "6912",
@@ -3574,6 +5346,51 @@
             },
             "total_points": 108.1,
             "diff": -195.9
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 29,
+            "bib": 59,
+            "speed": 88.1,
+            "wind": -0.3,
+            "wind_comp": 5.3,
+            "gate": 15,
+            "gate_comp": 10.9,
+            "distance": 134.0,
+            "total_points": 101.4
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 26,
+            "bib": 59,
+            "speed": 87.7,
+            "wind": -0.22,
+            "wind_comp": 3.9,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 133.0,
+            "total_points": 87.3
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 25,
+            "qualified": true,
+            "bib": 59,
+            "speed": 87.3,
+            "wind": -0.16,
+            "wind_comp": 2.8,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 52.0,
+            "distance_points": 81.6,
+            "distance": 132.0,
+            "total_points": 136.4,
+            "diff": -33.1
           }
         }
       }
@@ -3667,12 +5484,58 @@
             "diff": -46.7
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 14,
+            "bib": 22,
+            "speed": 86.7,
+            "wind": -0.1,
+            "wind_comp": 1.8,
+            "gate": 13,
+            "gate_comp": 21.8,
+            "distance": 137.0,
+            "total_points": 114.2
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 16,
+            "bib": 22,
+            "speed": 86.4,
+            "wind": -0.3,
+            "wind_comp": 5.3,
+            "gate": 12,
+            "gate_comp": 11.0,
+            "distance": 131.5,
+            "total_points": 97.0
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 19,
+            "qualified": true,
+            "bib": 22,
+            "speed": 86.5,
+            "wind": -0.46,
+            "wind_comp": 8.1,
+            "gate": 12,
+            "gate_comp": 5.3,
+            "judge_points": 51.0,
+            "distance_points": 75.3,
+            "distance": 128.5,
+            "total_points": 139.7,
+            "diff": -29.8
+          }
+        }
       }
     }
   },
   "Dawid Kubacki": {
     "aliases": [
-      "KUBACKI Dawid"
+      "KUBACKI Dawid",
+      "Kubacki D."
     ],
     "country": "POL",
     "fis_code": "5142",
@@ -3733,6 +5596,51 @@
             "distance": 104.0,
             "total_points": 64.2,
             "diff": -72.6
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 43,
+            "bib": 36,
+            "speed": 88.0,
+            "wind": -0.7,
+            "wind_comp": 12.3,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 119.0,
+            "total_points": 86.7
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 38,
+            "bib": 36,
+            "speed": 88.2,
+            "wind": -0.01,
+            "wind_comp": 0.2,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 128.0,
+            "total_points": 74.6
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 54,
+            "qualified": false,
+            "bib": 36,
+            "speed": 87.5,
+            "wind": -0.18,
+            "wind_comp": 3.2,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 50.5,
+            "distance_points": 55.5,
+            "distance": 117.5,
+            "total_points": 109.2,
+            "diff": -60.3
           }
         }
       }
@@ -3803,12 +5711,58 @@
             "diff": -63.2
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 46,
+            "bib": 41,
+            "speed": 87.8,
+            "wind": -0.58,
+            "wind_comp": 10.2,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 116.5,
+            "total_points": 80.1
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 57,
+            "bib": 41,
+            "speed": 87.8,
+            "wind": -0.12,
+            "wind_comp": 2.1,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 112.0,
+            "total_points": 47.7
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 43,
+            "qualified": true,
+            "bib": 41,
+            "speed": 87.3,
+            "wind": -0.34,
+            "wind_comp": 6.0,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 50.5,
+            "distance_points": 64.5,
+            "distance": 122.5,
+            "total_points": 121.0,
+            "diff": -48.5
+          }
+        }
       }
     }
   },
   "Anze Lanisek": {
     "aliases": [
-      "LANISEK Anze"
+      "LANISEK Anze",
+      "Lanisek A."
     ],
     "country": "SLO",
     "fis_code": "6437",
@@ -3894,12 +5848,58 @@
             "diff": -16.6
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 40,
+            "bib": 10,
+            "speed": 86.8,
+            "wind": -0.49,
+            "wind_comp": 8.6,
+            "gate": 11,
+            "gate_comp": 32.5,
+            "distance": 114.0,
+            "total_points": 90.3
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 12,
+            "bib": 10,
+            "speed": 86.7,
+            "wind": 0.01,
+            "wind_comp": -0.1,
+            "gate": 11,
+            "gate_comp": 16.3,
+            "distance": 133.0,
+            "total_points": 99.6
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 9,
+            "qualified": true,
+            "bib": 10,
+            "speed": 86.7,
+            "wind": -0.03,
+            "wind_comp": 0.5,
+            "gate": 11,
+            "gate_comp": 10.7,
+            "judge_points": 54.0,
+            "distance_points": 87.0,
+            "distance": 135.0,
+            "total_points": 152.2,
+            "diff": -17.3
+          }
+        }
       }
     }
   },
   "Max Unglaube": {
     "aliases": [
-      "UNGLAUBE Max"
+      "UNGLAUBE Max",
+      "Unglaube M."
     ],
     "country": "GER",
     "fis_code": "8291",
@@ -3960,6 +5960,51 @@
             "distance": 112.0,
             "total_points": 81.0,
             "diff": -55.8
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 58,
+            "bib": 40,
+            "speed": 87.9,
+            "wind": -0.65,
+            "wind_comp": 11.4,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 96.0,
+            "total_points": 44.4
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 58,
+            "bib": 40,
+            "speed": 87.9,
+            "wind": -0.39,
+            "wind_comp": 6.8,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 108.0,
+            "total_points": 45.2
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 40,
+            "qualified": true,
+            "bib": 40,
+            "speed": 87.4,
+            "wind": -0.2,
+            "wind_comp": 3.5,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 50.0,
+            "distance_points": 69.9,
+            "distance": 125.5,
+            "total_points": 123.4,
+            "diff": -46.1
           }
         }
       }
@@ -4045,12 +6090,58 @@
             "diff": -200.7
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 47,
+            "bib": 61,
+            "speed": 87.9,
+            "wind": -0.19,
+            "wind_comp": 3.3,
+            "gate": 15,
+            "gate_comp": 10.9,
+            "distance": 121.5,
+            "total_points": 76.9
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 55,
+            "bib": 61,
+            "speed": 87.5,
+            "wind": -0.21,
+            "wind_comp": 3.7,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 113.5,
+            "total_points": 52.0
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 55,
+            "qualified": false,
+            "bib": 61,
+            "speed": 87.2,
+            "wind": -0.31,
+            "wind_comp": 5.4,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 49.0,
+            "distance_points": 51.0,
+            "distance": 115.0,
+            "total_points": 105.4,
+            "diff": -64.1
+          }
+        }
       }
     }
   },
   "Jason Colby": {
     "aliases": [
-      "COLBY Jason"
+      "COLBY Jason",
+      "Colby J."
     ],
     "country": "USA",
     "fis_code": "219795",
@@ -4132,12 +6223,58 @@
             "diff": -53.8
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 24,
+            "bib": 30,
+            "speed": 87.5,
+            "wind": -0.31,
+            "wind_comp": 5.4,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 132.5,
+            "total_points": 104.1
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 34,
+            "bib": 30,
+            "speed": 87.2,
+            "wind": -0.14,
+            "wind_comp": 2.5,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 128.5,
+            "total_points": 77.8
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 42,
+            "qualified": true,
+            "bib": 30,
+            "speed": 87.0,
+            "wind": 0.0,
+            "wind_comp": 0.0,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 51.5,
+            "distance_points": 70.8,
+            "distance": 126.0,
+            "total_points": 122.3,
+            "diff": -47.2
+          }
+        }
       }
     }
   },
   "Johann Andre Forfang": {
     "aliases": [
-      "FORFANG Johann Andre"
+      "FORFANG Johann Andre",
+      "Forfang J.A."
     ],
     "country": "NOR",
     "fis_code": "6100",
@@ -4199,6 +6336,51 @@
             "distance": null,
             "total_points": null,
             "diff": null
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 17,
+            "bib": 48,
+            "speed": 87.7,
+            "wind": -0.35,
+            "wind_comp": 6.1,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 135.5,
+            "total_points": 110.2
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 14,
+            "bib": 48,
+            "speed": 87.7,
+            "wind": -0.63,
+            "wind_comp": 11.1,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 135.0,
+            "total_points": 98.1
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 34,
+            "qualified": true,
+            "bib": 48,
+            "speed": 86.8,
+            "wind": -0.21,
+            "wind_comp": 3.7,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 52.5,
+            "distance_points": 74.4,
+            "distance": 128.0,
+            "total_points": 130.6,
+            "diff": -38.9
           }
         }
       }
@@ -4290,6 +6472,51 @@
             },
             "total_points": 269.9,
             "diff": -34.1
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 12,
+            "bib": 18,
+            "speed": 87.5,
+            "wind": -0.22,
+            "wind_comp": 3.9,
+            "gate": 12,
+            "gate_comp": 27.2,
+            "distance": 133.0,
+            "total_points": 114.5
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 12,
+            "bib": 18,
+            "speed": 87.2,
+            "wind": -0.4,
+            "wind_comp": 7.0,
+            "gate": 12,
+            "gate_comp": 11.0,
+            "distance": 132.0,
+            "total_points": 99.6
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 12,
+            "qualified": true,
+            "bib": 18,
+            "speed": 87.3,
+            "wind": -0.12,
+            "wind_comp": 2.1,
+            "gate": 12,
+            "gate_comp": 5.3,
+            "judge_points": 52.5,
+            "distance_points": 88.8,
+            "distance": 136.0,
+            "total_points": 148.7,
+            "diff": -20.8
           }
         }
       }
@@ -4402,6 +6629,51 @@
             },
             "total_points": 104.2,
             "diff": -199.8
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 57,
+            "bib": 37,
+            "speed": 87.1,
+            "wind": -0.65,
+            "wind_comp": 11.4,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 97.0,
+            "total_points": 46.2
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 59,
+            "bib": 37,
+            "speed": 87.2,
+            "wind": -0.07,
+            "wind_comp": 1.2,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 104.0,
+            "total_points": 32.4
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 62,
+            "qualified": false,
+            "bib": 37,
+            "speed": 86.7,
+            "wind": -0.06,
+            "wind_comp": 1.1,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 47.5,
+            "distance_points": 27.6,
+            "distance": 102.0,
+            "total_points": 76.2,
+            "diff": -93.3
           }
         }
       }
@@ -4540,12 +6812,58 @@
             "diff": -187.0
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 48,
+            "bib": 47,
+            "speed": 88.0,
+            "wind": -0.26,
+            "wind_comp": 4.6,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 117.5,
+            "total_points": 76.3
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 48,
+            "bib": 47,
+            "speed": 87.9,
+            "wind": -0.49,
+            "wind_comp": 8.6,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 117.0,
+            "total_points": 63.2
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 51,
+            "qualified": false,
+            "bib": 47,
+            "speed": 87.2,
+            "wind": -0.18,
+            "wind_comp": 3.2,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 50.0,
+            "distance_points": 59.1,
+            "distance": 119.5,
+            "total_points": 112.3,
+            "diff": -57.2
+          }
+        }
       }
     }
   },
   "Andreas Wellinger": {
     "aliases": [
-      "WELLINGER Andreas"
+      "WELLINGER Andreas",
+      "Wellinger A."
     ],
     "country": "GER",
     "fis_code": "6696",
@@ -4608,12 +6926,58 @@
             "diff": -193.6
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 44,
+            "bib": 51,
+            "speed": 88.6,
+            "wind": -0.54,
+            "wind_comp": 9.5,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 120.5,
+            "total_points": 86.6
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 25,
+            "bib": 51,
+            "speed": 88.8,
+            "wind": -0.31,
+            "wind_comp": 5.4,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 132.5,
+            "total_points": 87.9
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 26,
+            "qualified": true,
+            "bib": 51,
+            "speed": 88.0,
+            "wind": -0.13,
+            "wind_comp": 2.3,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 53.5,
+            "distance_points": 78.9,
+            "distance": 130.5,
+            "total_points": 134.7,
+            "diff": -34.8
+          }
+        }
       }
     }
   },
   "Pawel Wasek": {
     "aliases": [
-      "WASEK Pawel"
+      "WASEK Pawel",
+      "Wasek P."
     ],
     "country": "POL",
     "fis_code": "6987",
@@ -4661,12 +7025,58 @@
             "diff": -57.6
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 27,
+            "bib": 60,
+            "speed": 88.7,
+            "wind": -0.12,
+            "wind_comp": 2.1,
+            "gate": 15,
+            "gate_comp": 10.9,
+            "distance": 136.0,
+            "total_points": 101.8
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 22,
+            "bib": 60,
+            "speed": 88.1,
+            "wind": -0.22,
+            "wind_comp": 3.9,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 135.5,
+            "total_points": 91.8
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 20,
+            "qualified": true,
+            "bib": 60,
+            "speed": 87.9,
+            "wind": -0.19,
+            "wind_comp": 3.3,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 52.5,
+            "distance_points": 83.4,
+            "distance": 133.0,
+            "total_points": 139.2,
+            "diff": -30.3
+          }
+        }
       }
     }
   },
   "Klemens Joniak": {
     "aliases": [
-      "JONIAK Klemens"
+      "JONIAK Klemens",
+      "Joniak K."
     ],
     "country": "POL",
     "fis_code": "8289",
@@ -4727,6 +7137,51 @@
             },
             "total_points": 111.2,
             "diff": -192.8
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 51,
+            "bib": 58,
+            "speed": 88.2,
+            "wind": -0.15,
+            "wind_comp": 2.6,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 113.5,
+            "total_points": 67.1
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 43,
+            "bib": 58,
+            "speed": 88.3,
+            "wind": -0.59,
+            "wind_comp": 10.4,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 120.5,
+            "total_points": 71.3
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 59,
+            "qualified": false,
+            "bib": 58,
+            "speed": 87.8,
+            "wind": -0.01,
+            "wind_comp": 0.2,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 48.5,
+            "distance_points": 51.0,
+            "distance": 115.0,
+            "total_points": 99.7,
+            "diff": -69.8
           }
         }
       }
@@ -4976,6 +7431,51 @@
             "diff": -99.6
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 53,
+            "bib": 50,
+            "speed": 87.4,
+            "wind": -0.2,
+            "wind_comp": 3.5,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 111.0,
+            "total_points": 63.5
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 54,
+            "bib": 50,
+            "speed": 87.5,
+            "wind": -0.32,
+            "wind_comp": 5.6,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 115.0,
+            "total_points": 56.6
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 58,
+            "qualified": false,
+            "bib": 50,
+            "speed": 86.9,
+            "wind": -0.23,
+            "wind_comp": 4.0,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 48.0,
+            "distance_points": 49.2,
+            "distance": 114.0,
+            "total_points": 101.2,
+            "diff": -68.3
+          }
+        }
       }
     }
   },
@@ -5044,12 +7544,58 @@
             "diff": -207.6
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 38,
+            "bib": 54,
+            "speed": 87.5,
+            "wind": -0.34,
+            "wind_comp": 6.0,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 126.0,
+            "total_points": 93.0
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 36,
+            "bib": 54,
+            "speed": 87.6,
+            "wind": -0.62,
+            "wind_comp": 10.9,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 123.0,
+            "total_points": 76.3
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 47,
+            "qualified": true,
+            "bib": 54,
+            "speed": 87.0,
+            "wind": -0.24,
+            "wind_comp": 4.2,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 49.0,
+            "distance_points": 67.2,
+            "distance": 124.0,
+            "total_points": 120.4,
+            "diff": -49.1
+          }
+        }
       }
     }
   },
   "Roman Koudelka": {
     "aliases": [
-      "KOUDELKA Roman"
+      "KOUDELKA Roman",
+      "Koudelka R."
     ],
     "country": "CZE",
     "fis_code": "4801",
@@ -5097,12 +7643,58 @@
             "diff": -59.5
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 42,
+            "bib": 42,
+            "speed": 87.3,
+            "wind": -0.38,
+            "wind_comp": 6.7,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 123.0,
+            "total_points": 88.3
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 37,
+            "bib": 42,
+            "speed": 87.4,
+            "wind": -0.31,
+            "wind_comp": 5.4,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 126.0,
+            "total_points": 76.2
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 32,
+            "qualified": true,
+            "bib": 42,
+            "speed": 86.9,
+            "wind": -0.39,
+            "wind_comp": 6.8,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 52.5,
+            "distance_points": 71.7,
+            "distance": 126.5,
+            "total_points": 131.0,
+            "diff": -38.5
+          }
+        }
       }
     }
   },
   "Kevin Bickner": {
     "aliases": [
-      "BICKNER Kevin"
+      "BICKNER Kevin",
+      "Bickner K."
     ],
     "country": "USA",
     "fis_code": "6671",
@@ -5169,6 +7761,51 @@
             "diff": -63.6
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 32,
+            "bib": 34,
+            "speed": 88.3,
+            "wind": -0.22,
+            "wind_comp": 3.9,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 129.0,
+            "total_points": 96.3
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 44,
+            "bib": 34,
+            "speed": 88.2,
+            "wind": -0.01,
+            "wind_comp": 0.2,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 126.0,
+            "total_points": 71.0
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 23,
+            "qualified": true,
+            "bib": 34,
+            "speed": 87.7,
+            "wind": -0.19,
+            "wind_comp": 3.3,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 52.0,
+            "distance_points": 82.5,
+            "distance": 132.5,
+            "total_points": 137.8,
+            "diff": -31.7
+          }
+        }
       }
     }
   },
@@ -5220,6 +7857,51 @@
             "distance": 87.0,
             "total_points": 24.9,
             "diff": -111.9
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 62,
+            "bib": 49,
+            "speed": 87.1,
+            "wind": -0.27,
+            "wind_comp": 4.7,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 85.0,
+            "total_points": 17.9
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 61,
+            "bib": 49,
+            "speed": 87.2,
+            "wind": -0.63,
+            "wind_comp": 11.1,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 96.0,
+            "total_points": 27.9
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 65,
+            "qualified": false,
+            "bib": 49,
+            "speed": 86.3,
+            "wind": -0.03,
+            "wind_comp": 0.5,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 42.5,
+            "distance_points": -10.2,
+            "distance": 81.0,
+            "total_points": 32.8,
+            "diff": -136.7
           }
         }
       }
@@ -5328,6 +8010,51 @@
             "diff": -105.1
           }
         }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 60,
+            "bib": 53,
+            "speed": 87.5,
+            "wind": -0.69,
+            "wind_comp": 12.1,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 90.5,
+            "total_points": 35.2
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 62,
+            "bib": 53,
+            "speed": 87.6,
+            "wind": -0.79,
+            "wind_comp": 13.9,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 86.0,
+            "total_points": 12.7
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 60,
+            "qualified": false,
+            "bib": 53,
+            "speed": 87.0,
+            "wind": -0.06,
+            "wind_comp": 1.1,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 47.0,
+            "distance_points": 33.9,
+            "distance": 105.5,
+            "total_points": 82.0,
+            "diff": -87.5
+          }
+        }
       }
     }
   },
@@ -5432,6 +8159,279 @@
             "distance": 99.5,
             "total_points": 45.2,
             "diff": -91.6
+          }
+        }
+      },
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 63,
+            "bib": 43,
+            "speed": 87.7,
+            "wind": -0.33,
+            "wind_comp": 5.8,
+            "gate": 14,
+            "gate_comp": 16.2,
+            "distance": 73.0,
+            "total_points": 0.0
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 63,
+            "bib": 43,
+            "speed": 87.6,
+            "wind": -0.28,
+            "wind_comp": 4.9,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 81.0,
+            "total_points": 0.0
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 64,
+            "qualified": false,
+            "bib": 43,
+            "speed": 87.1,
+            "wind": -0.25,
+            "wind_comp": 4.4,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 42.0,
+            "distance_points": 1.5,
+            "distance": 87.5,
+            "total_points": 47.9,
+            "diff": -121.6
+          }
+        }
+      }
+    }
+  },
+  "Tomas Kuisma": {
+    "aliases": [
+      "KUISMA Tomas"
+    ],
+    "country": "FIN",
+    "fis_code": "7859",
+    "wc_points": 0,
+    "wc_position": null,
+    "events": {
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 52,
+            "bib": 64,
+            "speed": 88.6,
+            "wind": -0.11,
+            "wind_comp": 1.9,
+            "gate": 17,
+            "gate_comp": 0.0,
+            "distance": 121.5,
+            "total_points": 64.6
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 56,
+            "bib": 64,
+            "speed": 87.7,
+            "wind": -0.13,
+            "wind_comp": 2.3,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 114.0,
+            "total_points": 51.5
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 38,
+            "qualified": true,
+            "bib": 64,
+            "speed": 87.4,
+            "wind": -0.08,
+            "wind_comp": 1.4,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 52.0,
+            "distance_points": 70.8,
+            "distance": 126.0,
+            "total_points": 124.2,
+            "diff": -45.3
+          }
+        }
+      }
+    }
+  },
+  "Eetu Nousiainen": {
+    "aliases": [
+      "NOUSIAINEN Eetu",
+      "Nousiainen E."
+    ],
+    "country": "FIN",
+    "fis_code": "7354",
+    "wc_points": 0,
+    "wc_position": null,
+    "events": {
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 34,
+            "bib": 63,
+            "speed": 89.4,
+            "wind": -0.11,
+            "wind_comp": 1.9,
+            "gate": 17,
+            "gate_comp": 0.0,
+            "distance": 138.0,
+            "total_points": 94.3
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 51,
+            "bib": 63,
+            "speed": 88.3,
+            "wind": -0.17,
+            "wind_comp": 3.0,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 119.0,
+            "total_points": 61.2
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 39,
+            "qualified": true,
+            "bib": 63,
+            "speed": 87.9,
+            "wind": -0.12,
+            "wind_comp": 2.1,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 52.0,
+            "distance_points": 69.9,
+            "distance": 125.5,
+            "total_points": 124.0,
+            "diff": -45.5
+          }
+        }
+      }
+    }
+  },
+  "Vilho Palosaari": {
+    "aliases": [
+      "PALOSAARI Vilho",
+      "Palosaari V."
+    ],
+    "country": "FIN",
+    "fis_code": "8615",
+    "wc_points": 0,
+    "wc_position": null,
+    "events": {
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "rank": 31,
+            "bib": 62,
+            "speed": 88.0,
+            "wind": -0.12,
+            "wind_comp": 2.1,
+            "gate": 15,
+            "gate_comp": 10.9,
+            "distance": 133.0,
+            "total_points": 96.4
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "rank": 39,
+            "bib": 62,
+            "speed": 87.8,
+            "wind": -0.13,
+            "wind_comp": 2.3,
+            "gate": 14,
+            "gate_comp": 0.0,
+            "distance": 126.0,
+            "total_points": 73.1
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 48,
+            "qualified": true,
+            "bib": 62,
+            "speed": 87.3,
+            "wind": -0.25,
+            "wind_comp": 4.4,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 49.5,
+            "distance_points": 64.5,
+            "distance": 122.5,
+            "total_points": 118.4,
+            "diff": -51.1
+          }
+        }
+      }
+    }
+  },
+  "Ilkka Herola": {
+    "aliases": [
+      "HEROLA Ilkka"
+    ],
+    "country": "FIN",
+    "fis_code": "6017",
+    "wc_points": 0,
+    "wc_position": null,
+    "events": {
+      "ruka": {
+        "type": "hs142",
+        "competitions": {
+          "training_1": {
+            "date": "2026-11-27",
+            "status": "DNS",
+            "rank": null,
+            "bib": 65,
+            "speed": null,
+            "wind": null,
+            "wind_comp": null,
+            "gate": null,
+            "gate_comp": null,
+            "distance": null,
+            "total_points": null
+          },
+          "training_2": {
+            "date": "2026-11-27",
+            "status": "DNS",
+            "rank": null,
+            "bib": 65,
+            "speed": null,
+            "wind": null,
+            "wind_comp": null,
+            "gate": null,
+            "gate_comp": null,
+            "distance": null,
+            "total_points": null
+          },
+          "qualifying_1": {
+            "date": "2026-11-27",
+            "rank": 61,
+            "qualified": false,
+            "bib": 65,
+            "speed": 87.3,
+            "wind": -0.33,
+            "wind_comp": 5.8,
+            "gate": 13,
+            "gate_comp": 0.0,
+            "judge_points": 47.0,
+            "distance_points": 26.7,
+            "distance": 101.5,
+            "total_points": 79.5,
+            "diff": -90.0
           }
         }
       }
